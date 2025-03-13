@@ -9,7 +9,12 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
             <div class="user">
-
+                <SideNavUser
+                    :name="SideNavIcons[0].name"
+                    :icon="SideNavIcons[0].icon"
+                    :link="SideNavIcons[0].link"
+                >
+                </SideNavUser>
             </div>
             <section>
                 <SideNavIcon

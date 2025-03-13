@@ -7,7 +7,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 
 <template>
     <div class="side-nav-user-main-ctn">
-        <RouterLink :to="link">
+        <RouterLink :to="link" class="link">
             <div class="side-nav-user-mini-ctn">
                 <div class="side-nav-user-mini-ctn-icon-ctn" :v-html="icon"></div>
                 <p class="side-nav-user-mini-ctn-user-desc">
