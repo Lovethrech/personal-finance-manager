@@ -1,6 +1,5 @@
 <script setup>
 import SideNavIcons from "@/data/side-nav.json";
-console.log()
 </script>
 
 <style scoped>
@@ -13,7 +12,7 @@ console.log()
 </style>
 
 <template>
-    <RouterLink to="/" class="link">
+    <RouterLink :to="SideNavIcons[1].link" class="link">
         <span class="side-nav-icon" :v-html="SideNavIcons[1].icon"></span>
         <span class="side-nav-icon-desc" :v-html="SideNavIcons[1].name"></span>
         <!-- #93200B -->
