@@ -23,6 +23,12 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
                     :link="SideNavIcons[1].link"
                 >
                 </SideNavIcon>
+                <SideNavIcon
+                    :name="SideNavIcons[2].name"
+                    :icon="SideNavIcons[2].icon"
+                    :link="SideNavIcons[2].link"
+                >
+                </SideNavIcon>
             </section>
         </div>
     </section>
