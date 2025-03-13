@@ -1,5 +1,6 @@
 <template>
     <RouterLink to="/" class="link">
-        <div class="side-nav-icon"></div>
+        <span class="side-nav-icon"></span>
+        <span></span>
     </RouterLink>
 </template>
