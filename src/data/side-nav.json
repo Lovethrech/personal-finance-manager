@@ -16,11 +16,36 @@
         "name":"inventory",
         "icon":"<i class='bx bx-box'></i>",
         "link":"/"
+        // orders, purchase, reporting, support,settings
+    },
+    {
+        "id":"4",
+        "name":"orders",
+        "icon":"<i class='bx bxs-layer'></i>",
+        "link":"/"
+    },
+    {
+        "id":"5",
+        "name":"purchase",
+        "icon":"<i class='bx bxs-cart'></i>",
+        "link":"/"
+    },
+    {
+        "id":"6",
+        "name":"reporting",
+        "icon":"<i class='bx bx-bar-chart-alt'></i>",
+        "link":"/"
+    },
+    {
+        "id":"7",
+        "name":"home",
+        "icon":"<i class='bx bxs-home-alt-2'></i>",
+        "link":"/"
     },
     {
         "id":"30",
         "name":"setting",
-        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bx-bar-chart-alt'></i>, <i class='bx bxs-cart'></i>,  <i class='bx bxs-toggle-right'></i>(dark light mode), <i class='bx bxs-layer'></i>(orders), <i class='bx bxs-wrench'></i>(support), <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
+        "icon":"<i class='bx bxs-cog'></i>, , , <i class='bx bxs-wrench'></i>(support), <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
     },
     {
         "id":"2",
@@ -30,7 +55,6 @@
     {
         "id":"2",
         "name":"white-theme",
-        "icon":"<i class='bx bxs-home-alt-2'></i>",
-        "link":"/"
+        "icon":"<i class='bx bxs-toggle-right'></i>"
     },
 ]
