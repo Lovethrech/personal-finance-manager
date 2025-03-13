@@ -14,11 +14,11 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 </style>
 
 <template>
-    <RouterLink :to="SideNavIcons[1].link" class="link">
-        <span class="side-nav-icon" :v-html="SideNavIcons[1].icon"></span>
+    <RouterLink :to="link" class="link">
+        <span class="side-nav-icon" :v-html="icon"></span>
         <span class="side-nav-icon-desc-ctn">
             <p class="side-nav-icon-desc">
-                {{SideNavIcons[1].name}}
+                {{name}}
             </p>
         </span>
         <!-- #93200B -->
