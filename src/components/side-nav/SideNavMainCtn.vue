@@ -5,6 +5,10 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 
 </script>
 
+<style scoped>
+
+</style>
+
 <template>
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
@@ -23,10 +27,46 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
                     :link="SideNavIcons[1].link"
                 >
                 </SideNavIcon>
+
                 <SideNavIcon
                     :name="SideNavIcons[2].name"
                     :icon="SideNavIcons[2].icon"
                     :link="SideNavIcons[2].link"
+                >
+                </SideNavIcon>
+
+                <SideNavIcon
+                    :name="SideNavIcons[3].name"
+                    :icon="SideNavIcons[3].icon"
+                    :link="SideNavIcons[3].link"
+                >
+                </SideNavIcon>
+
+                <SideNavIcon
+                    :name="SideNavIcons[4].name"
+                    :icon="SideNavIcons[4].icon"
+                    :link="SideNavIcons[4].link"
+                >
+                </SideNavIcon>
+
+                <SideNavIcon
+                    :name="SideNavIcons[5].name"
+                    :icon="SideNavIcons[5].icon"
+                    :link="SideNavIcons[5].link"
+                >
+                </SideNavIcon>
+
+                <SideNavIcon
+                    :name="SideNavIcons[6].name"
+                    :icon="SideNavIcons[6].icon"
+                    :link="SideNavIcons[6].link"
+                >
+                </SideNavIcon>
+
+                <SideNavIcon
+                    :name="SideNavIcons[7].name"
+                    :icon="SideNavIcons[7].icon"
+                    :link="SideNavIcons[7].link"
                 >
                 </SideNavIcon>
             </section>
