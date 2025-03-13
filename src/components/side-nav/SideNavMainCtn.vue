@@ -6,7 +6,9 @@ import SideNavIcons from "@/data/side-nav.json";
 <template>
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
-            <!-- <div class="user"></div> -->
+            <div class="user">
+                
+            </div>
             <section>
                 <SideNavIcon
                     :name="SideNavIcons[1].name"
