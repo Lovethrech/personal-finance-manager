@@ -16,7 +16,6 @@
         "name":"inventory",
         "icon":"<i class='bx bx-box'></i>",
         "link":"/"
-        // orders, purchase, reporting, support,settings
     },
     {
         "id":"4",
@@ -68,6 +67,6 @@
         "id":"12",
         "name":"log-out",
         "icon":"<i class='bx bxs-log-out-circle'></i>",
-        "link":"/"
+        "link":"/logout"
     }
 ]
