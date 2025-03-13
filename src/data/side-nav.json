@@ -38,14 +38,14 @@
     },
     {
         "id":"7",
-        "name":"home",
-        "icon":"<i class='bx bxs-home-alt-2'></i>",
+        "name":"support",
+        "icon":"<i class='bx bxs-wrench'></i>",
         "link":"/"
     },
     {
         "id":"30",
         "name":"setting",
-        "icon":"<i class='bx bxs-cog'></i>, , , <i class='bx bxs-wrench'></i>(support), <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
+        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
     },
     {
         "id":"2",
