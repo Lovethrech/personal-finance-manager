@@ -1,13 +1,15 @@
 <script setup>
-import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavIcons from "@/data/side-nav.json";
+import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
+import SideNavUser from "@/components/side-nav/SideNavUser.vue";
+
 </script>
 
 <template>
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
             <div class="user">
-                
+
             </div>
             <section>
                 <SideNavIcon
