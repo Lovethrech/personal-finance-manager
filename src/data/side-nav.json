@@ -43,18 +43,31 @@
         "link":"/"
     },
     {
-        "id":"30",
+        "id":"8",
         "name":"setting",
-        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
+        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bxs-log-out-circle'></i>, ",
+        "link":"/"
     },
     {
-        "id":"2",
+        "id":"9",
         "name":"dark-theme",
         "icon":"<i class='bx bx-toggle-left'></i>"
     },
     {
-        "id":"2",
+        "id":"10",
         "name":"white-theme",
         "icon":"<i class='bx bxs-toggle-right'></i>"
+    },
+    {
+        "id":"11",
+        "name":"log-in",
+        "icon":"<i class='bx bxs-log-in-circle'></i>",
+        "link":"/login"
+    },
+    {
+        "id":"12",
+        "name":"log-out",
+        "icon":"",
+        "link":"/"
     },
 ]
