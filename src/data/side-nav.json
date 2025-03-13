@@ -2,16 +2,35 @@
     {
         "id":"1",
         "name":"user",
-        "icon":"<i class='bx bxs-user-circle'></i>"
+        "icon":"<i class='bx bxs-user-circle'></i>",
+        "link": "/user"
     },
     {
         "id":"2",
-        "name":"home",
-        "icon":"<i class='bx bxs-home-alt-2'></i>"
+        "name":"dashboard",
+        "icon":"<i class='bx bxs-dashboard' ></i>",
+        "link":"/dashboard"
     },
     {
         "id":"3",
+        "name":"inventory",
+        "icon":"<i class='bx bx-box'></i>",
+        "link":"/"
+    },
+    {
+        "id":"30",
         "name":"setting",
-        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bxs-dashboard' ></i>, <i class='bx bx-bar-chart-alt'></i>, <i class='bx bxs-cart'></i>, <i class='bx bx-box'></i>(inventory), <i class='bx bx-toggle-left'></i> <i class='bx bxs-toggle-right'></i>(dark light mode), <i class='bx bxs-layer'></i>(orders), <i class='bx bxs-wrench'></i>(support), <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
-    }
+        "icon":"<i class='bx bxs-cog'></i>, <i class='bx bx-bar-chart-alt'></i>, <i class='bx bxs-cart'></i>,  <i class='bx bxs-toggle-right'></i>(dark light mode), <i class='bx bxs-layer'></i>(orders), <i class='bx bxs-wrench'></i>(support), <i class='bx bxs-log-out-circle'></i>, <i class='bx bxs-log-in-circle'></i>"
+    },
+    {
+        "id":"2",
+        "name":"dark-theme",
+        "icon":"<i class='bx bx-toggle-left'></i>"
+    },
+    {
+        "id":"2",
+        "name":"white-theme",
+        "icon":"<i class='bx bxs-home-alt-2'></i>",
+        "link":"/"
+    },
 ]
