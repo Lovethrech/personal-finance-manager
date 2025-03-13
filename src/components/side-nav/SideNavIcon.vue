@@ -1,6 +1,5 @@
 <script setup>
 import {defineProps} from "vue";
-import SideNavIcons from "@/data/side-nav.json";
 
 const {name, icon, link}=defineProps(['name','icon', 'link']);
 </script>
