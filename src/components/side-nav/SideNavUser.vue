@@ -5,7 +5,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 </script>
 
 <style scoped>
-
+.side-nav-main-ctn-mini-ctn{
+    
+}
 </style>
 
 <template>
