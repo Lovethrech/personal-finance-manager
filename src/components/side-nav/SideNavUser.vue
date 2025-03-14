@@ -4,6 +4,9 @@ import {defineProps} from "vue";
 const {name, icon, link}=defineProps(['name','icon', 'link']);
 </script>
 
+<style scoped>
+
+</style>
 
 <template>
     <div class="side-nav-user-main-ctn">

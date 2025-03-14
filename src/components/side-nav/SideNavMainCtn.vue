@@ -12,6 +12,10 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
     background-color: #93200B;
     overflow-y:hidden;
 }
+.side-nav-main-ctn-mini-ctn, section{
+    display:flex;
+    flex-direction:column;
+}
 </style>
 
 <template>
