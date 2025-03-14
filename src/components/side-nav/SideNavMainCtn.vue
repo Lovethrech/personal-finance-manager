@@ -11,6 +11,7 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
     height:100vh;
     background-color: #93200B;
     overflow-y:hidden;
+    padding:10px;
 }
 .side-nav-main-ctn-mini-ctn, section{
     display:flex;
