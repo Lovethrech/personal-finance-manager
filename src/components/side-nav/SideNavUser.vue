@@ -11,7 +11,8 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     height:220px;
 }
 .side-nav-main-ctn-mini-ctn{
-    
+    width:100%;
+    height:70%;
 }
 </style>
 
