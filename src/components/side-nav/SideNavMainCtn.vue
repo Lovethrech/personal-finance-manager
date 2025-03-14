@@ -6,7 +6,12 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 </script>
 
 <style scoped>
-
+.side-nav-main-ctn-main-ctn{
+    width:15%;
+    height:100vh;
+    background-color: #93200B;
+    overflow-y:hidden;
+}
 </style>
 
 <template>
