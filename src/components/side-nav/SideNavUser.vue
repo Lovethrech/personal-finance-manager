@@ -15,16 +15,20 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-main-ctn-mini-ctn{
     width:100%;
     height:100%;
-    padding:10px 20px;
+    padding:10px;
 }
 .side-nav-user-mini-ctn-icon-ctn{
+    background-color:#000989;
     width:100%;
     display:flex;
     justify-content:center;
     place-items: center;
+    border-radius: 50%;
     font-size: 10vh;
-    background-color:#000989;
-    border-radius:20px;
+}
+.side-nav-user-mini-ctn-user-desc{
+    text-align: center;
+    text-transform:uppercase;
 }
 </style>
 
@@ -33,6 +37,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
         <RouterLink :to="link" class="link">
             <div class="side-nav-user-mini-ctn">
                 <div class="side-nav-user-mini-ctn-icon-ctn" v-html="icon"></div>
+                <br/>
                 <p class="side-nav-user-mini-ctn-user-desc">
                     {{name}}
                 </p>
