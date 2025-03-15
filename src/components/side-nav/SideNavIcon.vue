@@ -8,10 +8,10 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .link{
     display:flex;
     flex-direction:row;
-    gap:20px;
+    gap:10px;
 }
 .side-nav-icon{
-
+    font-size: 10px;
 }
 .side-nav-icon-desc-ctn{
     color:white;
