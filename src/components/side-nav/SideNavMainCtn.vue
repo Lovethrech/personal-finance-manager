@@ -6,7 +6,7 @@ import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }= useSideNavColorStore();
+const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive }= useSideNavColorStore();
 </script>
 
 <style scoped>
