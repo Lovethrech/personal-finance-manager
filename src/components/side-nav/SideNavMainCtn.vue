@@ -22,7 +22,7 @@ const {dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRa
     flex-direction:column;
 }
 .side-nav-icon-section{
-    background-color: #93200B;
+    background-color:rgb(0, 0, 0);
 }
 .login{
     position: absolute;
@@ -57,7 +57,7 @@ const {dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRa
                     :name="SideNavIcons[2].name"
                     :icon="SideNavIcons[2].icon"
                     :link="SideNavIcons[2].link"
-                    :style="{backgroundColor: inventoryActiveBgColor, borderRadius: inventoryActiveBorderRadius}"
+                    :style="[inventoryActive]"
                 >
                 </SideNavIcon>
 

@@ -7,19 +7,29 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         borderRadius: "0"
     });
     const inventoryActive=ref({
-        backgroundColor:"transparent",
+        backgroundColor:"#93200B",
         borderRadius: "0 100px 0 0"
     });
-    const orderActiveBgColor=ref("transparent");
-    const orderActiveBorderRadius=ref("0");
-    const purchaseActiveBgColor=ref("transparent");
-    const purchaseActiveBorderRadius=ref("0");
-    const reportingActiveBgColor=ref("transparent");
-    const reportingActiveBorderRadius=ref("0");
-    const supportActiveBgColor=ref("transparent");
-    const supportActiveBorderRadius=ref("0");
-    const settingActiveBgColor=ref("transparent");
-    const settingActiveBorderRadius=ref("0");
+    const orderActive=ref({
+        backgroundColor:"#93200B",
+        borderRadius: "0"
+    });
+    const purchaseActive=ref({
+        backgroundColor:"#93200B",
+        borderRadius: "0"
+    });
+    const reportingActive=ref({
+        backgroundColor:"#93200B",
+        borderRadius: "0"
+    });
+    const supportActive=ref({
+        backgroundColor:"#93200B",
+        borderRadius: "0"
+    });
+    const settingActive=ref({
+        backgroundColor:"#93200B",
+        borderRadius: "0"
+    });
 
-    return { dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }
+    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive }
 })
