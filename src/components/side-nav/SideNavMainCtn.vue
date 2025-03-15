@@ -19,9 +19,10 @@ import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
     flex-direction:column;
 }
 .login{
-    display:flex;
     position: absolute;
-    bottom:0;
+    bottom: 10px;
+    display:flex;
+    margin:0 50px;
 }
 </style>
 
