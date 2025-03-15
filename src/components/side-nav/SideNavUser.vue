@@ -15,6 +15,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-main-ctn-mini-ctn{
     width:100%;
     height:100%;
+    padding:10px 20px;
 }
 .side-nav-user-mini-ctn-icon-ctn{
     width:100%;
@@ -23,8 +24,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     place-items: center;
     font-size: 10vh;
     background-color:#000989;
-    border:20px;
-    margin:0 20px;
+    border-radius:20px;
 }
 </style>
 
