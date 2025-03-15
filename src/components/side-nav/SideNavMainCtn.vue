@@ -1,4 +1,7 @@
 <script setup>
+import { useProjectCardOverlayStore } from "@/stores/sideNavColor";
+
+const {projectCardOverlayShow}= useSideNavColorStore();
 import SideNavIcons from "@/data/side-nav.json";
 import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
