@@ -100,5 +100,5 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         }
     };
 
-    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavClick }
+    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavClick }
 })
