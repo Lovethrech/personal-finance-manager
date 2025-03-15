@@ -65,6 +65,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[3].name"
                     :icon="SideNavIcons[3].icon"
                     :link="SideNavIcons[3].link"
+                    :style="[orderActive]"
                 >
                 </SideNavIcon>
 
@@ -72,6 +73,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[4].name"
                     :icon="SideNavIcons[4].icon"
                     :link="SideNavIcons[4].link"
+                    :style="[purchaseActive]"
                 >
                 </SideNavIcon>
 
@@ -79,6 +81,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[5].name"
                     :icon="SideNavIcons[5].icon"
                     :link="SideNavIcons[5].link"
+                    :style="[reportingActive]"
                 >
                 </SideNavIcon>
 
@@ -86,6 +89,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[6].name"
                     :icon="SideNavIcons[6].icon"
                     :link="SideNavIcons[6].link"
+                    :style="[supportActive]"
                 >
                 </SideNavIcon>
 
@@ -93,6 +97,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[7].name"
                     :icon="SideNavIcons[7].icon"
                     :link="SideNavIcons[7].link"
+                    :style="[settingActive]"
                 >
                 </SideNavIcon>
             </section>
