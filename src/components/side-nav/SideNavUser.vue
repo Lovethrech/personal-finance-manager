@@ -6,7 +6,6 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 
 <style scoped>
 .side-nav-user-main-ctn{
-    background-color:#000000;
     width:100%;
     height:220px;
     display:flex;
@@ -18,7 +17,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     padding:10px;
 }
 .side-nav-user-mini-ctn-icon-ctn{
-    background-color:#000989;
+    background-color:#000000;
     width:100%;
     display:flex;
     justify-content:center;
