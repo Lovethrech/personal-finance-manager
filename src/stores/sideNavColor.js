@@ -31,17 +31,17 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         borderRadius: "0"
     });
 
-    const sideNavDashboardClick=()=>{
-        if(((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
-            dashboardActive.value.backgroundColor="#000000";
-            dashboardActive.value.borderRadius="0";
-            inventoryActive.value.backgroundColor="#93200B";
-            inventoryActive.value.borderRadius="0 100px 0 0";
-            orderActive.value.backgroundColor="#000000";
-            orderActive.value.borderRadius="0";
-        }
-    };
-    const sideNavInventoryClick=()=>{
+    // const sideNavDashboardClick=()=>{
+    //     if(((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
+    //         dashboardActive.value.backgroundColor="#000000";
+    //         dashboardActive.value.borderRadius="0";
+    //         inventoryActive.value.backgroundColor="#93200B";
+    //         inventoryActive.value.borderRadius="0 100px 0 0";
+    //         orderActive.value.backgroundColor="#000000";
+    //         orderActive.value.borderRadius="0";
+    //     }
+    // };
+    const sideNavClick=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             dashboardActive.value.borderRadius="0 0 100px 0";
@@ -50,7 +50,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
             orderActive.value.borderRadius="0 100px 0 0";
         }
     };
-    const sideNavOrderClick=()=>{
+    cons=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             inventoryActive.value.backgroundColor="#93200B";
@@ -60,7 +60,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
             purchaseActive.value.borderRadius="0 100px 0 0"
         }
     };
-    const sideNavPurchaseClick=()=>{
+    cons=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             orderActive.value.backgroundColor="#93200B";
@@ -70,7 +70,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
             reportingActive.value.borderRadius="0 100px 0 0"
         }
     };
-    const sideNavReportingClick=()=>{
+    cons=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             purchaseActive.value.backgroundColor="#93200B";
@@ -80,7 +80,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
             supportActive.value.borderRadius="0 100px 0 0"
         }
     };
-    const sideNavSupportClick=()=>{
+    cons=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             reportingActive.value.backgroundColor="#93200B";
@@ -90,7 +90,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
             settingActive.value.borderRadius="0 100px 0 0"
         }
     };
-    const sideNavSettingClick=()=>{
+    cons=()=>{
         if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000")){
             dashboardActive.value.backgroundColor="#93200B";
             supportActive.value.backgroundColor="#93200B";
@@ -100,5 +100,5 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         }
     };
 
-    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick,sideNavSettingClick }
+    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavClick }
 })
