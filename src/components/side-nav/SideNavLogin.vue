@@ -13,7 +13,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-login-mini-ctn{
     display:flex;
     flex-direction:row;
-    color: #9e9998;
+    color:rgb(187, 182, 181);
 }
 .side-nav-login-icon-ctn{
     font-size:20px;
