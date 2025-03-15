@@ -1,12 +1,12 @@
 <script setup>
-import { useProjectCardOverlayStore } from "@/stores/sideNavColor";
+import { useSideNavColorStore } from "@/stores/sideNavColor";
 
 import SideNavIcons from "@/data/side-nav.json";
 import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActiveBgColor, dashboardActiveBorderRadius, inventoryActiveBgColor, inventoryActiveBorderRadius, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }= useSideNavColorStore();
+const {dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }= useSideNavColorStore();
 </script>
 
 <style scoped>
@@ -22,9 +22,6 @@ const {dashboardActiveBgColor, dashboardActiveBorderRadius, inventoryActiveBgCol
     flex-direction:column;
 }
 .side-nav-icon-section{
-    background-color:rgb(0, 0, 0);
-}
-.side-nav-icon{
     background-color: #93200B;
 }
 .login{
@@ -52,7 +49,7 @@ const {dashboardActiveBgColor, dashboardActiveBorderRadius, inventoryActiveBgCol
                     :name="SideNavIcons[1].name"
                     :icon="SideNavIcons[1].icon"
                     :link="SideNavIcons[1].link"
-                    :style="{}"
+                    :style="[dashboardActive]"
                 >
                 </SideNavIcon>
 
@@ -60,6 +57,7 @@ const {dashboardActiveBgColor, dashboardActiveBorderRadius, inventoryActiveBgCol
                     :name="SideNavIcons[2].name"
                     :icon="SideNavIcons[2].icon"
                     :link="SideNavIcons[2].link"
+                    :style="{backgroundColor: inventoryActiveBgColor, borderRadius: inventoryActiveBorderRadius}"
                 >
                 </SideNavIcon>
 

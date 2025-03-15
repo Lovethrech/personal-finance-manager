@@ -2,10 +2,14 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
-    const dashboardActiveBgColor=ref("#000000");
-    const dashboardActiveBorderRadius=ref("0");
-    const inventoryActiveBgColor=ref("transparent");
-    const inventoryActiveBorderRadius=ref("0 100px 0 0");
+    const dashboardActive=ref({
+        backgroundColor:"#000000",
+        borderRadius: "0"
+    });
+    const inventoryActive=ref({
+        backgroundColor:"transparent",
+        borderRadius: "0 100px 0 0"
+    });
     const orderActiveBgColor=ref("transparent");
     const orderActiveBorderRadius=ref("0");
     const purchaseActiveBgColor=ref("transparent");
@@ -17,5 +21,5 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const settingActiveBgColor=ref("transparent");
     const settingActiveBorderRadius=ref("0");
 
-    return { dashboardActiveBgColor, dashboardActiveBorderRadius, inventoryActiveBgColor, inventoryActiveBorderRadius, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }
+    return { dashboardActive, inventoryActive, orderActiveBgColor, orderActiveBorderRadius, purchaseActiveBgColor, purchaseActiveBorderRadius, reportingActiveBgColor, reportingActiveBorderRadius, supportActiveBgColor, supportActiveBorderRadius, settingActiveBgColor, settingActiveBorderRadius }
 })
