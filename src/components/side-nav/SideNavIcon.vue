@@ -9,12 +9,16 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     display:flex;
     flex-direction:row;
     gap:10px;
+    margin: 20px 0;
 }
 .side-nav-icon{
-    font-size: 10px;
+    font-size: 20px;
 }
 .side-nav-icon-desc-ctn{
     color:white;
+}
+.side-nav-icon-desc{
+    
 }
 </style>
 
