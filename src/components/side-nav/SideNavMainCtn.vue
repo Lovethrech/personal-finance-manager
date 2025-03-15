@@ -80,8 +80,9 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
                 >
                 </SideNavIcon>
             </section>
-
-            
+            <div class="login">
+                
+            </div>
         </div>
     </section>
 </template>
