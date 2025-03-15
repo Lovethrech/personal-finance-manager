@@ -2,7 +2,7 @@
 import SideNavIcons from "@/data/side-nav.json";
 import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
-
+import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 </script>
 
 <style scoped>
@@ -17,6 +17,9 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
     display:flex;
     flex-direction:column;
 }
+.login{
+    display:flex;
+}
 </style>
 
 <template>
@@ -30,6 +33,7 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
                 >
                 </SideNavUser>
             </div>
+            <br/>
             <section>
                 <SideNavIcon
                     :name="SideNavIcons[1].name"
@@ -80,8 +84,14 @@ import SideNavUser from "@/components/side-nav/SideNavUser.vue";
                 >
                 </SideNavIcon>
             </section>
+            <br/>
             <div class="login">
-                
+                <SideNavLogin
+                    :name="SideNavIcons[10].name"
+                    :icon="SideNavIcons[10].icon"
+                    :link="SideNavIcons[10].link"
+                >
+                </SideNavLogin>
             </div>
         </div>
     </section>
