@@ -1,7 +1,9 @@
 <template>
     <div class="side-nav-login-main-ctn">
-        <div class="side-nav-login-mini-ctn">
+        <RouterLink to="/" class="link">
+            <div class="side-nav-login-mini-ctn">
 
-        </div>
+            </div>
+        </RouterLink>
     </div>
 </template>
