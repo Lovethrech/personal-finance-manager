@@ -12,6 +12,7 @@ import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
     background-color: #93200B;
     overflow-y:hidden;
     padding:10px;
+    display:flex;
 }
 .side-nav-main-ctn-mini-ctn, section{
     display:flex;

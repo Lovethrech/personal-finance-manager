@@ -7,8 +7,10 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 <style scoped>
 .side-nav-login-main-ctn{
     width: 100%;
+    height:30vh;
     display:flex;
     justify-content: center;
+    place-items:center;
 }
 .side-nav-login-mini-ctn{
     display:flex;
