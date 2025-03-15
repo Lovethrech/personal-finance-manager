@@ -9,6 +9,8 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     background-color:#000000;
     width:100%;
     height:220px;
+    display:flex;
+    justify-content: center;
 }
 .side-nav-main-ctn-mini-ctn{
     width:100%;
@@ -16,11 +18,13 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 }
 .side-nav-user-mini-ctn-icon-ctn{
     width:100%;
-    height:70%;
     display:flex;
     justify-content:center;
     place-items: center;
-    font-size: 30px;
+    font-size: 10vh;
+    background-color:#000989;
+    border:20px;
+    margin:0 20px;
 }
 </style>
 
