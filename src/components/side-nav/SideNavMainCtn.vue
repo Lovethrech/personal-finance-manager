@@ -20,6 +20,8 @@ import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 }
 .login{
     display:flex;
+    position: absolute;
+    bottom:0;
 }
 </style>
 

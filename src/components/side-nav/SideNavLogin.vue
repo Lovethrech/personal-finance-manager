@@ -8,7 +8,6 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-login-main-ctn{
     width: 100%;
     display:flex;
-    justify-content: center;
 }
 .side-nav-login-mini-ctn{
     display:flex;
