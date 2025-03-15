@@ -9,7 +9,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     display:flex;
     flex-direction:row;
     gap:10px;
-    margin: 20px 0;
+    padding:20px 10px;
 }
 .side-nav-icon{
     font-size: 20px;
