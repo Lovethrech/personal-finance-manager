@@ -59,13 +59,13 @@
     },
     {
         "id":"11",
-        "name":"log-in",
+        "name":"login",
         "icon":"<i class='bx bxs-log-in-circle'></i>",
         "link":"/login"
     },
     {
         "id":"12",
-        "name":"log-out",
+        "name":"logout",
         "icon":"<i class='bx bxs-log-out-circle'></i>",
         "link":"/logout"
     }
