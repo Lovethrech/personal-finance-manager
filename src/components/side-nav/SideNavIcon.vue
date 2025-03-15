@@ -5,6 +5,11 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 </script>
 
 <style scoped>
+.link{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
 .side-nav-icon{
 
 }
@@ -15,7 +20,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 
 <template>
     <RouterLink :to="link" class="link">
-        <span class="side-nav-icon" :v-html="icon"></span>
+        <span class="side-nav-icon" v-html="icon"></span>
         <span class="side-nav-icon-desc-ctn">
             <p class="side-nav-icon-desc">
                 {{name}}
