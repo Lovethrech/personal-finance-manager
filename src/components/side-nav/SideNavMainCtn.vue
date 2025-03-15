@@ -27,7 +27,6 @@ import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
     background-color:black;
 }
 .side-nav-icon:nth-child(2){
-    background-color: #93200B;
     border-radius: 0 100px 0 0;
 }
 .login{
