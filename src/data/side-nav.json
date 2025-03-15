@@ -9,7 +9,7 @@
         "id":"2",
         "name":"dashboard",
         "icon":"<i class='bx bxs-dashboard' ></i>",
-        "link":"/dashboard"
+        "link":"/"
     },
     {
         "id":"3",

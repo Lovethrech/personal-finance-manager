@@ -31,5 +31,34 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         borderRadius: "0"
     });
 
-    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive }
+    const sideNavDashboardClick=()=>{
+        if(((inventoryActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
+            dashboardActive.value.backgroundColor="#000000";
+            dashboardActive.value.borderRadius="0";
+            inventoryActive.value.backgroundColor="#93200B";
+            inventoryActive.value.borderRadius="0 100px 0 0";
+        }
+    };
+    const sideNavInventoryClick=()=>{
+        if(((dashboardActive.value.backgroundColor)==="#000000") / ((orderActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
+            dashboardActive.value.backgroundColor="#93200B";
+            dashboardActive.value.borderRadius="0 0 100px 0";
+            inventoryActive.value.backgroundColor="#000000";
+            inventoryActive.value.borderRadius="0";
+            orderActive.value.borderRadius="0 100px 0 0";
+        }
+    };
+    const sideNavOrderClick=()=>{
+        if(((dashboardActive.value.backgroundColor)==="#000000") / ((inventoryActive.value.backgroundColor)==="#000000") / ((purchaseActive.value.backgroundColor)==="#000000") / ((reportingActive.value.backgroundColor)==="#000000") / ((supportActive.value.backgroundColor)==="#000000") / ((settingActive.value.backgroundColor)==="#000000")){
+            dashboardActive.value.backgroundColor="#93200B";
+            dashboardActive.value.borderRadius="0";
+            inventoryActive.value.backgroundColor="#93200B";
+            inventoryActive.value.borderRadius="0 0 100px 0";
+            orderActive.value.backgroundColor="#000000"
+            orderActive.value.borderRadius="0";
+            purchaseActive.value.borderRadius="0 100px 0 0"
+        }
+    };
+
+    return { dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick,sideNavSettingClick }
 })
