@@ -31,21 +31,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         borderRadius: "0"
     });
 
-
-
-    // console.log(dashboardActive.value.backgroundColor)
-    // const sideNavDashboardClick=()=>{
-    // };
-    // dashboard 
-    // inventory 
-    // order 
-    // purchase 
-    // reporting 
-    // support 
-    // setting 
-    // #93200B 
-
-
     const sideNavDashboardClick=()=>{
         if((((inventoryActive.value.backgroundColor)==="#000000") || ((orderActive.value.backgroundColor)==="#000000") || ((purchaseActive.value.backgroundColor)==="#000000") || ((reportingActive.value.backgroundColor)==="#000000") || ((supportActive.value.backgroundColor)==="#000000") || ((settingActive.value.backgroundColor)==="#000000")) && ((dashboardActive.value.backgroundColor)==="#93200B")){
             dashboardActive.value.backgroundColor="#000000";
