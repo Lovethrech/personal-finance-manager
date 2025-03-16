@@ -30,6 +30,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         backgroundColor:"#93200B",
         borderRadius: "0"
     });
+    // console.log(window.location.pathname)
 
     const sideNavDashboardClick=()=>{
         if((((inventoryActive.value.backgroundColor)==="#000000") || ((orderActive.value.backgroundColor)==="#000000") || ((purchaseActive.value.backgroundColor)==="#000000") || ((reportingActive.value.backgroundColor)==="#000000") || ((supportActive.value.backgroundColor)==="#000000") || ((settingActive.value.backgroundColor)==="#000000")) && ((dashboardActive.value.backgroundColor)==="#93200B")){
