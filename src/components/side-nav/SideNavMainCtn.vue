@@ -6,7 +6,7 @@ import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick }= useSideNavColorStore();
+const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick }= useSideNavColorStore();
 </script>
 
 <style scoped>
@@ -59,7 +59,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[2].icon"
                     :link="SideNavIcons[2].link"
                     :style="[inventoryActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavInventoryClick"
                 >
                 </SideNavIcon>
 
@@ -68,7 +68,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[3].icon"
                     :link="SideNavIcons[3].link"
                     :style="[orderActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavOrderClick"
                 >
                 </SideNavIcon>
 
@@ -77,7 +77,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[4].icon"
                     :link="SideNavIcons[4].link"
                     :style="[purchaseActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavPurchaseClick"
                 >
                 </SideNavIcon>
 
@@ -86,7 +86,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[5].icon"
                     :link="SideNavIcons[5].link"
                     :style="[reportingActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavReportingClick"
                 >
                 </SideNavIcon>
 
@@ -95,7 +95,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[6].icon"
                     :link="SideNavIcons[6].link"
                     :style="[supportActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavSupportClick"
                 >
                 </SideNavIcon>
 
@@ -104,7 +104,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[7].icon"
                     :link="SideNavIcons[7].link"
                     :style="[settingActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavSettingClick"
                 >
                 </SideNavIcon>
             </section>
