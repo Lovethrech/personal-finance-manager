@@ -6,7 +6,7 @@ import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavClick }= useSideNavColorStore();
+const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick }= useSideNavColorStore();
 </script>
 
 <style scoped>
@@ -50,7 +50,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :icon="SideNavIcons[1].icon"
                     :link="SideNavIcons[1].link"
                     :style="[dashboardActive]"
-                    :onClick="sideNavClick"
+                    :onClick="sideNavDashboardClick"
                 >
                 </SideNavIcon>
 
