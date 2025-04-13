@@ -5,10 +5,10 @@
                 Welcome Rachael!
             </h1>
             <div class="search-box-ctn">
-                <input type="text" class="search-box">
+                <input type="text" class="search-box" placeholder="Search...">
             </div>
             <div class="notification-icon-ctn">
-                
+
             </div>
         </div>
     </div>
