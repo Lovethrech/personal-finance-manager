@@ -19,10 +19,11 @@
 
 <style scoped>
 .main-top-nav-main-ctn{
-
+    padding:2px 3vw;
 }
 .main-top-nav-mini-ctn{
-
+    display:flex;
+    flex-direction: row;
 }
 .user-welcome-msg{
     color:#fff;
@@ -34,6 +35,6 @@
 
 }
 .notification-icon-ctn{
-    
+
 }
 </style>
