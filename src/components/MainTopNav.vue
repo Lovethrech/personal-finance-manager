@@ -18,7 +18,22 @@
 </template>
 
 <style scoped>
+.main-top-nav-main-ctn{
+
+}
+.main-top-nav-mini-ctn{
+
+}
 .user-welcome-msg{
     color:#fff;
+}
+.search-box-ctn{
+
+}
+.search-box-ctn input{
+
+}
+.notification-icon-ctn{
+    
 }
 </style>
