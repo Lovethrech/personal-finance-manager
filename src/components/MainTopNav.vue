@@ -16,3 +16,9 @@
     search...
     notification bell with small dot ontop  -->
 </template>
+
+<style scoped>
+.user-welcome-msg{
+    color:#fff;
+}
+</style>
