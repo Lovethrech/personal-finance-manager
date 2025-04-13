@@ -20,7 +20,7 @@ import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
         <div class="landing-page-main-ctn-mini-ctn">
             <SideNavMainCtn></SideNavMainCtn>
             <main>
-
+                
             </main>
         </div>
     </section>
