@@ -7,6 +7,9 @@
             <div class="search-box-ctn">
                 <input type="text" class="search-box">
             </div>
+            <div class="notification-icon-ctn">
+                
+            </div>
         </div>
     </div>
     <!-- welcome user
