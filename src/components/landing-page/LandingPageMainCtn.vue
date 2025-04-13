@@ -1,5 +1,6 @@
 <script setup>
 import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
+import MainTopNav from '../MainTopNav.vue';
 </script>
 
 <style scoped>
@@ -12,7 +13,7 @@ import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
 }
 .landing-page-main-ctn-mini-ctn{
     display:flex;
-    
+    flex-direction: row;
 }
 </style>
 
