@@ -11,6 +11,7 @@ import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
 
 }
 .landing-page-main-ctn-mini-ctn{
+    display:flex;
     
 }
 </style>
@@ -20,7 +21,7 @@ import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
         <div class="landing-page-main-ctn-mini-ctn">
             <SideNavMainCtn></SideNavMainCtn>
             <main>
-                
+                <MainTopNav></MainTopNav>
             </main>
         </div>
     </section>
