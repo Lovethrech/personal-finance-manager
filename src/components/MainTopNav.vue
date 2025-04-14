@@ -2,14 +2,18 @@
     <div class="main-top-nav-main-ctn">
         <div class="main-top-nav-mini-ctn">
             <h1 class="user-welcome-msg">
-                Welcome Rachael!
+                Welcome, Rachael!
             </h1>
             <section class="main-top-nav-main-nav-ctn">
                 <div class="search-box-ctn">
                     <input type="text" class="search-box" placeholder="Search...">
+                    <div class="search-icon-ctn">
+                        <i class='bx bx-search' ></i>
+                        <!-- <i class='bx bx-search-alt' ></i> -->
+                    </div>
                 </div>
                 <div class="notification-icon-ctn">
-
+                    <i class='bx bxs-bell' ></i>
                 </div>
             </section>
         </div>
@@ -21,7 +25,7 @@
 
 <style scoped>
 .main-top-nav-main-ctn{
-    padding:2px 3vw;
+    padding:10px 3vw;
     width:100%;
 }
 .main-top-nav-mini-ctn{
