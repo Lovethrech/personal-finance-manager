@@ -50,9 +50,15 @@
     background-color: ;
     width:100%;
     border-radius:inherit;
+    padding:5px 10px;
+    font-size:16px;
 }
 .search-icon-ctn{
+    position:absolute;
+    
     background-color: #93200B;
+    color:#fff;
+    padding:6px;
 }
 .notification-icon-ctn{
 
