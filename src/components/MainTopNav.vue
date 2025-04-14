@@ -22,6 +22,7 @@
 <style scoped>
 .main-top-nav-main-ctn{
     padding:2px 3vw;
+    width:100%;
 }
 .main-top-nav-mini-ctn{
     display:flex;

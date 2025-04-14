@@ -15,6 +15,9 @@ import MainTopNav from '../MainTopNav.vue';
     display:flex;
     flex-direction: row;
 }
+main{
+    width:100%;
+}
 </style>
 
 <template>
