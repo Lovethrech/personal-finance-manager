@@ -40,10 +40,14 @@
 
 }
 .search-box-ctn{
-
+    width:400px;
+    border-radius:100px;
+    display:flex;
+    background-color: bisque;
 }
 .search-box-ctn input{
-
+    width:100%;
+    border-radius:inherit;
 }
 .notification-icon-ctn{
 
