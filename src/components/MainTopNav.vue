@@ -4,12 +4,14 @@
             <h1 class="user-welcome-msg">
                 Welcome Rachael!
             </h1>
-            <div class="search-box-ctn">
-                <input type="text" class="search-box" placeholder="Search...">
-            </div>
-            <div class="notification-icon-ctn">
+            <section class="main-top-nav-main-nav-ctn">
+                <div class="search-box-ctn">
+                    <input type="text" class="search-box" placeholder="Search...">
+                </div>
+                <div class="notification-icon-ctn">
 
-            </div>
+                </div>
+            </section>
         </div>
     </div>
     <!-- welcome user
