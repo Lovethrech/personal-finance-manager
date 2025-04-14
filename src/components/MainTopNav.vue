@@ -26,9 +26,13 @@
 .main-top-nav-mini-ctn{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .user-welcome-msg{
     color:#fff;
+}
+.main-top-nav-main-nav-ctn{
+
 }
 .search-box-ctn{
 
