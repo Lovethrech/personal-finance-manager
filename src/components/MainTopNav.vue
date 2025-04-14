@@ -37,7 +37,7 @@
     color:#fff;
 }
 .main-top-nav-main-nav-ctn{
-
+    color:#fff;
 }
 .search-box-ctn{
     width:400px;
@@ -49,13 +49,11 @@
 .search-box-ctn input{
     background-color: ;
     width:100%;
-    border-radius:inherit;
+    border-radius:100px 0 0 100px;
     padding:5px 10px;
     font-size:16px;
 }
 .search-icon-ctn{
-    position:absolute;
-    right:55px;
     background-color: #93200B;
     color:#fff;
     padding: 6px 20px;
