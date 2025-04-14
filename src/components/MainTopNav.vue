@@ -43,11 +43,16 @@
     width:400px;
     border-radius:100px;
     display:flex;
+    flex-direction: row;
     background-color: bisque;
 }
 .search-box-ctn input{
+    background-color: ;
     width:100%;
     border-radius:inherit;
+}
+.search-icon-ctn{
+    background-color: #93200B;
 }
 .notification-icon-ctn{
 
