@@ -9,11 +9,10 @@
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
-                        
                     </div>
-                    <div class="search-icon-ctn-general">
-                        <i class='bx bx-search-alt' ></i>
-                    </div>
+                </div>
+                <div class="search-icon-ctn-general">
+                    <i class='bx bx-search-alt' ></i>
                 </div>
                 <div class="notification-icon-ctn">
                     <i class='bx bxs-bell' ></i>
@@ -41,6 +40,8 @@
 }
 .main-top-nav-main-nav-ctn{
     color:#fff;
+    display:flex;
+    flex-direction: row;
 }
 .search-box-ctn{
     width:400px;
