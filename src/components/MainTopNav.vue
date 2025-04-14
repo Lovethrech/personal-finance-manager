@@ -55,10 +55,11 @@
 }
 .search-icon-ctn{
     position:absolute;
-    
+    right:55px;
     background-color: #93200B;
     color:#fff;
-    padding:6px;
+    padding: 6px 20px;
+    border-radius: 0 100px 100px 0;
 }
 .notification-icon-ctn{
 
