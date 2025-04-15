@@ -66,14 +66,17 @@
     border-radius: 0 100px 100px 0;
 }
 .notication-content-ctn{
-
+    display:flex;
+    flex-direction:row;
 }
 .notification-icon-ctn{
 
 }
 .notification-red-dot{
-    width:10px;
-    height:10px;
+    width:5px;
+    height:5px;
+    background-color: red;
+    border-radius:50%;
 }
 .search-icon-ctn-general, .notication-content-ctn{
     margin:auto 0;
