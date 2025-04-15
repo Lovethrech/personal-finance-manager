@@ -63,6 +63,9 @@
     padding: 6px 20px;
     border-radius: 0 100px 100px 0;
 }
+.search-icon-ctn-general, .notification-icon-ctn{
+    margin:auto 0;
+}
 .notification-icon-ctn{
 
 }
