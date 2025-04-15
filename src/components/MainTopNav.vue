@@ -77,6 +77,7 @@
     height:5px;
     background-color: red;
     border-radius:50%;
+    margin-left:-2px
 }
 .search-icon-ctn-general, .notication-content-ctn{
     margin:auto 0;
