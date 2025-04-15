@@ -42,13 +42,13 @@
     color:#fff;
     display:flex;
     flex-direction: row;
+    gap:20px;
 }
 .search-box-ctn{
     width:400px;
     border-radius:100px;
     display:flex;
     flex-direction: row;
-    background-color: bisque;
 }
 .search-box-ctn input{
     background-color: ;
@@ -65,6 +65,7 @@
 }
 .search-icon-ctn-general, .notification-icon-ctn{
     margin:auto 0;
+    font-size:20px;
 }
 .notification-icon-ctn{
 
