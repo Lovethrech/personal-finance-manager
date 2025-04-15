@@ -20,9 +20,6 @@
             </section>
         </div>
     </div>
-    <!-- welcome user
-    search...
-    notification bell with small dot ontop  -->
 </template>
 
 <style scoped>
