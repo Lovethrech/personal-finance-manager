@@ -2,7 +2,7 @@
     <div class="main-top-nav-main-ctn">
         <div class="main-top-nav-mini-ctn">
             <h1 class="user-welcome-msg">
-                Welcome, Rachael!
+                Welcome, User!
             </h1>
             <section class="main-top-nav-main-nav-ctn">
                 <div class="search-box-ctn">
@@ -37,6 +37,7 @@
 }
 .user-welcome-msg{
     color:#fff;
+    text-transform: capitalize;
 }
 .main-top-nav-main-nav-ctn{
     color:#fff;
@@ -63,11 +64,12 @@
     padding: 6px 20px;
     border-radius: 0 100px 100px 0;
 }
+.notification-icon-ctn{
+
+}
 .search-icon-ctn-general, .notification-icon-ctn{
     margin:auto 0;
     font-size:20px;
 }
-.notification-icon-ctn{
 
-}
 </style>
