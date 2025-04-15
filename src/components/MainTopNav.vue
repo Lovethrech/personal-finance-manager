@@ -14,9 +14,13 @@
                 <div class="search-icon-ctn-general">
                     <i class='bx bx-search-alt' ></i>
                 </div>
-                <div class="notification-icon-ctn">
-                    <i class='bx bxs-bell' ></i>
+                <div class="notication-content-ctn">
+                    <div class="notification-icon-ctn">
+                        <i class='bx bxs-bell' ></i>
+                    </div>
+                    <div class="notification-red-dot"></div>
                 </div>
+                
             </section>
         </div>
     </div>
@@ -61,10 +65,13 @@
     padding: 6px 20px;
     border-radius: 0 100px 100px 0;
 }
+.notication-content-ctn{
+    
+}
 .notification-icon-ctn{
 
 }
-.search-icon-ctn-general, .notification-icon-ctn{
+.search-icon-ctn-general, .notication-content-ctn{
     margin:auto 0;
     font-size:20px;
 }
