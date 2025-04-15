@@ -66,10 +66,14 @@
     border-radius: 0 100px 100px 0;
 }
 .notication-content-ctn{
-    
+
 }
 .notification-icon-ctn{
 
+}
+.notification-red-dot{
+    width:10px;
+    height:10px;
 }
 .search-icon-ctn-general, .notication-content-ctn{
     margin:auto 0;
