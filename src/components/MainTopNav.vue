@@ -1,5 +1,8 @@
 <script setup>
 import {ref} from "vue";
+
+const displaySearchBox=ref("none");
+const defaultSearchIcon=ref("<i class='bx bx-search' ></i>")
 </script>
 
 <template>
