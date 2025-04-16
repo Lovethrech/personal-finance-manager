@@ -3,6 +3,12 @@ import {ref} from "vue";
 
 const displaySearchBox=ref("none");
 const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
+
+const viewSearchBox=()=>{
+    if (defaultSearchIcon.value=== "<i class='bx bx-search' ></i>"){
+        defaultSearchIcon
+    }
+}
 </script>
 
 <template>
@@ -16,7 +22,7 @@ const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
-                         <!-- <i class='bx bx-search-alt' ></i> -->
+                        <!-- <i class='bx bx-search-alt' ></i> -->
                     </div>
                 </div>
                 <div class="search-icon-ctn-general" v-html="defaultSearchIcon"></div>
