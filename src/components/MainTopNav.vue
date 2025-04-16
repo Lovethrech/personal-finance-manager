@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <div class="main-top-nav-main-ctn">
         <div class="main-top-nav-mini-ctn">
