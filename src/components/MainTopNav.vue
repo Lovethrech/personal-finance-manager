@@ -68,7 +68,6 @@ const viewSearchBox=()=>{
     border-radius:100px;
     display:flex;
     flex-direction: row;
-    transition: all 2s;
 }
 .search-box-ctn input{
     background-color: ;
@@ -102,6 +101,11 @@ const viewSearchBox=()=>{
     font-size:20px;
 }
 @media screen and (max-width:870px) {
-    
+    .search-box-ctn{
+        width:60%;
+        position:absolute;
+        top:50px;
+        right:40px;
+    }
 }
 </style>
