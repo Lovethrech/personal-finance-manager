@@ -2,7 +2,7 @@
 import {ref} from "vue";
 
 const displaySearchBox=ref("none");
-const defaultSearchIcon=ref("<i class='bx bx-search' ></i>")
+const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
 </script>
 
 <template>
@@ -16,11 +16,10 @@ const defaultSearchIcon=ref("<i class='bx bx-search' ></i>")
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
+                         <!-- <i class='bx bx-search-alt' ></i> -->
                     </div>
                 </div>
-                <div class="search-icon-ctn-general">
-                    <i class='bx bx-search-alt' ></i>
-                </div>
+                <div class="search-icon-ctn-general" v-html="defaultSearchIcon"></div>
                 <div class="notication-content-ctn">
                     <div class="notification-icon-ctn">
                         <i class='bx bxs-bell' ></i>
