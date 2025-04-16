@@ -6,7 +6,12 @@ const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
 
 const viewSearchBox=()=>{
     if (defaultSearchIcon.value=== "<i class='bx bx-search' ></i>"){
-        defaultSearchIcon.value="<i class='bx bx-search-alt' ></i>"
+        defaultSearchIcon.value="<i class='bx bx-search-alt' ></i>";
+        displaySearchBox.value="flex";
+    }
+    else{
+        defaultSearchIcon.value="<i class='bx bx-search' ></i>";
+        displaySearchBox.value="none";
     }
 }
 </script>
@@ -25,7 +30,7 @@ const viewSearchBox=()=>{
                         <!--  -->
                     </div>
                 </div>
-                <div class="search-icon-ctn-general" v-html="defaultSearchIcon"></div>
+                <div class="search-icon-ctn-general" v-html="defaultSearchIcon" :onClick="viewSearchBox"></div>
                 <div class="notication-content-ctn">
                     <div class="notification-icon-ctn">
                         <i class='bx bxs-bell' ></i>
@@ -63,6 +68,7 @@ const viewSearchBox=()=>{
     border-radius:100px;
     display:flex;
     flex-direction: row;
+    transition: all 2s;
 }
 .search-box-ctn input{
     background-color: ;
