@@ -6,7 +6,7 @@ const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
 
 const viewSearchBox=()=>{
     if (defaultSearchIcon.value=== "<i class='bx bx-search' ></i>"){
-        defaultSearchIcon
+        defaultSearchIcon.value="<i class='bx bx-search-alt' ></i>"
     }
 }
 </script>
@@ -22,7 +22,7 @@ const viewSearchBox=()=>{
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
-                        <!-- <i class='bx bx-search-alt' ></i> -->
+                        <!--  -->
                     </div>
                 </div>
                 <div class="search-icon-ctn-general" v-html="defaultSearchIcon"></div>
