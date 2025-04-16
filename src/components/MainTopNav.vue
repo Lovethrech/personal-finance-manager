@@ -83,4 +83,9 @@
     margin:auto 0;
     font-size:20px;
 }
+@media screen and (max-width:870px) {
+    .search-box-ctn{
+        display:none;
+    }
+}
 </style>
