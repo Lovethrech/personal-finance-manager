@@ -29,6 +29,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-align: center;
     text-transform:uppercase;
 }
+@media screen and (max-width:550px) {
+    
+}
 </style>
 
 <template>
