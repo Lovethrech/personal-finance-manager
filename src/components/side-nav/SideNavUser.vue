@@ -30,7 +30,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-transform:uppercase;
 }
 @media screen and (max-width:550px) {
-    
+    .side-nav-user-mini-ctn-user-desc{
+        display:none;
+    }
 }
 </style>
 
