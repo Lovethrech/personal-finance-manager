@@ -20,6 +20,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-icon-desc{
     text-transform: capitalize;
 }
+@media screen and (max-width:550px) {
+    
+}
 </style>
 
 <template>
