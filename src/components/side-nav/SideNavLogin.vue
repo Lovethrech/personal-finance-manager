@@ -22,6 +22,11 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-transform:uppercase;
     font-size:20px;
 }
+@media screen and (max-width:550px) {
+    .side-nav-login-icon-desc{
+        display:none;
+    }
+}
 </style>
 
 <template>
