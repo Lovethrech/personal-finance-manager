@@ -102,15 +102,18 @@ const viewSearchBox=()=>{
 }
 @media screen and (max-width:870px) {
     .search-box-ctn{
-        width:60%;
+        width:70%;
         position:absolute;
         top:50px;
-        right:40px;
+        right:0;
+        left:200px;
     }
 }
 @media screen and (max-width:550px) {
     .search-box-ctn{
-        
+        width:80%;
+        right:0;
+        left:50px;
     }
 }
 </style>
