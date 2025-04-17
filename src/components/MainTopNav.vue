@@ -108,4 +108,7 @@ const viewSearchBox=()=>{
         right:40px;
     }
 }
+@media screen and (max-width:550px) {
+    
+}
 </style>
