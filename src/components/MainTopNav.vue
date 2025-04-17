@@ -109,6 +109,8 @@ const viewSearchBox=()=>{
     }
 }
 @media screen and (max-width:550px) {
-    
+    .search-box-ctn{
+        
+    }
 }
 </style>
