@@ -30,6 +30,11 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     display:flex;
     margin:0 50px;
 }
+@media screen and (max-width:550px) {
+    .side-nav-main-ctn-main-ctn{
+        width:50px;
+    }
+}
 </style>
 
 <template>
