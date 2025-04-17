@@ -34,6 +34,10 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     .side-nav-main-ctn-main-ctn{
         width:50px;
     }
+    .login{
+        background-color: orange;
+        position: relative;
+    }
 }
 </style>
 
