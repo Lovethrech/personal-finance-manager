@@ -32,6 +32,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 @media screen and (max-width:550px) {
     .side-nav-user-main-ctn{
         padding:10px 0;
+        height:100px;
     }
     .side-nav-user-mini-ctn-user-desc{
         display:none;
