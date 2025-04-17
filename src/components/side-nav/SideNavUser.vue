@@ -33,6 +33,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     .side-nav-user-mini-ctn-user-desc{
         display:none;
     }
+    .side-nav-user-mini-ctn-icon-ctn{
+        
+    }
 }
 </style>
 
