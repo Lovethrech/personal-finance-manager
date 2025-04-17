@@ -21,7 +21,9 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-transform: capitalize;
 }
 @media screen and (max-width:550px) {
-    
+    .side-nav-icon-desc{
+        display:none;
+    }
 }
 </style>
 
