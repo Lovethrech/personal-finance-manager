@@ -8,3 +8,6 @@ img{
     text-decoration: none;
     color:white;
 }
+div, section{
+    outline:none;
+}
