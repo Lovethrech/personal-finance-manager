@@ -6,7 +6,7 @@ import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick }= useSideNavColorStore();
+const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick }= useSideNavColorStore();
 </script>
 
 <style scoped>
@@ -49,6 +49,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[0].name"
                     :icon="SideNavIcons[0].icon"
                     :link="SideNavIcons[0].link"
+                    :profileBorderStyle="profileBorderStyle"
                 >
                 </SideNavUser>
             </div>
@@ -123,6 +124,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                     :name="SideNavIcons[10].name"
                     :icon="SideNavIcons[10].icon"
                     :link="SideNavIcons[10].link"
+                    :loginBorderStyle="loginBorderStyle"
                 >
                 </SideNavLogin>
             </div>
