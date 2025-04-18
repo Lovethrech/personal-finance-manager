@@ -13,13 +13,16 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 .side-nav-main-ctn-main-ctn{
     width:200px;
     height:100vh;
-    background-color: #93200B;
+    
     overflow-y:hidden;
     display:flex;
 }
 .side-nav-main-ctn-mini-ctn, section{
     display:flex;
     flex-direction:column;
+}
+.side-nav-main-ctn-mini-ctn .user{
+    background-color: #93200B;
 }
 .side-nav-icon-section{
     background-color:rgb(0, 0, 0);
