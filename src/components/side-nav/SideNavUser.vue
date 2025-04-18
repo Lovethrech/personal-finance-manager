@@ -1,7 +1,7 @@
 <script setup>
 import {defineProps} from "vue";
 
-const {name, icon, link}=defineProps(['name','icon', 'link']);
+const {name, icon, link, profileBorderStyle}=defineProps(['name','icon', 'link', 'profileBorderStyle']);
 </script>
 
 <style scoped>
@@ -44,7 +44,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 </style>
 
 <template>
-    <div class="side-nav-user-main-ctn">
+    <div class="side-nav-user-main-ctn" :style="{borderRadius:profileBorderStyle}">
         <RouterLink :to="link" class="link">
             <div class="side-nav-user-mini-ctn">
                 <div class="side-nav-user-mini-ctn-icon-ctn" v-html="icon"></div>
