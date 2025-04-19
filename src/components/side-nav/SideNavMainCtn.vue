@@ -13,7 +13,6 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 .side-nav-main-ctn-main-ctn{
     width:200px;
     height:100vh;
-    
     overflow-y:hidden;
     display:flex;
 }
@@ -28,11 +27,9 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     background-color:rgb(0, 0, 0);
 }
 .login{
-    height: 100px;
-    position: absolute;
-    bottom: 0;
+    height: 400px;
     display:flex;
-    justify-content: flex-end;
+    justify-content: baseline;
     padding:0 40px;
 }
 @media screen and (max-width:550px) {
