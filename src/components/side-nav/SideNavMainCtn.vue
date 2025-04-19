@@ -122,7 +122,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
                 </SideNavIcon>
             </section>
             <br/>
-            <div class="login">
+            <div class="login" :style="{borderRadius:loginBorderStyle}">
                 <SideNavLogin
                     :name="SideNavIcons[10].name"
                     :icon="SideNavIcons[10].icon"
