@@ -21,17 +21,18 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     display:flex;
     flex-direction:column;
 }
-.side-nav-main-ctn-mini-ctn .user{
+.side-nav-main-ctn-mini-ctn .user, .side-nav-main-ctn-mini-ctn .login{
     background-color: #93200B;
 }
 .side-nav-icon-section{
     background-color:rgb(0, 0, 0);
 }
 .login{
+    height:50px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     display:flex;
-    margin:0 50px;
+    padding:0 40px;
 }
 @media screen and (max-width:550px) {
     .side-nav-main-ctn-main-ctn{
@@ -47,7 +48,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 <template>
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
-            <div class="user">
+            <div class="user" :style="{borderRadius:profileBorderStyle}">
                 <SideNavUser
                     :name="SideNavIcons[0].name"
                     :icon="SideNavIcons[0].icon"
