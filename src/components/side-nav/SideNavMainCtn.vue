@@ -20,6 +20,9 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     display:flex;
     flex-direction:column;
 }
+.side-nav-main-ctn-mini-ctn .user{
+    margin-bottom:-20px;
+}
 .side-nav-main-ctn-mini-ctn .user, .side-nav-main-ctn-mini-ctn .login{
     background-color: #93200B;
 }
