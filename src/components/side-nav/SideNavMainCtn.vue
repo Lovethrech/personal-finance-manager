@@ -27,6 +27,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     background-color:rgb(0, 0, 0);
 }
 .login{
+    margin-top:-20px;
     height: 400px;
     display:flex;
     justify-content: baseline;

@@ -9,6 +9,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     width:100%;
     display:center;
     justify-content:center;
+    margin-top:10vh;
 }
 .side-nav-login-mini-ctn{
     display:flex;
