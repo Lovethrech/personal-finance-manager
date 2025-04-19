@@ -28,10 +28,11 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     background-color:rgb(0, 0, 0);
 }
 .login{
-    height:50px;
+    height: 100px;
     position: absolute;
     bottom: 0;
     display:flex;
+    justify-content: flex-end;
     padding:0 40px;
 }
 @media screen and (max-width:550px) {
