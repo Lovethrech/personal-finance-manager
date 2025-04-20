@@ -30,8 +30,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.borderRadius = "0";
         settingActive.value.backgroundColor = defaultColor;
         settingActive.value.borderRadius = "0";
-        profileBorderStyle.value=ref("0 0 100px 0");
-        loginBorderStyle.value=ref("0");
+        profileBorderStyle.value="0 0 100px 0";
+        loginBorderStyle.value="0";
     };
 
     const sideNavDashboardClick = () => {
@@ -48,7 +48,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.borderRadius = "0 0 100px 0";
         orderActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value="0";
-        loginBorderStyle.value="0";
     };
 
     const sideNavOrderClick = () => {
