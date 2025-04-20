@@ -30,7 +30,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.borderRadius = "0";
         settingActive.value.backgroundColor = defaultColor;
         settingActive.value.borderRadius = "0";
-        profileBorderStyle.value="0 0 100px 0";
+        profileBorderStyle.value="0";
         loginBorderStyle.value="0";
     };
 
@@ -39,6 +39,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.backgroundColor = activeColor;
         dashboardActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
+        profileBorderStyle.value="0 0 100px 0";
     };
 
     const sideNavInventoryClick = () => {
@@ -47,7 +48,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         inventoryActive.value.borderRadius = "0";
         dashboardActive.value.borderRadius = "0 0 100px 0";
         orderActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value="0";
     };
 
     const sideNavOrderClick = () => {
@@ -56,7 +56,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         orderActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 0 100px 0";
         purchaseActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value="0";
     };
 
     const sideNavPurchaseClick = () => {
