@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-const displaySearchBox=ref("none");
+const displaySearchBox=ref({display:"none", transition:"all 2s"});
 const defaultSearchIcon=ref("<i class='bx bx-search' ></i>");
 
 const viewSearchBox=()=>{
