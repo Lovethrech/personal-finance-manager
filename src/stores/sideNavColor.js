@@ -4,6 +4,10 @@ import { defineStore } from 'pinia';
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultColor = "#93200B";
     const activeColor = "#000000";
+    const profileDefaultStyle="0";
+    const loginDefaultStyle="o";
+    const profileChangedStyle="0 0 100px 0";
+    const loginChangedStyle="0 100px 0 0";
 
     const dashboardActive = ref({ backgroundColor: activeColor, borderRadius: "0" });
     const inventoryActive = ref({ backgroundColor: defaultColor, borderRadius: "0 100px 0 0" });
@@ -12,8 +16,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const reportingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const supportActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const settingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const profileBorderStyle=ref("0 0 100px 0");
-    const loginBorderStyle=ref("0");
+    const profileBorderStyle=ref(profileDefaultStyle);
+    const loginBorderStyle=ref(loginDefaultStyle);
 
     const resetColors = () => {
         dashboardActive.value.backgroundColor = defaultColor;
@@ -30,8 +34,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.borderRadius = "0";
         settingActive.value.backgroundColor = defaultColor;
         settingActive.value.borderRadius = "0";
-        profileBorderStyle.value="0";
-        loginBorderStyle.value="0";
+        profileBorderStyle.value= profileDefaultStyle;
+        loginBorderStyle.value= loginDefaultStyle;
     };
 
     const sideNavDashboardClick = () => {
@@ -39,7 +43,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.backgroundColor = activeColor;
         dashboardActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value="0 0 100px 0";
+        profileBorderStyle.value=profileChangedStyle;
     };
 
     const sideNavInventoryClick = () => {
@@ -87,7 +91,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.backgroundColor = activeColor;
         settingActive.value.borderRadius = "0";
         supportActive.value.borderRadius = "0 0 100px 0";
-        loginBorderStyle.value="0 100px 0 0";
+        loginBorderStyle.value=loginChangedStyle;
     };
 
     return {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
