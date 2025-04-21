@@ -23,7 +23,7 @@ const viewSearchBox=()=>{
                 Welcome, User!
             </h1>
             <section class="main-top-nav-main-nav-ctn">
-                <div class="search-box-ctn" :style="{display: displaySearchBox}">
+                <div class="search-box-ctn" :style="{displaySearchBox}">
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
