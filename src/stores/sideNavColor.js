@@ -31,7 +31,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.backgroundColor = defaultColor;
         settingActive.value.borderRadius = "0";
         profileBorderStyle.value= "0 0 100px 0";
-        loginBorderStyle.value= loginDefaultStyle;
+        loginBorderStyle.value= "0";
     };
 
     const sideNavDashboardClick = () => {
