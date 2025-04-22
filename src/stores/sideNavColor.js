@@ -16,7 +16,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const reportingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const supportActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const settingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const profileBorderStyle=ref(profileDefaultStyle);
+    const profileBorderStyle=ref();
     const loginBorderStyle=ref(loginDefaultStyle);
 
     const resetColors = () => {
