@@ -5,7 +5,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultColor = "#93200B";
     const activeColor = "#000000";
     const loginDefaultStyle="0";
-    const profileChangedStyle="0";
 
     const dashboardActive = ref({ backgroundColor: activeColor, borderRadius: "0" });
     const inventoryActive = ref({ backgroundColor: defaultColor, borderRadius: "0 100px 0 0" });
