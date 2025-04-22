@@ -4,7 +4,6 @@ import { defineStore } from 'pinia';
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultColor = "#93200B";
     const activeColor = "#000000";
-    const profileDefaultStyle="0 0 100px 0";
     const loginDefaultStyle="0";
     const profileChangedStyle="0";
     const loginChangedStyle="0 100px 0 0";
@@ -16,7 +15,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const reportingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const supportActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const settingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const profileBorderStyle=ref();
+    const profileBorderStyle=ref({borderRadius: "0 0 100px 0"});
     const loginBorderStyle=ref();
 
     const resetColors = () => {
@@ -39,10 +38,12 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     };
 
     const sideNavDashboardClick = () => {
+        console.log(profileBorderStyle)
         resetColors();
         dashboardActive.value.backgroundColor = activeColor;
         dashboardActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
+        profileBorderStyle.value=profileDefaultStyle;
     };
 
     const sideNavInventoryClick = () => {
