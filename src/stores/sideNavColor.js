@@ -17,7 +17,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const supportActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const settingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
     const profileBorderStyle=ref();
-    const loginBorderStyle=ref(loginDefaultStyle);
+    const loginBorderStyle=ref();
 
     const resetColors = () => {
         dashboardActive.value.backgroundColor = defaultColor;
