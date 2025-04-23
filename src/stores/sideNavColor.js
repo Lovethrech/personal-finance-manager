@@ -30,8 +30,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.borderRadius = "0";
         settingActive.value.backgroundColor = defaultColor;
         settingActive.value.borderRadius = "0";
-        profileBorderStyle.value= "0 0 100px 0";
-        loginBorderStyle.value= "0";
+        profileBorderStyle.value.borderRadius= "0";
+        loginBorderStyle.value.borderRadius= "0";
     };
 
     const sideNavDashboardClick = () => {
@@ -47,7 +47,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         inventoryActive.value.borderRadius = "0";
         dashboardActive.value.borderRadius = "0 0 100px 0";
         orderActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value=profileChangedStyle;
+        profileBorderStyle.value.borderRadius="0";
     };
 
     const sideNavOrderClick = () => {
@@ -56,7 +56,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         orderActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 0 100px 0";
         purchaseActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value=profileChangedStyle;
+        profileBorderStyle.value.borderRadius="0";
     };
 
     const sideNavPurchaseClick = () => {
@@ -65,6 +65,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         purchaseActive.value.borderRadius = "0";
         orderActive.value.borderRadius = "0 0 100px 0";
         reportingActive.value.borderRadius = "0 100px 0 0";
+        profileBorderStyle.value.borderRadius="0";
     };
 
     const sideNavReportingClick = () => {
@@ -73,6 +74,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         reportingActive.value.borderRadius = "0";
         purchaseActive.value.borderRadius = "0 0 100px 0";
         supportActive.value.borderRadius = "0 100px 0 0";
+        profileBorderStyle.value.borderRadius="0";
     };
 
     const sideNavSupportClick = () => {
@@ -81,6 +83,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.borderRadius = "0";
         reportingActive.value.borderRadius = "0 0 100px 0";
         settingActive.value.borderRadius = "0 100px 0 0";
+        profileBorderStyle.value.borderRadius="0";
     };
 
     const sideNavSettingClick = () => {
@@ -88,7 +91,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.backgroundColor = activeColor;
         settingActive.value.borderRadius = "0";
         supportActive.value.borderRadius = "0 0 100px 0";
-        loginBorderStyle.value=loginChangedStyle;
+        profileBorderStyle.value="0";
+        loginBorderStyle.value.borderRadius="0 100px 0 0";
     };
 
     return {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavInventoryClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
