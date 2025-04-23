@@ -19,6 +19,9 @@ import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
     <section class="landing-page-main-ctn-main-ctn">
         <div class="landing-page-main-ctn-mini-ctn">
             <SideNavMainCtn></SideNavMainCtn>
+            <main>
+
+            </main>
         </div>
     </section>
 </template>
