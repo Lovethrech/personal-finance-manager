@@ -50,7 +50,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 <template>
     <section class="side-nav-main-ctn-main-ctn">
         <div class="side-nav-main-ctn-mini-ctn">
-            <div class="user" :style="{borderRadius:profileBorderStyle}">
+            <div class="user" :style="[profileBorderStyle]">
                 <SideNavUser
                     :name="SideNavIcons[0].name"
                     :icon="SideNavIcons[0].icon"

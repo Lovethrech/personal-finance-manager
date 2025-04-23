@@ -35,7 +35,6 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     };
 
     const sideNavDashboardClick = () => {
-        console.log(profileBorderStyle)
         resetColors();
         dashboardActive.value.backgroundColor = activeColor;
         dashboardActive.value.borderRadius = "0";
