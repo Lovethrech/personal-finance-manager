@@ -39,11 +39,12 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 @media screen and (max-width:550px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
+        overflow-x: hidden;
     }
     .login{
         background-color: orange;
         position: relative;
-        height:100%;
+        height:1000px;
     }
 }
 </style>
