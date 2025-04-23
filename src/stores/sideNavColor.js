@@ -40,7 +40,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.backgroundColor = activeColor;
         dashboardActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
-        profileBorderStyle.value=profileDefaultStyle;
+        profileBorderStyle.value=;
     };
 
     const sideNavInventoryClick = () => {
