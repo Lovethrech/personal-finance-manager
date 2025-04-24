@@ -8,7 +8,7 @@
 
 <style scoped>
 .landing-page-overview-main-ctn{
-    background-color: #93200B;
+    background-color: #1b1b1b;
     width:80vw;
     height:200px;
     margin: 10px 3vw;
