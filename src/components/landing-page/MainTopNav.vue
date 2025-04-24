@@ -17,7 +17,7 @@ const viewSearchBox=()=>{
 </script>
 
 <template>
-    <div class="main-top-nav-main-ctn">
+    <section class="main-top-nav-main-ctn">
         <div class="main-top-nav-mini-ctn">
             <h1 class="user-welcome-msg">
                 Welcome, User!
@@ -37,10 +37,9 @@ const viewSearchBox=()=>{
                     </div>
                     <div class="notification-red-dot"></div>
                 </div>
-                
             </section>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>
