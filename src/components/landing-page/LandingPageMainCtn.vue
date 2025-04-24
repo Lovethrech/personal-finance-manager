@@ -1,6 +1,7 @@
 <script setup>
 import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
 import MainTopNav from './MainTopNav.vue';
+import LandingPageOverviewMainCtn from "@/components/landing-page/LandingPageOverviewMainCtn.vue";
 </script>
 
 <style scoped>
@@ -26,6 +27,7 @@ main{
             <SideNavMainCtn></SideNavMainCtn>
             <main>
                 <MainTopNav></MainTopNav>
+                <LandingPageOverviewMainCtn></LandingPageOverviewMainCtn>
             </main>
         </div>
     </section>
