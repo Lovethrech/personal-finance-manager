@@ -42,7 +42,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
         overflow-x: hidden;
     }
     .login{
-        background-color: orange;
+        background-color: #ffa500;
         position: relative;
         height:1000px;
     }
