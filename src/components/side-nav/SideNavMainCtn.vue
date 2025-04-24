@@ -31,7 +31,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 }
 .login{
     margin-top:-20px;
-    height: 400px;
+    height: 800px;
     display:flex;
     justify-content: baseline;
     padding:0 40px;
@@ -39,7 +39,6 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 @media screen and (max-width:550px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
-        overflow-x: hidden;
     }
     .login{
         background-color: #ffa500;
