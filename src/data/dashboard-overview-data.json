@@ -5,6 +5,12 @@
         "boxOneNo":"5483",
         "boxTwo":"Credit",
         "boxTwpNow":"300",
-        "boxThree"
+        "boxThree":"Debit",
+        "boxThreeNo":"250",
+        "boxFour":"Needs",
+        "boxFourNo":"20",
+        "boxFive":"Wants",
+        "boxFiveNo":"30"
+
     }
 ]
