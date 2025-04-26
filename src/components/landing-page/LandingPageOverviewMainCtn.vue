@@ -1,7 +1,12 @@
+<script setup>
+import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
+</script>
+
 <template>
     <section class="landing-page-overview-main-ctn">
         <div class="landing-page-overview-mini-ctn">
             <h3 class="page-title">Overview</h3>
+            <LandingPageOverviewBoxMainCtn></LandingPageOverviewBoxMainCtn>
         </div>
     </section>
 </template>
