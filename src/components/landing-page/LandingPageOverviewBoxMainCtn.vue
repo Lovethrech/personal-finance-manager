@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
     <div class="landing-page-overview-box-main-ctn">
         <div class="landing-page-overview-box-mini-ctn">
