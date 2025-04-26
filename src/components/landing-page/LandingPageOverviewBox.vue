@@ -6,6 +6,9 @@
 
 <style scoped>
 .landing-page-overview-box{
-    border:20px solid 
+    background-color: #000;
+    width:100px;
+    height:60px;
+    border:2px solid #93200B;
 }
 </style>

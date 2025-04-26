@@ -6,6 +6,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     <section class="landing-page-overview-main-ctn">
         <div class="landing-page-overview-mini-ctn">
             <h3 class="page-title">Overview</h3>
+            <br/>
             <LandingPageOverviewBoxMainCtn></LandingPageOverviewBoxMainCtn>
         </div>
     </section>
