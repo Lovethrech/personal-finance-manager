@@ -1,5 +1,6 @@
 <script setup>
 import LandingPageOverviewBoxIconCtn from './LandingPageOverviewBoxIconCtn.vue';
+import LandingPageOverviewBoxTextCtn from './LandingPageOverviewBoxTextCtn.vue';
 </script>
 
 <template>
