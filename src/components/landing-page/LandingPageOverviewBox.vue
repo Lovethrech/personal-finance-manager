@@ -6,7 +6,7 @@ import LandingPageOverviewBoxTextCtn from './LandingPageOverviewBoxTextCtn.vue';
 <template>
     <div class="landing-page-overview-box">
         <LandingPageOverviewBoxIconCtn></LandingPageOverviewBoxIconCtn>
-        
+        <LandingPageOverviewBoxTextCtn></LandingPageOverviewBoxTextCtn>
     </div>
 </template>
 
