@@ -7,8 +7,9 @@
 <style scoped>
 .landing-page-overview-box{
     background-color: #000;
-    width:100px;
-    height:60px;
+    width:200px;
+    height:90px;
     border:2px solid #93200B;
+    border-radius: 20px;
 }
 </style>
