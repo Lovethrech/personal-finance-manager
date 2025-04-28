@@ -6,6 +6,7 @@
 
 <style scoped>
 .landing-page-overview-box-icon-ctn{
+    background-color: #ffffffe8;
     width:20px;
     height:20px;
 }
