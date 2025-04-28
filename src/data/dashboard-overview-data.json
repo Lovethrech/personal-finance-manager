@@ -1,12 +1,10 @@
 [
     {
         "id":"1",
-        "boxOne":"Total Trasaction",
-        "boxOneNo":"5483",
-        "boxOneIcon":"",
-        "boxTwo":"Credit",
-        "boxTwoNo":"300",
-        "boxTwoIcon":"",
+        "boxName":"Total Trasaction",
+        "boxNo":"5483",
+        "boxIcon":"",
+        
         "boxThree":"Debit",
         "boxThreeNo":"250",
         "boxThreeIcon":"",
@@ -17,5 +15,11 @@
         "boxFiveNo":"30",
         "boxFiveIcon":""
     },
-    
+    {
+        "id":"2",
+        "boxTwo":"Credit",
+        "boxTwoNo":"300",
+        "boxTwoIcon":""
+    },
+    {}
 ]
