@@ -1,4 +1,5 @@
 <script setup>
+import dashboard-overview-data from 'src/data/dashboard-overview-data.json'
 import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 </script>
 
