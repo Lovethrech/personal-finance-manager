@@ -2,7 +2,6 @@
 import { defineProps } from 'vue';
 
 const {boxIcon}=defineProps(['boxIcon']);
-
 </script>
 
 <template>

@@ -2,7 +2,6 @@
 import { defineProps } from 'vue';
 
 const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
-
 </script>
 
 <template>
