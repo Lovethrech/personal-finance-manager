@@ -1,12 +1,15 @@
 <script setup>
+import { defineProps } from 'vue';
 import LandingPageOverviewBoxIconCtn from './LandingPageOverviewBoxIconCtn.vue';
 import LandingPageOverviewBoxTextCtn from './LandingPageOverviewBoxTextCtn.vue';
+
+const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 </script>
 
 <template>
     <div class="landing-page-overview-box">
-        <LandingPageOverviewBoxIconCtn></LandingPageOverviewBoxIconCtn>
-        <LandingPageOverviewBoxTextCtn></LandingPageOverviewBoxTextCtn>
+        <LandingPageOverviewBoxIconCtn :boxIcon="boxIcon"></LandingPageOverviewBoxIconCtn>
+        <LandingPageOverviewBoxTextCtn :boxNo="boxNo" :boxName="boxName"></LandingPageOverviewBoxTextCtn>
     </div>
 </template>
 
