@@ -15,6 +15,8 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 
 <style scoped>
 .landing-page-overview-box{
+    display:flex;
+    flex-direction: row;
     background-color: #000;
     width:200px;
     height:90px;
