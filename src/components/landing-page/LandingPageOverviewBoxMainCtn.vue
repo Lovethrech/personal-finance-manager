@@ -7,9 +7,9 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     <div class="landing-page-overview-box-main-ctn">
         <div class="landing-page-overview-box-mini-ctn">
             <LandingPageOverviewBox
-                :boxIcon="dashboardOverviewData.boxIcon"
-                :boxName="dashboardOverviewData.boxName"
-                :boxNo="dashboardOverviewData.boxNo"
+                :boxIcon="dashboardOverviewData[0].boxIcon"
+                :boxName="dashboardOverviewData[0].boxName"
+                :boxNo="dashboardOverviewData[0].boxNo"
             >
             </LandingPageOverviewBox>
         </div>
