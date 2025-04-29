@@ -1,3 +1,10 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {boxIcon}=defineProps(['boxIcon']);
+
+</script>
+
 <template>
     <div class="landing-page-overview-box-icon-ctn">
 
