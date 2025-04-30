@@ -7,6 +7,6 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
 <template>
     <div class="landing-page-overview-box-text-ctn">
         <p class="number">{{ boxNo }}</p>
-        <p class="name"></p>
+        <p class="name">{{ boxName }}</p>
     </div>
 </template>
