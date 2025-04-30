@@ -10,3 +10,9 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
         <p class="name">{{ boxName }}</p>
     </div>
 </template>
+
+<style scoped>
+.landing-page-overview-box-text-ctn{
+    color:#fff;
+}
+</style>
