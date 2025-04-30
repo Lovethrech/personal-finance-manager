@@ -16,13 +16,20 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 </template>
 
 <style scoped>
-.landing-page-overview-box{
+.landing-page-overview-box, .landing-page-mini-overview-box{
     display:flex;
-    flex-direction: row;
+}
+.landing-page-overview-box{
+    place-items:center;
+    justify-content:center;
     background-color: #000;
     width:200px;
     height:90px;
     border:2px solid #93200B;
     border-radius: 20px;
+}
+.landing-page-mini-overview-box{
+    flex-direction: row;
+
 }
 </style>
