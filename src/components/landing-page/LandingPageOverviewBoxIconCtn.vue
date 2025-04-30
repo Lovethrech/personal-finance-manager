@@ -13,7 +13,7 @@ const {boxIcon}=defineProps(['boxIcon']);
 <style scoped>
 .landing-page-overview-box-icon-ctn{
     background-color: #ffffffe8;
-    width:20px;
+    width:30px;
     height:20px;
 }
 </style>
