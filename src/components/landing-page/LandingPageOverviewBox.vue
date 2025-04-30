@@ -20,6 +20,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     display:flex;
 }
 .landing-page-overview-box{
+    padding:20px 0;
     width:300px;
     place-items:center;
     justify-content:center;
