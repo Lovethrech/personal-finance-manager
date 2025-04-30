@@ -23,8 +23,6 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     place-items:center;
     justify-content:center;
     background-color: #000;
-    width:200px;
-    height:90px;
     border:2px solid #93200B;
     border-radius: 20px;
 }
