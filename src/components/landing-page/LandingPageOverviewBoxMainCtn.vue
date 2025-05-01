@@ -28,5 +28,7 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 }
 .landing-page-overview-box-mini-ctn{
     display:flex;
+    flex-direction:row;
+    gap:20px;
 }
 </style>
