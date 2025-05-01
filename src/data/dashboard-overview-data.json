@@ -7,9 +7,9 @@
     },
     {
         "id":"2",
-        "boxTwo":"Credit",
-        "boxTwoNo":"300",
-        "boxTwoIcon":""
+        "boxName":"Credit",
+        "boxNo":"300",
+        "boxIcon":""
     },
     {
         "id":"3",
