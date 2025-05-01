@@ -18,6 +18,12 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
                 :boxNo="dashboardOverviewData[1].boxNo"
             >
             </LandingPageOverviewBox>
+            <LandingPageOverviewBox
+                :boxIcon="dashboardOverviewData[2].boxIcon"
+                :boxName="dashboardOverviewData[2].boxName"
+                :boxNo="dashboardOverviewData[2].boxNo"
+            >
+            </LandingPageOverviewBox>
         </div>
     </div>
 </template>
