@@ -30,5 +30,6 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 }
 .landing-page-mini-overview-box{
     flex-direction: row;
+    gap:20px;
 }
 </style>
