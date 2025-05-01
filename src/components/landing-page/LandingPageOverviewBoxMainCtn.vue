@@ -27,6 +27,6 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 
 }
 .landing-page-overview-box-mini-ctn{
-    
+    display:flex;
 }
 </style>
