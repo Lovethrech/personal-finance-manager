@@ -13,11 +13,15 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
             >
             </LandingPageOverviewBox>
             <LandingPageOverviewBox
-                :boxIcon="dashboardOverviewData[0].boxIcon"
-                :boxName="dashboardOverviewData[0].boxName"
-                :boxNo="dashboardOverviewData[0].boxNo"
+                :boxIcon="dashboardOverviewData[1].boxIcon"
+                :boxName="dashboardOverviewData[1].boxName"
+                :boxNo="dashboardOverviewData[1].boxNo"
             >
             </LandingPageOverviewBox>
         </div>
     </div>
 </template>
+
+<style scoped>
+
+</style>
