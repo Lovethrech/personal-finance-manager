@@ -23,5 +23,10 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 </template>
 
 <style scoped>
+.landing-page-overview-box-main-ctn{
 
+}
+.landing-page-overview-box-mini-ctn{
+    
+}
 </style>
