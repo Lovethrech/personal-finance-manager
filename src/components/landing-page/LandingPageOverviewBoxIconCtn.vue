@@ -25,6 +25,7 @@ const {boxIcon}=defineProps(['boxIcon']);
     height:100%;
     background-color: #93200B;
     color:#fff;
-    font-s
+    font-size:32px;
+    border-radius:50%;
 }
 </style>
