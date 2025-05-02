@@ -6,14 +6,16 @@ const {boxIcon}=defineProps(['boxIcon']);
 
 <template>
     <div class="landing-page-overview-box-icon-ctn">
-
+        <div class="landing-page-overview-box-icon-ctn-main-ctn"></div>
     </div>
 </template>
 
 <style scoped>
 .landing-page-overview-box-icon-ctn{
-    background-color: #ffffffe8;
     width:50%;
     height:50px;
+}
+.landing-page-overview-box-icon-ctn-main-ctn{
+    background-color: #ffffffe8;
 }
 </style>
