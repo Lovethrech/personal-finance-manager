@@ -27,5 +27,6 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     color:#fff;
     font-size: 26px;
     text-transform: uppercase;
+    font-weight:800;
 }
 </style>
