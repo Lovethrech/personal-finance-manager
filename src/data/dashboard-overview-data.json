@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "boxName":"Total Trasaction",
+        "boxName":"Total Transaction",
         "boxNo":"5483",
         "boxIcon":""       
     },
@@ -9,7 +9,7 @@
         "id":"2",
         "boxName":"Credit",
         "boxNo":"300",
-        "boxIcon":""
+        "boxIcon":"<i class='bx bxs-layer'></i>"
     },
     {
         "id":"3",

@@ -6,11 +6,14 @@ const {boxIcon}=defineProps(['boxIcon']);
 
 <template>
     <div class="landing-page-overview-box-icon-ctn">
-        <div class="landing-page-overview-box-icon-ctn-main-ctn"></div>
+        <div class="landing-page-overview-box-icon-ctn-main-ctn" v-html="boxIcon"></div>
     </div>
 </template>
 
 <style scoped>
+.landing-page-overview-box-icon-ctn, .landing-page-overview-box-icon-ctn-main-ctn{
+    
+}
 .landing-page-overview-box-icon-ctn{
     width:50%;
     height:50px;
