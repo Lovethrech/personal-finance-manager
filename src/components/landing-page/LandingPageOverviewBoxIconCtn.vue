@@ -12,12 +12,11 @@ const {boxIcon}=defineProps(['boxIcon']);
 
 <style scoped>
 .landing-page-overview-box-icon-ctn, .landing-page-overview-box-icon-ctn-main-ctn{
-    
+    display:flex;
 }
 .landing-page-overview-box-icon-ctn{
     width:50%;
     height:50px;
-    display:flex;
     place-items: center;
     justify-content:center;
 }
