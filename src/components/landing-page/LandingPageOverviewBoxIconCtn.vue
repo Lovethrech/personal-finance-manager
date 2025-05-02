@@ -14,10 +14,12 @@ const {boxIcon}=defineProps(['boxIcon']);
 .landing-page-overview-box-icon-ctn{
     width:50%;
     height:50px;
+    display:flex;
+    place-items: center;
 }
 .landing-page-overview-box-icon-ctn-main-ctn{
     width:70px;
     height:100%;
-    background-color: #ffffffe8;
+    background-color: #93200B;
 }
 </style>
