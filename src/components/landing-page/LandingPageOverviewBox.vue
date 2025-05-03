@@ -23,13 +23,12 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     padding:20px 0;
     width:300px;
     place-items:center;
-    justify-content:center;
     background-color: #000;
     border:2px solid #93200B;
     border-radius: 20px;
 }
 .landing-page-mini-overview-box{
     flex-direction: row;
-    gap:20px;
+    justify-content: space-between;
 }
 </style>
