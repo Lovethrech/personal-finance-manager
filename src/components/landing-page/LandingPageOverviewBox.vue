@@ -28,6 +28,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     border-radius: 20px;
 }
 .landing-page-mini-overview-box{
+    width:100%;
     flex-direction: row;
     justify-content: space-between;
 }
