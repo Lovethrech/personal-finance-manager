@@ -31,7 +31,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
 }
 @media screen and (max-width:1299px){
     .landing-page-overview-main-ctn{
-        width:100%;
+        width:1000px;
     }
 }
 </style>
