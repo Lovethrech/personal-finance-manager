@@ -21,7 +21,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 }
 .landing-page-overview-box{
     padding:20px 0;
-    width:300px;
+    width:350px;
     place-items:center;
     background-color: #000;
     border:2px solid #93200B;
@@ -31,5 +31,10 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     width:100%;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width:1299px){
+    .landing-page-overview-box{
+        
+    }
 }
 </style>
