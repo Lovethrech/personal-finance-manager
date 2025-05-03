@@ -17,7 +17,11 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     width: 50%;
 }
 .landing-page-overview-box-text-ctn .number{
-    font-size:24px;
+    font-size: 18px;
     font-weight:500;
+}
+.landing-page-overview-box-text-ctn .name{
+    font-size:20px;
+    font-weight:700;
 }
 </style>
