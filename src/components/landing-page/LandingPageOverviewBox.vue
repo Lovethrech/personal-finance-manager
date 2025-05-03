@@ -34,7 +34,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 }
 @media screen and (max-width:1299px){
     .landing-page-overview-box{
-        
+        width:4000px;
     }
 }
 </style>

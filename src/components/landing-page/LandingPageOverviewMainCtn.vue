@@ -29,4 +29,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     text-transform: uppercase;
     font-weight:800;
 }
+@media screen and (max-width:1299px){
+    
+}
 </style>
