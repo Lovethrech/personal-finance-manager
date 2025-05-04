@@ -14,7 +14,7 @@ import LandingPageOverviewMainCtn from "@/components/landing-page/LandingPageOve
     flex-direction: row;
 }
 main{
-    width:100%;
+    width:880%;
 }
 </style>
 
