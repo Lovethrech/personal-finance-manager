@@ -11,4 +11,7 @@ import LandingPageMainCtn from '@/components/landing-page/LandingPageMainCtn.vue
 </template>
 
 <style scoped>
+.landing-page-view-main-ctn{
+    width:100%;
+}
 </style>
