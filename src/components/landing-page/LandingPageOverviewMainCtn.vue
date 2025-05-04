@@ -10,6 +10,11 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
             <LandingPageOverviewBoxMainCtn></LandingPageOverviewBoxMainCtn>
         </div>
     </section>
+    <!-- @media screen and (max-width:1299px){
+    .landing-page-overview-main-ctn{
+        width:1000px;
+    }
+} -->
 </template>
 
 <style scoped>
@@ -29,9 +34,5 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     text-transform: uppercase;
     font-weight:800;
 }
-@media screen and (max-width:1299px){
-    .landing-page-overview-main-ctn{
-        width:1000px;
-    }
-}
+
 </style>
