@@ -10,4 +10,5 @@ import LandingPageMainCtn from '@/components/landing-page/LandingPageMainCtn.vue
     </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
