@@ -9,3 +9,5 @@ import LandingPageMainCtn from '@/components/landing-page/LandingPageMainCtn.vue
         </div>
     </main>
 </template>
+
+<style scoped>
