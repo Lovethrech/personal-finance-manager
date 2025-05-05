@@ -11,7 +11,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 
 <style scoped>
 .side-nav-main-ctn-main-ctn{
-    width:12vw;
+    width:500px;
     height:100vh;
     overflow-y:hidden;
     display:flex;
@@ -36,7 +36,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     justify-content: baseline;
     padding:0 40px;
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:950px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
     }
