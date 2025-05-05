@@ -11,7 +11,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
 
 <style scoped>
 .side-nav-main-ctn-main-ctn{
-    width:500px;
+    width:60vw;
     height:100vh;
     overflow-y:hidden;
     display:flex;
