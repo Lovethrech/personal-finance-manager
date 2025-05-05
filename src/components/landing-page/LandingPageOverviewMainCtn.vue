@@ -24,6 +24,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     height:200px;
     margin: 10px 3vw;
     padding:20px;
+    overflow-x: hidden;
 }
 .landing-page-overview-mini-ctn{
 
