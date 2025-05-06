@@ -9,7 +9,7 @@
         "id":"2",
         "boxName":"Credit",
         "boxNo":"300",
-        "boxIcon":"<i class='bx bx-steps-up' />"
+        "boxIcon":"<i class='bx bx-steps-up'></i>"
     },
     {
         "id":"3",
