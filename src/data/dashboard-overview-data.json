@@ -3,7 +3,7 @@
         "id":"1",
         "boxName":"Total Transaction",
         "boxNo":"5483",
-        "boxIcon":""       
+        "boxIcon":"<i class='bx bx-chart-trend'></i> "       
     },
     {
         "id":"2",
