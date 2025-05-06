@@ -9,13 +9,13 @@
         "id":"2",
         "boxName":"Credit",
         "boxNo":"300",
-        "boxIcon":"<i class='bx bx-steps-up'></i>"
+        "boxIcon":"<i class='bx bx-wallet-cards'></i>"
     },
     {
         "id":"3",
         "boxName":"Debit",
         "boxNo":"250",
-        "boxIcon":""
+        "boxIcon":"< i class='bx  bx-credit-card'  ></i> "
     },
     {
         "id":"4",
