@@ -13,7 +13,7 @@
     },
     {
         "id":"3",
-        "name":"inventory",
+        "name":"assets",
         "icon":"<i class='bx bx-box'></i>",
         "link":"/"
     },
