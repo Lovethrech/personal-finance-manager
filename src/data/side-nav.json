@@ -19,7 +19,7 @@
     },
     {
         "id":"4",
-        "name":"orders",
+        "name":"incomes",
         "icon":"<i class='bx bxs-layer'></i>",
         "link":"/"
     },
