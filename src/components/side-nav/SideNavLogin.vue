@@ -23,7 +23,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-transform:uppercase;
     font-size:20px;
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
     .side-nav-login-mini-ctn{
         color:#fff;
     }
