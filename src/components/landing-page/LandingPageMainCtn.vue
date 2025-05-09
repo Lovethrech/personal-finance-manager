@@ -18,7 +18,7 @@ main{
 }
 @media screen and (max-width:1060px) {
     main{
-        width:90vw;
+        width:80vw;
     }
 }
 </style>
