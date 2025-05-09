@@ -16,6 +16,9 @@ import LandingPageOverviewMainCtn from "@/components/landing-page/LandingPageOve
 main{
     width:88%;
 }
+@media screen and (max-width:1060px) {
+    
+}
 </style>
 
 <template>
