@@ -29,7 +29,7 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
     text-align: center;
     text-transform:uppercase;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .side-nav-user-main-ctn{
         padding:10px 0;
         height:100px;
