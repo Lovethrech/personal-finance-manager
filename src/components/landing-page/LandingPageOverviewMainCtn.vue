@@ -17,7 +17,6 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
 .landing-page-overview-main-ctn{
     background-color: #161616;
     width:90%;
-    height:200px;
     margin: 10px 3vw;
     padding:20px;
     overflow-x: hidden;
@@ -31,12 +30,15 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     text-transform: uppercase;
     font-weight:800;
 }
-@media screen and (max-width:1270px){
+@media screen and (max-width:1270px) and (min-width:701px){
     .landing-page-overview-main-ctn{
         width:180vw;
     }
 }
 @media screen and (max-width:700px) {
+    .landing-page-overview-main-ctn{
+        width:280vw;
+    }
     .page-title{
         font-size:20px;
     }
