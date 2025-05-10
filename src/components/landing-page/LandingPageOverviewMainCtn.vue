@@ -23,7 +23,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     overflow-x: hidden;
 }
 .landing-page-overview-mini-ctn{
-
+    width:100%;
 }
 .page-title{
     color:#fff;
