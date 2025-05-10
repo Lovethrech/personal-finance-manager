@@ -103,7 +103,7 @@ const viewSearchBox=()=>{
     .search-box-ctn{
         width:70%;
         position:absolute;
-        top:50px;
+        top:35px;
         left:170px;
         margin-right:20px;
     }
@@ -114,8 +114,8 @@ const viewSearchBox=()=>{
         right:0;
         left:50px;
     }
-    .user-welcome-msg{
-        font-size: 16px;
+    .user-welcome-msg, .search-icon-ctn, .notification-icon-ctn{
+        font-size: 14px;
     }
 }
 </style>
