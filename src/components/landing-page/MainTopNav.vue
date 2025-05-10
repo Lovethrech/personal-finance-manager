@@ -108,11 +108,14 @@ const viewSearchBox=()=>{
         margin-right:20px;
     }
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:700px) {
     .search-box-ctn{
         width:80%;
         right:0;
         left:50px;
+    }
+    .user-welcome-msg{
+        font-size: 16px;
     }
 }
 </style>

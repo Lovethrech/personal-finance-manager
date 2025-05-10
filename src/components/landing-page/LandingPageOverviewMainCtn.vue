@@ -36,4 +36,9 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
         width:180vw;
     }
 }
+@media screen and (max-width:700px) {
+    .page-title{
+        font-size:20px;
+    }
+}
 </style>
