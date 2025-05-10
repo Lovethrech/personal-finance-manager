@@ -24,4 +24,8 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     font-size:16px;
     font-weight:700;
 }
+
+@media screen and (max-screen: 550px) {
+    
+}
 </style>
