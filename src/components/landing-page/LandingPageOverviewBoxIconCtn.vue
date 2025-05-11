@@ -37,9 +37,5 @@ const {boxIcon}=defineProps(['boxIcon']);
         width:50%;
         height:20px;
     }
-    .landing-page-overview-box-icon-ctn-main-ctn{
-        width:30px;
-        height:100%;
-    }
 }
 </style>
