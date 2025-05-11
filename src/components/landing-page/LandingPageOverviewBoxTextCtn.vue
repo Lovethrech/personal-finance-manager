@@ -26,6 +26,11 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
 }
 
 @media screen and (max-screen: 550px) {
-    
+    .landing-page-overview-box-text-ctn .number{
+        font-size: 16x;
+    }
+    .landing-page-overview-box-text-ctn .name{
+        font-size:12px;
+    }
 }
 </style>
