@@ -13,5 +13,6 @@ import LandingPageMainCtn from '@/components/landing-page/LandingPageMainCtn.vue
 <style scoped>
 .landing-page-view-main-ctn{
     width:100%;
+    overflow-x: hidden;
 }
 </style>
