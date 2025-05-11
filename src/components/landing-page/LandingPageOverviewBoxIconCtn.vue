@@ -33,5 +33,13 @@ const {boxIcon}=defineProps(['boxIcon']);
     .landing-page-overview-box-icon-ctn-main-ctn i{
         font-size:10px;
     }
+    .landing-page-overview-box-icon-ctn{
+        width:50%;
+        height:20px;
+    }
+    .landing-page-overview-box-icon-ctn-main-ctn{
+        width:30px;
+        height:100%;
+    }
 }
 </style>
