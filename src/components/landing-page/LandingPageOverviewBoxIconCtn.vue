@@ -30,7 +30,9 @@ const {boxIcon}=defineProps(['boxIcon']);
 }
 
 @media screen and (max-screen: 550px) {
-    .landing-page-overview-box-icon-ctn-main-ctn i{
+    .landing-page-overview-box-icon-ctn-main-ctn{
+        width:30px;
+        height:100%;
         font-size:10px;
     }
     .landing-page-overview-box-icon-ctn{
