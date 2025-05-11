@@ -28,4 +28,8 @@ const {boxIcon}=defineProps(['boxIcon']);
     font-size:32px;
     border-radius:50%;
 }
+
+@media screen and (max-screen: 550px) {
+    
+}
 </style>
