@@ -40,7 +40,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
         width:280vw;
     }
     .page-title{
-        font-size:20px;
+        font-size:16px;
     }
 }
 </style>
