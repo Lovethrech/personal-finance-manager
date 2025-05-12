@@ -43,6 +43,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     .login{
         background-color: #ffa500;
         position: relative;
+        width:50px;
         height:1000px;
     }
 }
