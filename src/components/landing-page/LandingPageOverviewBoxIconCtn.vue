@@ -29,15 +29,15 @@ const {boxIcon}=defineProps(['boxIcon']);
     border-radius:50%;
 }
 
-@media screen and (max-screen: 550px) {
+@media screen and (max-width: 550px) {
     .landing-page-overview-box-icon-ctn-main-ctn{
         width:30px;
         height:100%;
-        font-size:10px;
+        font-size:20px;
     }
     .landing-page-overview-box-icon-ctn{
         width:50%;
-        height:20px;
+        height:30px;
     }
 }
 </style>
