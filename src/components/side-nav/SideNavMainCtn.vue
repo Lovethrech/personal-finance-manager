@@ -45,6 +45,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
         position: relative;
         width:50px;
         height:1000px;
+        padding:0 14px;
     }
 }
 </style>
