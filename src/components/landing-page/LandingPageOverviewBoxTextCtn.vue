@@ -15,6 +15,7 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
 .landing-page-overview-box-text-ctn{
     color:#fff;
     width: 50%;
+    margin: auto 0;
 }
 .landing-page-overview-box-text-ctn .number{
     font-size: 20px;
@@ -25,7 +26,7 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     font-weight:700;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     .landing-page-overview-box-text-ctn{
         width:70%;
     }
