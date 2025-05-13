@@ -29,6 +29,9 @@ const {boxIcon}=defineProps(['boxIcon']);
     border-radius:50%;
 }
 
+@media screen and (max-width:750px) {
+    
+}
 @media screen and (max-width: 550px) {
     .landing-page-overview-box-icon-ctn-main-ctn{
         width:30px;
