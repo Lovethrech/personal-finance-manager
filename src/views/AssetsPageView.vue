@@ -1,3 +1,5 @@
 <template>
-    <div class="assets"></div>
+    <div class="assets">
+        
+    </div>
 </template>
