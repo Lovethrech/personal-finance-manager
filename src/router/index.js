@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/expenses',
       name: 'expenses',
       component: () => import('../views/ExpensesPageView.vue'),
+    },
+    {
+      path: '/',
+      name: 'landing-page',
+      component: () => import('../views/LandingPageView.vue'),
     }
   ],
 })
