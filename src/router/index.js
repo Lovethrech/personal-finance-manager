@@ -32,6 +32,11 @@ const router = createRouter({
       path: '/investment',
       name: 'investment',
       component: () => import('../views/InvestmentPageView.vue'),
+    },
+    {
+      path: '/',
+      name: 'landing-page',
+      component: () => import('../views/LandingPageView.vue'),
     }
   ],
 })
