@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/assets',
       name: 'assets',
       component: () => import('../views/AssetsPageView.vue'),
+    },
+    {
+      path: '/',
+      name: 'landing-page',
+      component: () => import('../views/LandingPageView.vue'),
     }
   ],
 })
