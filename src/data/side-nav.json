@@ -15,31 +15,31 @@
         "id":"3",
         "name":"assets",
         "icon":"<i class='bx bx-box'></i>",
-        "link":"/"
+        "link":"/assets"
     },
     {
         "id":"4",
         "name":"incomes",
         "icon":"<i class='bx bxs-layer'></i>",
-        "link":"/"
+        "link":"/incomes"
     },
     {
         "id":"5",
         "name":"expenses",
         "icon":"<i class='bx bxs-cart'></i>",
-        "link":"/"
+        "link":"/expenses"
     },
     {
         "id":"6",
         "name":"savings",
         "icon":"<i class='bx bx-bar-chart-alt'></i>",
-        "link":"/"
+        "link":"/savings"
     },
     {
         "id":"7",
         "name":"investment",
         "icon":"<i class='bx bxs-wrench'></i>",
-        "link":"/"
+        "link":"/investment"
     },
     {
         "id":"8",
