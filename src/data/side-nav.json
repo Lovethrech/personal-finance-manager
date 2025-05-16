@@ -45,7 +45,7 @@
         "id":"8",
         "name":"setting",
         "icon":"<i class='bx bxs-cog'></i>",
-        "link":"/"
+        "link":"/settings"
     },
     {
         "id":"9",
