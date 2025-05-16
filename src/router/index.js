@@ -34,9 +34,9 @@ const router = createRouter({
       component: () => import('../views/InvestmentPageView.vue'),
     },
     {
-      path: '/',
-      name: 'landing-page',
-      component: () => import('../views/LandingPageView.vue'),
+      path: '/settings',
+      name: 'settings',
+      component: () => import('../views/SettingsPageView.vue'),
     }
   ],
 })
