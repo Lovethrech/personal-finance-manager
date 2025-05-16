@@ -1,5 +1,5 @@
 <script setup>
-
+import AssetsPageMainCtn from '@/components/assets/AssetsPageMainCtn.vue';
 </script>
 
 <template>  
