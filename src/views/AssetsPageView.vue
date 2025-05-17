@@ -4,6 +4,6 @@ import AssetsPageMainCtn from '@/components/assetses/AssetsPageMainCtn.vue';
 
 <template>
     <main>
-
+        <AssetsPageMainCtn></AssetsPageMainCtn>
     </main>
 </template>
