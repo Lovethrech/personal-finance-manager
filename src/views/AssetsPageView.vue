@@ -9,3 +9,10 @@ import AssetsPageMainCtn from '@/components/assetses/AssetsPageMainCtn.vue';
         </div>
     </main>
 </template>
+
+<style scoped>
+.assets-page-main-ctn{
+    width:100%;
+    overflow-x: hidden;
+}
+</style>
