@@ -29,7 +29,6 @@ main{
             <SideNavMainCtn></SideNavMainCtn>
             <main>
                 <MainTopNav></MainTopNav>
-                <LandingPageOverviewMainCtn></LandingPageOverviewMainCtn>
             </main>
         </div>
     </section>
