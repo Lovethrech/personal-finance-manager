@@ -4,7 +4,7 @@ import AssetsPageMainCtn from '@/components/assetses/AssetsPageMainCtn.vue';
 
 <template>
     <main>
-        <div class="assts-page-main-ctn">
+        <div class="assets-page-main-ctn">
             <AssetsPageMainCtn></AssetsPageMainCtn>
         </div>
     </main>
