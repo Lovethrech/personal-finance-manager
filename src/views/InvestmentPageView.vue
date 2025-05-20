@@ -1,17 +1,17 @@
 <script setup>
-import AssetsPageMainCtn from '@/components/assetses/AssetsPageMainCtn.vue';
+import InvestmentPageMainCtn from '@/components/investmentes/InvestmentPageMainCtn.vue';
 </script>
 
 <template>
     <main>
-        <div class="assets-page-main-ctn">
-            <AssetsPageMainCtn></AssetsPageMainCtn>
+        <div class="investment-page-main-ctn">
+            <InvestmentPageMainCtn></InvestmentPageMainCtn>
         </div>
     </main>
 </template>
 
 <style scoped>
-.assets-page-main-ctn{
+.investment-page-main-ctn{
     width:100%;
     overflow-x: hidden;
 }
