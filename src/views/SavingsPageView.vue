@@ -1,5 +1,5 @@
 <script setup>
-import SavingsPageMainCtn from '@/components/savingses/SavingsPageMainCtn.vue';
+import SavingsPageMainCtn from '@/components/savings/SavingsPageMainCtn.vue';
 </script>
 
 <template>
