@@ -1,17 +1,17 @@
 <script setup>
-import AssetsPageMainCtn from '@/components/assetses/AssetsPageMainCtn.vue';
+import SettingsPageMainCtn from '@/components/settingses/SettingsPageMainCtn.vue';
 </script>
 
 <template>
     <main>
-        <div class="assets-page-main-ctn">
-            <AssetsPageMainCtn></AssetsPageMainCtn>
+        <div class="settings-page-main-ctn">
+            <SettingsPageMainCtn></SettingsPageMainCtn>
         </div>
     </main>
 </template>
 
 <style scoped>
-.assets-page-main-ctn{
+.settings-page-main-ctn{
     width:100%;
     overflow-x: hidden;
 }
