@@ -1,5 +1,5 @@
 <script setup>
-import SettingsPageMainCtn from '@/components/settings/SettingsPageMainCtn.vue';
+import SettingsPageMainCtn from '@/components/settingses/SettingsPageMainCtn.vue';
 </script>
 
 <template>
