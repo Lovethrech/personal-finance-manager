@@ -4,11 +4,11 @@ import MainTopNav from '@/components/landing-page/MainTopNav.vue';
 </script>
 
 <style scoped>
-.assets-page-main-ctn-main-ctn, .assets-page-main-ctn-mini-ctn{
+.savings-page-main-ctn-main-ctn, .savings-page-main-ctn-mini-ctn{
     width:100%;
     height:100%;
 }
-.assets-page-main-ctn-mini-ctn{
+.savings-page-main-ctn-mini-ctn{
     display:flex;
     flex-direction: row;
 }
@@ -23,8 +23,8 @@ main{
 </style>
 
 <template>
-    <section class="assets-page-main-ctn-main-ctn">
-        <div class="assets-page-main-ctn-mini-ctn">
+    <section class="savings-page-main-ctn-main-ctn">
+        <div class="savings-page-main-ctn-mini-ctn">
             <SideNavMainCtn></SideNavMainCtn>
             <main>
                 <MainTopNav></MainTopNav>
