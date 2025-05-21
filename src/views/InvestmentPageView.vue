@@ -1,5 +1,5 @@
 <script setup>
-import InvestmentPageMainCtn from '@/components/investmentes/InvestmentPageMainCtn.vue';
+import InvestmentPageMainCtn from '@/components/investment/InvestmentPageMainCtn.vue';
 </script>
 
 <template>
