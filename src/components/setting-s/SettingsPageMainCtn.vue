@@ -1,6 +1,6 @@
 <script setup>
 import SideNavMainCtn from '@/components/side-nav/SideNavMainCtn.vue';
-import MainTopNav from '@/components//MainTopNav.vue';
+import MainTopNav from '@/com/MainTopNav.vue';
 </script>
 
 <style scoped>
