@@ -27,7 +27,10 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     border:2px solid #93200B;
     border-radius: 20px;
 }
-
+.landing-page-overview-box:hover{
+    transform: scale(0.98);
+    transition: all
+}
 .landing-page-mini-overview-box{
     width:100%;
     flex-direction: row;
