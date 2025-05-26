@@ -27,7 +27,6 @@ const viewSearchBox=()=>{
                     <input type="text" class="search-box" placeholder="Search...">
                     <div class="search-icon-ctn">
                         <i class='bx bx-search' ></i>
-                        <!--  -->
                     </div>
                 </div>
                 <div class="search-icon-ctn-general" v-html="defaultSearchIcon" :onClick="viewSearchBox"></div>
