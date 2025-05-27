@@ -39,7 +39,7 @@ div, section{
     flex-direction: row;
 }
 .search-box-ctn input{
-    background-color: ;
+    background-color: #ffffff;
     width:100%;
     border-radius:100px 0 0 100px;
     padding:5px 10px;
