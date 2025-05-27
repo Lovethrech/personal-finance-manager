@@ -30,7 +30,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
 .landing-page-overview-box:hover{
     transform: scale(0.98);
     transition: all 1.6s;
-    border:2px solid hsl(9, 86%, 49%);
+    border:1px solid hsl(9, 86%, 49%);
 }
 .landing-page-mini-overview-box{
     width:100%;
