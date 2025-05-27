@@ -28,6 +28,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     border-radius: 20px;
 }
 .landing-page-overview-box:hover{
+    cursor: pointer;
     transform: scale(0.98);
     transition: all 1.6s;
     border:1px solid hsl(9, 86%, 49%);
