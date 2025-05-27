@@ -20,7 +20,7 @@ const viewSearchBox=()=>{
     <section class="main-top-nav-main-ctn">
         <div class="main-top-nav-mini-ctn">
             <h1 class="user-welcome-msg">
-                Assets are safe here
+                Settings are safe here
             </h1>
             <section class="main-top-nav-main-nav-ctn">
                 <div class="search-box-ctn" :style="displaySearchBox">
