@@ -24,7 +24,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     width:350px;
     place-items:center;
     background-color: #000;
-    border:2px solid #93200B;
+    border:1px solid #93200B;
     border-radius: 20px;
 }
 .landing-page-overview-box:hover{
