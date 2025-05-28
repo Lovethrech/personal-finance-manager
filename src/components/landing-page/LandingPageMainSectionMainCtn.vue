@@ -1,5 +1,5 @@
 <script setup>
-
+import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
 </script>
 
 <template>
