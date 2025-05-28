@@ -9,5 +9,6 @@
 <style scoped>
 .landing-page-main-section-main-ctn{
     background-color: transparent;
+    width:90%;
 }
 </style>
