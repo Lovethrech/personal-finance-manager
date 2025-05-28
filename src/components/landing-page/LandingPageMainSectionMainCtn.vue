@@ -7,5 +7,7 @@
 </template>
 
 <style scoped>
-
+.landing-page-main-section-main-ctn{
+    background-color: transparent;
+}
 </style>
