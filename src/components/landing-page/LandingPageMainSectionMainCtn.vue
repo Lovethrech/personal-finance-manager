@@ -3,11 +3,11 @@ import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
 </script>
 
 <template>
-    <div class="landing-page-main-section-main-ctn">
+    <section class="landing-page-main-section-main-ctn">
         <div class="landing-page-main-section-mini-ctn">
             <LandingPageOverviewMainCtn></LandingPageOverviewMainCtn>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>
