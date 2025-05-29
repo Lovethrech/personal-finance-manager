@@ -15,4 +15,5 @@ import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
     background-color: orange;
     width:100%;
 }
+
 </style>
