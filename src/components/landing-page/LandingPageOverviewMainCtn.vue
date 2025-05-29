@@ -16,7 +16,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
 <style scoped>
 .landing-page-overview-main-ctn{
     background-color: #161616;
-    width:90%;
+    width:100%;
     margin: 10px 3vw;
     padding:20px;
     overflow-x: hidden;
