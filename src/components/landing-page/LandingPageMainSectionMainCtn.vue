@@ -13,6 +13,6 @@ import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
 <style scoped>
 .landing-page-main-section-main-ctn{
     background-color: orange;
-    width:90%;
+    width:100%;
 }
 </style>
