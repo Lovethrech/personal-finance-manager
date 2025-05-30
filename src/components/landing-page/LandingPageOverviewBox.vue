@@ -39,6 +39,9 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     justify-content: space-between;
 }
 
+@media screen and (max-width:1150px){
+    
+}
 @media screen and (max-width: 700px) {
     .landing-page-overview-box{
         width:170px;
