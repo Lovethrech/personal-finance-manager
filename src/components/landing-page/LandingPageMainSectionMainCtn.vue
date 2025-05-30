@@ -16,6 +16,6 @@ import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
     width:100%;
 }
 .landing-page-main-section-mini-ctn{
-    
+    width:100%;
 }
 </style>
