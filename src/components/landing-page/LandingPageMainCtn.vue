@@ -21,9 +21,9 @@ main{
         width:80vw;
     }
 }
-@media screen and (max-width: 700px;) {
+@media screen and (max-width: 700px) {
     main{
-        width:100%;
+        width:90%;
     }
 }
 </style>
