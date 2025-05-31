@@ -3,9 +3,9 @@ import { defineStore } from 'pinia';
 
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultBgColor = "#93200B";
-    const activeColor = "#461911";
+    const activeBgColor = "#461911";
 
-    const dashboardActive = ref({ backgroundColor: activeColor, borderRadius: "0" });
+    const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0" });
     const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color:"" });
     const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
     const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
@@ -36,14 +36,14 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavDashboardClick = () => {
         resetColors();
-        dashboardActive.value.backgroundColor = activeColor;
+        dashboardActive.value.backgroundColor = activeBgColor;
         dashboardActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
     };
 
     const sideNavInventoryClick = () => {
         resetColors();
-        inventoryActive.value.backgroundColor = activeColor;
+        inventoryActive.value.backgroundColor = activeBgColor;
         inventoryActive.value.borderRadius = "0";
         dashboardActive.value.borderRadius = "0 0 100px 0";
         orderActive.value.borderRadius = "0 100px 0 0";
@@ -52,7 +52,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavOrderClick = () => {
         resetColors();
-        orderActive.value.backgroundColor = activeColor;
+        orderActive.value.backgroundColor = activeBgColor;
         orderActive.value.borderRadius = "0";
         inventoryActive.value.borderRadius = "0 0 100px 0";
         purchaseActive.value.borderRadius = "0 100px 0 0";
@@ -61,7 +61,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavPurchaseClick = () => {
         resetColors();
-        purchaseActive.value.backgroundColor = activeColor;
+        purchaseActive.value.backgroundColor = activeBgColor;
         purchaseActive.value.borderRadius = "0";
         orderActive.value.borderRadius = "0 0 100px 0";
         reportingActive.value.borderRadius = "0 100px 0 0";
@@ -70,7 +70,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavReportingClick = () => {
         resetColors();
-        reportingActive.value.backgroundColor = activeColor;
+        reportingActive.value.backgroundColor = activeBgColor;
         reportingActive.value.borderRadius = "0";
         purchaseActive.value.borderRadius = "0 0 100px 0";
         supportActive.value.borderRadius = "0 100px 0 0";
@@ -79,7 +79,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavSupportClick = () => {
         resetColors();
-        supportActive.value.backgroundColor = activeColor;
+        supportActive.value.backgroundColor = activeBgColor;
         supportActive.value.borderRadius = "0";
         reportingActive.value.borderRadius = "0 0 100px 0";
         settingActive.value.borderRadius = "0 100px 0 0";
@@ -88,7 +88,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const sideNavSettingClick = () => {
         resetColors();
-        settingActive.value.backgroundColor = activeColor;
+        settingActive.value.backgroundColor = activeBgColor;
         settingActive.value.borderRadius = "0";
         supportActive.value.borderRadius = "0 0 100px 0";
         profileBorderStyle.value.borderRadius="0";
