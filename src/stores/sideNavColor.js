@@ -9,7 +9,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0", color: activeColor });
     const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
-    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
+    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
     const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
     const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
     const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
