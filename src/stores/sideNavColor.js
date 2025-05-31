@@ -4,7 +4,8 @@ import { defineStore } from 'pinia';
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultBgColor = "#93200B";
     const activeBgColor = "#461911";
-    const defaultColor="#93200B";
+    const defaultColor="#FFFFFF";
+    const activeColor="#93200B";
 
     const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0" });
     const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color:"" });
