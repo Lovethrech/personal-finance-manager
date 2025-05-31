@@ -2,33 +2,33 @@ import { ref } from 'vue';
 import { defineStore } from 'pinia';
 
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
-    const defaultColor = "#93200B";
+    const defaultBgColor = "#93200B";
     const activeColor = "#461911";
 
     const dashboardActive = ref({ backgroundColor: activeColor, borderRadius: "0" });
-    const inventoryActive = ref({ backgroundColor: defaultColor, borderRadius: "0 100px 0 0" });
-    const orderActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const purchaseActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const reportingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const supportActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
-    const settingActive = ref({ backgroundColor: defaultColor, borderRadius: "0" });
+    const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color:"" });
+    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
+    const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
+    const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
+    const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
+    const settingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0" });
     const profileBorderStyle=ref({borderRadius: "0 0 100px 0"});
     const loginBorderStyle=ref({borderRadius: "0"});
 
     const resetColors = () => {
-        dashboardActive.value.backgroundColor = defaultColor;
+        dashboardActive.value.backgroundColor = defaultBgColor;
         dashboardActive.value.borderRadius = "0";
-        inventoryActive.value.backgroundColor = defaultColor;
+        inventoryActive.value.backgroundColor = defaultBgColor;
         inventoryActive.value.borderRadius = "0";
-        orderActive.value.backgroundColor = defaultColor;
+        orderActive.value.backgroundColor = defaultBgColor;
         orderActive.value.borderRadius = "0";
-        purchaseActive.value.backgroundColor = defaultColor;
+        purchaseActive.value.backgroundColor = defaultBgColor;
         purchaseActive.value.borderRadius = "0";
-        reportingActive.value.backgroundColor = defaultColor;
+        reportingActive.value.backgroundColor = defaultBgColor;
         reportingActive.value.borderRadius = "0";
-        supportActive.value.backgroundColor = defaultColor;
+        supportActive.value.backgroundColor = defaultBgColor;
         supportActive.value.borderRadius = "0";
-        settingActive.value.backgroundColor = defaultColor;
+        settingActive.value.backgroundColor = defaultBgColor;
         settingActive.value.borderRadius = "0";
         profileBorderStyle.value.borderRadius= "0 0 100px 0";
         loginBorderStyle.value.borderRadius= "0";
