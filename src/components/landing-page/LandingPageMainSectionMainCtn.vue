@@ -12,7 +12,7 @@ import LandingPageOverviewMainCtn from "./LandingPageOverviewMainCtn.vue";
 
 <style scoped>
 .landing-page-main-section-main-ctn{
-    background-color: #fff;
+    background-color: transparent;
     width:100%;
 }
 .landing-page-main-section-mini-ctn{
