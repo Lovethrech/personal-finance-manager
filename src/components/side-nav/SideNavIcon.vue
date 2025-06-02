@@ -14,9 +14,6 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
 .side-nav-icon{
     font-size: 20px;
 }
-.side-nav-icon-desc-ctn{
-    color:white;
-}
 .side-nav-icon-desc{
     text-transform: capitalize;
 }
