@@ -8,7 +8,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const activeColor="#93200B";
 
     const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0", color: activeColor });
-    const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
+    const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0 100px 0 0", color: defaultColor });
     const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
     const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
     const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
@@ -55,6 +55,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         resetColors();
         inventoryActive.value.backgroundColor = activeBgColor;
         inventoryActive.value.borderRadius = "0";
+        inventoryActive.value.color = activeColor;
         dashboardActive.value.borderRadius = "0 0 100px 0";
         orderActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
