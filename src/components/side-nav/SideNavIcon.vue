@@ -32,7 +32,5 @@ const {name, icon, link}=defineProps(['name','icon', 'link']);
                 {{name}}
             </p>
         </span>
-        <!-- #93200B -->
-        <!-- #C93005 -->
     </RouterLink>
 </template>
