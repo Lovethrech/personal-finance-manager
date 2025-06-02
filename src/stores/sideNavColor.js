@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 
 export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const defaultBgColor = "#93200B";
-    const activeBgColor = "#461911";
+    const activeBgColor = "#bd776b";
     const defaultColor="#FFFFFF";
     const activeColor="#93200B";
 
