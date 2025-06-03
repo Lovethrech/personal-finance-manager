@@ -65,6 +65,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         resetColors();
         orderActive.value.backgroundColor = activeBgColor;
         orderActive.value.borderRadius = "0";
+        orderActive.value.color = activeColor;
         inventoryActive.value.borderRadius = "0 0 100px 0";
         purchaseActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
@@ -74,6 +75,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         resetColors();
         purchaseActive.value.backgroundColor = activeBgColor;
         purchaseActive.value.borderRadius = "0";
+        purchaseActive.value.color = activeColor;
         orderActive.value.borderRadius = "0 0 100px 0";
         reportingActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
@@ -83,6 +85,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         resetColors();
         reportingActive.value.backgroundColor = activeBgColor;
         reportingActive.value.borderRadius = "0";
+        reportingActive.value.color = activeColor;
         purchaseActive.value.borderRadius = "0 0 100px 0";
         supportActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
