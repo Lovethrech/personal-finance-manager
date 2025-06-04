@@ -15,7 +15,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight });
     const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight });
     const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight });
-    const settingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor });
+    const settingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight });
     const profileBorderStyle=ref({borderRadius: "0 0 100px 0"});
     const loginBorderStyle=ref({borderRadius: "0"});
 
