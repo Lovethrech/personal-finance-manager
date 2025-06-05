@@ -110,6 +110,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         supportActive.value.backgroundColor = activeBgColor;
         supportActive.value.borderRadius = "0";
         supportActive.value.color = activeColor;
+        supportActive.value.fontWeight=activeFontWeight;
         reportingActive.value.borderRadius = "0 0 100px 0";
         settingActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
