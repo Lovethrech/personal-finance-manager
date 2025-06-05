@@ -47,6 +47,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.backgroundColor = defaultBgColor;
         settingActive.value.borderRadius = "0";
         settingActive.value.color = defaultColor;
+        settingActive.value.fontWeight=defaultFontWeight;
         profileBorderStyle.value.borderRadius= "0 0 100px 0";
         loginBorderStyle.value.borderRadius= "0";
     };
