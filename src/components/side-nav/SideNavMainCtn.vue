@@ -40,6 +40,9 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     border-right: 9px outset #723a3052;
     border-bottom: 5px outset #723a3052;
 }
+.login{
+    border-right: 9px outset #723a3052;
+}
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
