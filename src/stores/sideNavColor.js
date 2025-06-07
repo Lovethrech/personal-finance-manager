@@ -57,6 +57,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         profileBorderStyle.value.borderRight="9px outset #723a3052";
         profileBorderStyle.value.borderBottom="5px outset #723a3052";
         loginBorderStyle.value.borderRadius= "0";
+        loginBorderStyle
     };
 
     const sideNavDashboardClick = () => {
