@@ -9,15 +9,15 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
     const activeFontWeight= "900";
     const defaultFontWeight="200";
 
-    const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0", color: activeColor, fontWeight:activeFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0 100px 0 0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
-    const settingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0" });
+    const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0", color: activeColor, fontWeight:activeFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const inventoryActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0 100px 0 0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const settingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
     const profileBorderStyle=ref({borderRadius: "0 0 100px 0", borderRight: "9px outset #723a3052", borderBottom: "5px outset #723a3052"});
-    const loginBorderStyle=ref({borderRadius: "0", borderRight: "9px outset #723a3052", borderBottom:"0"});
+    const loginBorderStyle=ref({borderRadius: "0", borderRight: "9px outset #723a3052", borderTop:"0"});
 
     const resetColors = () => {
         dashboardActive.value.backgroundColor = defaultBgColor;
@@ -25,6 +25,10 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.color = defaultColor;
         dashboardActive.value.fontWeight=defaultFontWeight;
         dashboardActive.value.borderRight="9px outset #723a3052";
+        dashboardActive.value.borderTop="0";
+        // 9px outset #723a3052
+        // 5px outset #723a3052
+        dashboardActive.value.borderBottom="0";
         inventoryActive.value.backgroundColor = defaultBgColor;
         inventoryActive.value.borderRadius = "0";
         inventoryActive.value.color = defaultColor;
