@@ -115,6 +115,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         purchaseActive.value.borderRadius = "0 0 100px 0";
         supportActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
+        profileBorderStyle.value.borderBottom="0";
     };
 
     const sideNavSupportClick = () => {
