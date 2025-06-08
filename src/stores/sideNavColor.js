@@ -47,6 +47,9 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         purchaseActive.value.borderRadius = "0";
         purchaseActive.value.color = defaultColor;
         purchaseActive.value.fontWeight=defaultFontWeight;
+        dashboardActive.value.borderRight="9px outset #723a3052";
+        dashboardActive.value.borderTop="0";
+        dashboardActive.value.borderBottom="0";
         reportingActive.value.backgroundColor = defaultBgColor;
         reportingActive.value.borderRadius = "0";
         reportingActive.value.color = defaultColor;
