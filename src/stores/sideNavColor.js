@@ -33,10 +33,16 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         inventoryActive.value.borderRadius = "0";
         inventoryActive.value.color = defaultColor;
         inventoryActive.value.fontWeight=defaultFontWeight;
+        inventoryActive.value.borderRight="9px outset #723a3052";
+        inventoryActive.value.borderTop="0";
+        inventoryActive.value.borderBottom="0";
         orderActive.value.backgroundColor = defaultBgColor;
         orderActive.value.borderRadius = "0";
         orderActive.value.color = defaultColor;
         orderActive.value.fontWeight=defaultFontWeight;
+        orderActive.value.borderRight="9px outset #723a3052";
+        orderActive.value.borderTop="0";
+        orderActive.value.borderBottom="0";
         purchaseActive.value.backgroundColor = defaultBgColor;
         purchaseActive.value.borderRadius = "0";
         purchaseActive.value.color = defaultColor;
