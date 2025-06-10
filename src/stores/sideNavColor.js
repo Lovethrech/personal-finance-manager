@@ -68,7 +68,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.borderRadius = "0";
         settingActive.value.color = defaultColor;
         settingActive.value.fontWeight=defaultFontWeight;
-        dashboardActive.value.borderRight="9px outset #723a3052";
+        settingActive.value.borderRight="9px outset #723a3052";
         dashboardActive.value.borderTop="0";
         dashboardActive.value.borderBottom="0";
         profileBorderStyle.value.borderRadius= "0 0 100px 0";
