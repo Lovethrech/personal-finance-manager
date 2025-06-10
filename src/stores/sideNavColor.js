@@ -85,6 +85,9 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         dashboardActive.value.borderRadius = "0";
         dashboardActive.value.color = activeColor;
         dashboardActive.value.fontWeight=activeFontWeight;
+        dashboardActive.value.borderRight="0";
+        dashboardActive.value.borderTop="0";
+        dashboardActive.value.borderBottom="0";
         inventoryActive.value.borderRadius = "0 100px 0 0";
     };
 
