@@ -11,7 +11,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
 
     const dashboardActive = ref({ backgroundColor: activeBgColor, borderRadius: "0", color: activeColor, fontWeight:activeFontWeight, borderRight: "0", borderBottom:"0", borderTop: "0" });
     const assetActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0 100px 0 0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "5px outset #723a3052" });
-    const orderActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
+    const incomeActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
     const purchaseActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
     const reportingActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
     const supportActive = ref({ backgroundColor: defaultBgColor, borderRadius: "0", color: defaultColor, fontWeight:defaultFontWeight, borderRight: "9px outset #723a3052", borderBottom:"0", borderTop: "0" });
@@ -36,13 +36,13 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         assetActive.value.borderRight="9px outset #723a3052";
         assetActive.value.borderTop="0";
         assetActive.value.borderBottom="0";
-        orderActive.value.backgroundColor = defaultBgColor;
-        orderActive.value.borderRadius = "0";
-        orderActive.value.color = defaultColor;
-        orderActive.value.fontWeight=defaultFontWeight;
-        orderActive.value.borderRight="9px outset #723a3052";
-        orderActive.value.borderTop="0";
-        orderActive.value.borderBottom="0";
+        incomeActive.value.backgroundColor = defaultBgColor;
+        incomeActive.value.borderRadius = "0";
+        incomeActive.value.color = defaultColor;
+        incomeActive.value.fontWeight=defaultFontWeight;
+        incomeActive.value.borderRight="9px outset #723a3052";
+        incomeActive.value.borderTop="0";
+        incomeActive.value.borderBottom="0";
         purchaseActive.value.backgroundColor = defaultBgColor;
         purchaseActive.value.borderRadius = "0";
         purchaseActive.value.color = defaultColor;
@@ -96,19 +96,19 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         assetActive.value.color = activeColor;
         assetActive.value.fontWeight=activeFontWeight;
         dashboardActive.value.borderBottom="5px outset #723a3052";
-        orderActive.value.borderTop="5px outset #723a3052";
+        incomeActive.value.borderTop="5px outset #723a3052";
         dashboardActive.value.borderRadius = "0 0 100px 0";
-        orderActive.value.borderRadius = "0 100px 0 0";
+        incomeActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
         profileBorderStyle.value.borderBottom="0";
     };
 
     const sideNavOrderClick = () => {
         resetColors();
-        orderActive.value.backgroundColor = activeBgColor;
-        orderActive.value.borderRadius = "0";
-        orderActive.value.color = activeColor;
-        orderActive.value.fontWeight=activeFontWeight;
+        incomeActive.value.backgroundColor = activeBgColor;
+        incomeActive.value.borderRadius = "0";
+        incomeActive.value.color = activeColor;
+        incomeActive.value.fontWeight=activeFontWeight;
         assetActive.value.borderRadius = "0 0 100px 0";
         assetActive.value.borderBottom="5px outset #723a3052";
         purchaseActive.value.borderTop="5px outset #723a3052";
@@ -123,8 +123,8 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         purchaseActive.value.borderRadius = "0";
         purchaseActive.value.color = activeColor;
         purchaseActive.value.fontWeight=activeFontWeight;
-        orderActive.value.borderRadius = "0 0 100px 0";
-        orderActive.value.borderBottom="5px outset #723a3052";
+        incomeActive.value.borderRadius = "0 0 100px 0";
+        incomeActive.value.borderBottom="5px outset #723a3052";
         reportingActive.value.borderTop="5px outset #723a3052";
         reportingActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
@@ -168,5 +168,5 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         loginBorderStyle.value.borderTop="5px outset #723a3052";
     };
 
-    return {dashboardActive, assetActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavassetClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
+    return {dashboardActive, assetActive, incomeActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavassetClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
 });
