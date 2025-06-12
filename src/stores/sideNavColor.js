@@ -152,7 +152,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         investmentActive.value.color = activeColor;
         investmentActive.value.fontWeight=activeFontWeight;
         savingActive.value.borderRadius = "0 0 100px 0";
-        incomeActive.value.borderBottom="5px outset #723a3052";
+        savingActive.value.borderBottom="5px outset #723a3052";
         savingActive.value.borderTop="5px outset #723a3052";
         settingActive.value.borderRadius = "0 100px 0 0";
         profileBorderStyle.value.borderRadius="0";
