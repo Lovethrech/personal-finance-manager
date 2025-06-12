@@ -103,7 +103,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         profileBorderStyle.value.borderBottom="0";
     };
 
-    const sideNavOrderClick = () => {
+    const sideNavIncomeClick = () => {
         resetColors();
         incomeActive.value.backgroundColor = activeBgColor;
         incomeActive.value.borderRadius = "0";
@@ -117,7 +117,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         profileBorderStyle.value.borderBottom="0";
     };
 
-    const sideNavPurchaseClick = () => {
+    const sideNavExpenseClick = () => {
         resetColors();
         expenseActive.value.backgroundColor = activeBgColor;
         expenseActive.value.borderRadius = "0";
@@ -168,5 +168,5 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         loginBorderStyle.value.borderTop="5px outset #723a3052";
     };
 
-    return {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, investmentActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavAssetClick, sideNavOrderClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
+    return {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, investmentActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavAssetClick, sideNavIncomeClick, sideNavExpenseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick};
 });
