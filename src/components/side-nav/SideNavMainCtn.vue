@@ -37,7 +37,8 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     padding:0 40px;
 }
 .user{
-    border-right: 20px solid #bd776b;
+    border-right: 9px outset #723a3052;
+    border-bottom: 5px outset #723a3052;
 }
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
