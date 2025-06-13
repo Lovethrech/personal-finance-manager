@@ -36,6 +36,9 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     justify-content: baseline;
     padding:0 40px;
 }
+.user{
+    border-right: 20px solid #bd776b;
+}
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
