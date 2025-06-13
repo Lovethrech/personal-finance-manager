@@ -77,7 +77,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
                     :name="SideNavIcons[2].name"
                     :icon="SideNavIcons[2].icon"
                     :link="SideNavIcons[2].link"
-                    :style="[assetsActive]"
+                    :style="[assetActive]"
                     :onClick="sideNavAssetClick"
                 >
                 </SideNavIcon>
@@ -87,7 +87,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
                     :icon="SideNavIcons[3].icon"
                     :link="SideNavIcons[3].link"
                     :style="[incomeActive]"
-                    :onClick="sideNavincomeClick"
+                    :onClick="sideNavIncomeClick"
                 >
                 </SideNavIcon>
 
