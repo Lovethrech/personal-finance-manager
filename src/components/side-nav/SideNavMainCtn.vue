@@ -27,7 +27,7 @@ const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActi
     background-color: #93200B;
 }
 .side-nav-icon-section{
-    background-color:#93200B;
+    background-color:#bd776b;
 }
 .login{
     margin-top:-20px;
