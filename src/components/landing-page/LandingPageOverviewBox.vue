@@ -34,7 +34,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     border:1px solid #93200B;
     box-shadow: inset 2px 3px 10px 5px #5e261c,
         inset -2px -2px 10px 5px #443a3abb;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .landing-page-overview-box:hover{
     cursor: pointer;

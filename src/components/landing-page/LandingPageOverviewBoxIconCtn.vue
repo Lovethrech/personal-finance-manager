@@ -46,7 +46,7 @@ const {boxIcon}=defineProps(['boxIcon']);
 .landing-page-overview-box-icon-ctn-main-ctn{
     width:70px;
     height:100%;
-    background-color: #93200B;
+    background-color: transparent;
     color:#fff;
     font-size:30px;
     border-radius:50%;
