@@ -27,7 +27,7 @@ const {dashboardActive, inventoryActive, orderActive, purchaseActive, reportingA
     background-color: #93200B;
 }
 .side-nav-icon-section{
-    background-color:#bd776b;
+    background-color:#93200B;
 }
 .login{
     margin-top:-20px;
