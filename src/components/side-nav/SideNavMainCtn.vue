@@ -11,7 +11,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
 
 <style scoped>
 .side-nav-main-ctn-main-ctn{
-    width:60vw;
+    width:200px;
     height:100vh;
     overflow-y:hidden;
     display:flex;
@@ -138,5 +138,6 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
                 </SideNavLogin>
             </div>
         </div>
+        
     </section>
 </template>
