@@ -93,6 +93,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         assetActive.value.borderRadius = "0";
         assetActive.value.color = activeColor;
         assetActive.value.fontWeight=activeFontWeight;
+        assetActive.value.borderRight="0";
         dashboardActive.value.borderBottom="5px outset #723a3052";
         incomeActive.value.borderTop="5px outset #723a3052";
         dashboardActive.value.borderRadius = "0 0 100px 0";
@@ -107,6 +108,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         incomeActive.value.borderRadius = "0";
         incomeActive.value.color = activeColor;
         incomeActive.value.fontWeight=activeFontWeight;
+        incomeActive.value.borderRight="0";
         assetActive.value.borderRadius = "0 0 100px 0";
         assetActive.value.borderBottom="5px outset #723a3052";
         expenseActive.value.borderTop="5px outset #723a3052";
@@ -121,6 +123,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         expenseActive.value.borderRadius = "0";
         expenseActive.value.color = activeColor;
         expenseActive.value.fontWeight=activeFontWeight;
+        expenseActive.value.borderRight="0";
         incomeActive.value.borderRadius = "0 0 100px 0";
         incomeActive.value.borderBottom="5px outset #723a3052";
         savingActive.value.borderTop="5px outset #723a3052";
@@ -135,6 +138,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         savingActive.value.borderRadius = "0";
         savingActive.value.color = activeColor;
         savingActive.value.fontWeight=activeFontWeight;
+        savingActive.value.borderRight="0";
         expenseActive.value.borderRadius = "0 0 100px 0";
         expenseActive.value.borderBottom="5px outset #723a3052";
         investmentActive.value.borderTop="5px outset #723a3052";
@@ -149,6 +153,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         investmentActive.value.borderRadius = "0";
         investmentActive.value.color = activeColor;
         investmentActive.value.fontWeight=activeFontWeight;
+        investmentActive.value.borderRight="0";
         savingActive.value.borderRadius = "0 0 100px 0";
         savingActive.value.borderBottom="5px outset #723a3052";
         settingActive.value.borderTop="5px outset #723a3052";
@@ -163,6 +168,7 @@ export const useSideNavColorStore = defineStore('sideNavColor', () => {
         settingActive.value.borderRadius = "0";
         settingActive.value.color = activeColor;
         settingActive.value.fontWeight=activeFontWeight;
+        settingActive.value.borderRight="0";
         investmentActive.value.borderRadius = "0 0 100px 0";
         investmentActive.value.borderBottom="5px outset #723a3052";
         profileBorderStyle.value.borderRadius="0";
