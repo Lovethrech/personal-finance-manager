@@ -6,7 +6,7 @@ import SideNavIcon from '@/components/side-nav/SideNavIcon.vue';
 import SideNavUser from "@/components/side-nav/SideNavUser.vue";
 import SideNavLogin from "@/components/side-nav/SideNavLogin.vue";
 
-const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavAssetsClick, sideNavincomeClick, sideNavPurchaseClick, sideNavReportingClick, sideNavSupportClick, sideNavSettingClick }= useSideNavColorStore();
+const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActive, supportActive, settingActive, profileBorderStyle, loginBorderStyle, sideNavDashboardClick, sideNavAssetsClick, sideNavincomeClick, sideNavExpenseClick, sideNavSavingClick, sideNavInvestmentClick, sideNavSettingClick }= useSideNavColorStore();
 </script>
 
 <style scoped>
@@ -95,8 +95,8 @@ const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActi
                     :name="SideNavIcons[4].name"
                     :icon="SideNavIcons[4].icon"
                     :link="SideNavIcons[4].link"
-                    :style="[purchaseActive]"
-                    :onClick="sideNavPurchaseClick"
+                    :style="[expenseActive]"
+                    :onClick="sideNavExpenseClick"
                 >
                 </SideNavIcon>
 
@@ -104,8 +104,8 @@ const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActi
                     :name="SideNavIcons[5].name"
                     :icon="SideNavIcons[5].icon"
                     :link="SideNavIcons[5].link"
-                    :style="[reportingActive]"
-                    :onClick="sideNavReportingClick"
+                    :style="[savingActive]"
+                    :onClick="sideNavSavingClick"
                 >
                 </SideNavIcon>
 
@@ -113,8 +113,8 @@ const {dashboardActive, AssetsActive, orderActive, purchaseActive, reportingActi
                     :name="SideNavIcons[6].name"
                     :icon="SideNavIcons[6].icon"
                     :link="SideNavIcons[6].link"
-                    :style="[supportActive]"
-                    :onClick="sideNavSupportClick"
+                    :style="[investmentActive]"
+                    :onClick="sideNavInvestmentClick"
                 >
                 </SideNavIcon>
 
