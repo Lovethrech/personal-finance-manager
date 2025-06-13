@@ -16,6 +16,8 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     .landing-page-overview-box{
         width:170px;
     }
+        box-shadow: inset 2px 3px 10px 5px #443a3abb,
+        inset -2px -2px 10px 5px #443a3abb;
 } -->
     </div>
 </template>
@@ -28,8 +30,10 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     padding:20px 10px;
     width:350px;
     place-items:center;
-    background-color: #000;
+    background-color: #93200B;
     border:1px solid #93200B;
+    box-shadow: inset 2px 3px 10px 5px #5e261c,
+        inset -2px -2px 10px 5px #443a3abb;
     border-radius: 20px;
 }
 .landing-page-overview-box:hover{
