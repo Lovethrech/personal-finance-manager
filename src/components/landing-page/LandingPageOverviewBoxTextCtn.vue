@@ -8,6 +8,18 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     <div class="landing-page-overview-box-text-ctn">
         <p class="number">{{ boxNo }}</p>
         <p class="name">{{ boxName }}</p>
+
+        <!-- @media screen and (max-width: 750px) {
+    .landing-page-overview-box-text-ctn{
+        width:70%;
+    }
+    .landing-page-overview-box-text-ctn .number{
+        font-size: 16px;
+    }
+    .landing-page-overview-box-text-ctn .name{
+        font-size:12px;
+    }
+} -->
     </div>
 </template>
 
@@ -26,15 +38,5 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     font-weight:500;
 }
 
-@media screen and (max-width: 750px) {
-    .landing-page-overview-box-text-ctn{
-        width:70%;
-    }
-    .landing-page-overview-box-text-ctn .number{
-        font-size: 16px;
-    }
-    .landing-page-overview-box-text-ctn .name{
-        font-size:12px;
-    }
-}
+
 </style>

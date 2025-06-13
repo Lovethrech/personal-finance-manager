@@ -12,6 +12,11 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
             <LandingPageOverviewBoxIconCtn :boxIcon="boxIcon"></LandingPageOverviewBoxIconCtn>
             <LandingPageOverviewBoxTextCtn :boxNo="boxNo" :boxName="boxName"></LandingPageOverviewBoxTextCtn>
         </div>
+        <!-- @media screen and (max-width: 700px) {
+    .landing-page-overview-box{
+        width:170px;
+    }
+} -->
     </div>
 </template>
 
@@ -38,9 +43,5 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width: 700px) {
-    .landing-page-overview-box{
-        width:170px;
-    }
-}
+
 </style>
