@@ -18,7 +18,11 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     background-color: #000000;
     width:90%;
     margin: 10px 3vw;
-    padding:20px;
+    padding:20px 30px;
+    border:1px solid #000;
+    box-shadow: inset 2px 3px 10px 5px #443a3abb,
+        inset -2px -2px 10px 5px #443a3abb;
+    border-radius: 50px;
     overflow-x: hidden;
 }
 .landing-page-overview-mini-ctn{
