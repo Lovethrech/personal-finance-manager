@@ -14,24 +14,28 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
             >
             </LandingPageOverviewBox>
             <LandingPageOverviewBox
+                class="landing-page-over"
                 :boxIcon="dashboardOverviewData[1].boxIcon"
                 :boxName="dashboardOverviewData[1].boxName"
                 :boxNo="dashboardOverviewData[1].boxNo"
             >
             </LandingPageOverviewBox>
             <LandingPageOverviewBox
+                class="landing-page-over"
                 :boxIcon="dashboardOverviewData[2].boxIcon"
                 :boxName="dashboardOverviewData[2].boxName"
                 :boxNo="dashboardOverviewData[2].boxNo"
             >
             </LandingPageOverviewBox>
             <LandingPageOverviewBox
+                class="landing-page-over"
                 :boxIcon="dashboardOverviewData[3].boxIcon"
                 :boxName="dashboardOverviewData[3].boxName"
                 :boxNo="dashboardOverviewData[3].boxNo"
             >
             </LandingPageOverviewBox>
             <LandingPageOverviewBox
+                class="landing-page-over"
                 :boxIcon="dashboardOverviewData[4].boxIcon"
                 :boxName="dashboardOverviewData[4].boxName"
                 :boxNo="dashboardOverviewData[4].boxNo"

@@ -138,6 +138,5 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
                 </SideNavLogin>
             </div>
         </div>
-        
     </section>
 </template>
