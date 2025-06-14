@@ -55,7 +55,7 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     gap:20px;
 }
 
-@media screen and (max-width:970px){
+@media screen and (max-width:1120px){
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
     }
