@@ -48,7 +48,7 @@ const {boxIcon}=defineProps(['boxIcon']);
     height:100%;
     background-color: transparent;
     color:#fff;
-    font-size:30px;
+    font-size:3vh;
     border-radius:50%;
 }
 
