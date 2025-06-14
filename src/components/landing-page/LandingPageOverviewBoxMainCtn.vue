@@ -54,8 +54,5 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
     }
-    .landing-page-overview-box-mini-ctn{
-        
-    }
 }
 </style>
