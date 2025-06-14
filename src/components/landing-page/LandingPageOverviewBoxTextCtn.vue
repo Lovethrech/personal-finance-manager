@@ -25,6 +25,4 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     font-size:1.6vh;
     font-weight:500;
 }
-
-
 </style>
