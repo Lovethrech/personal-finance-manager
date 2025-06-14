@@ -28,15 +28,5 @@ main{
                 <LandingPageMainSectionMainCtn></LandingPageMainSectionMainCtn>
             </main>
         </div>
-        <!-- @media screen and (max-width:1060px) {
-    main{
-        width:80vw;
-    }
-}
-@media screen and (max-width: 700px) {
-    main{
-        width:90%;
-    }
-} -->
     </section>
 </template>
