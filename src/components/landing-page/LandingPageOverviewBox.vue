@@ -48,4 +48,7 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     justify-content: space-between;
 }
 
+@media screen and (max-width:970px){
+    
+}
 </style>

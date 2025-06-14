@@ -59,7 +59,7 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
     }
-    .landing-page-over:nth-child(1){
+    .landing-page-over:nth-child(5){
         display:none;
     }
 }
