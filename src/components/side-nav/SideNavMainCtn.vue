@@ -11,7 +11,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
 
 <style scoped>
 .side-nav-main-ctn-main-ctn{
-    width:200px;
+    min-width:200px;
     height:100vh;
     overflow-y:hidden;
     display:flex;
@@ -35,11 +35,6 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
     display:flex;
     justify-content: baseline;
     padding:0 40px;
-}
-@media screen and (max-width:1000px){
-    .side-nav-main-ctn-main-ctn{
-        width:300px;
-    }
 }
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
