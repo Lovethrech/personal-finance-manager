@@ -36,6 +36,11 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
     justify-content: baseline;
     padding:0 40px;
 }
+@media screen and (max-width:1000px){
+    .side-nav-main-ctn-main-ctn{
+        width:300px;
+    }
+}
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
         width:50px;
