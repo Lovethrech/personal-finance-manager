@@ -29,7 +29,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     width:100%;
 }
 .page-title{
-    color:#fff;
+    color:#dad0ce;
     font-size: 26px;
     text-transform: uppercase;
     font-weight:800;
