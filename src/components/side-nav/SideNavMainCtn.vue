@@ -38,7 +38,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
 }
 @media screen and (max-width:700px) {
     .side-nav-main-ctn-main-ctn{
-        width:50px;
+        min-width:50px;
     }
     .login{
         background-color: #ffa500;
