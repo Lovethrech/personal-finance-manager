@@ -41,6 +41,8 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
     }
 }
 @media screen and (max-width:1120px) {
-    
+    .page-title{
+        text-align:center;
+    }
 }
 </style>
