@@ -1,5 +1,5 @@
 <script setup>
-import IncomesPageMainCtn from '@/components/incomes/incomesPageMainCtn.vue';
+import IncomesPageMainCtn from '@/components/incomes/IncomesPageMainCtn.vue';
 </script>
 
 <template>
