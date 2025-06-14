@@ -16,7 +16,6 @@ import LandingPageMainSectionMainCtn from './LandingPageMainSectionMainCtn.vue';
 main{
     width:88%;
 }
-
 </style>
 
 <template>

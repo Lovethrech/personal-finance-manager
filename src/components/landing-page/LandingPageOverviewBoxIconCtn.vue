@@ -51,6 +51,4 @@ const {boxIcon}=defineProps(['boxIcon']);
     font-size:3vh;
     border-radius:50%;
 }
-
-
 </style>
