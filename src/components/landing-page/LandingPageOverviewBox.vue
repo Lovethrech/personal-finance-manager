@@ -12,13 +12,6 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
             <LandingPageOverviewBoxIconCtn :boxIcon="boxIcon"></LandingPageOverviewBoxIconCtn>
             <LandingPageOverviewBoxTextCtn :boxNo="boxNo" :boxName="boxName"></LandingPageOverviewBoxTextCtn>
         </div>
-        <!-- @media screen and (max-width: 700px) {
-    .landing-page-overview-box{
-        width:170px;
-    }
-        box-shadow: inset 2px 3px 10px 5px #443a3abb,
-        inset -2px -2px 10px 5px #443a3abb;
-} -->
     </div>
 </template>
 
