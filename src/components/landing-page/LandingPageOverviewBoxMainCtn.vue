@@ -49,4 +49,13 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     flex-direction:row;
     gap:20px;
 }
+
+@media screen and (max-width:970px){
+    .landing-page-overview-box-mini-ctn{
+        flex-wrap:wrap;
+    }
+    .landing-page-overview-box-mini-ctn{
+        
+    }
+}
 </style>
