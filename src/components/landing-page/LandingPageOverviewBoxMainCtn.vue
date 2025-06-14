@@ -7,6 +7,7 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     <div class="landing-page-overview-box-main-ctn">
         <div class="landing-page-overview-box-mini-ctn">
             <LandingPageOverviewBox
+                class="landing-page-over"
                 :boxIcon="dashboardOverviewData[0].boxIcon"
                 :boxName="dashboardOverviewData[0].boxName"
                 :boxNo="dashboardOverviewData[0].boxNo"
@@ -54,7 +55,7 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
     }
-    .landing-page-overview-box-mini-ctn:nth-child(5){
+    .landing-page-over:nth-child(1){
         display:none;
     }
 }
