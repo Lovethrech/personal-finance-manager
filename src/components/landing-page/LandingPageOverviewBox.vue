@@ -40,7 +40,6 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
     flex-direction: row;
     justify-content: space-between;
 }
-
 @media screen and (max-width: 1120px){
     .landing-page-overview-box{
         width: 45%;

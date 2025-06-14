@@ -46,15 +46,11 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 </template>
 
 <style scoped>
-.landing-page-overview-box-main-ctn{
-
-}
 .landing-page-overview-box-mini-ctn{
     display:flex;
     flex-direction:row;
     gap:20px;
 }
-
 @media screen and (max-width:1120px){
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
