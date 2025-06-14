@@ -43,7 +43,7 @@ const {dashboardActive, assetActive, incomeActive, expenseActive, savingActive, 
     .login{
         background-color: #ffa500;
         position: relative;
-        width:50px;
+        min-width:50px;
         height:1000px;
         padding:0 14px;
     }
