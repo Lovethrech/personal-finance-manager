@@ -17,7 +17,7 @@ div, section{
 .main-top-nav-main-ctn{
     background-color:transparent;
     padding:10px 3vw;
-    width:100%;
+    width: 95%;
 }
 .main-top-nav-mini-ctn{
     display:flex;
