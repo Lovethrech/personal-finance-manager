@@ -53,9 +53,9 @@ const {boxIcon, boxName, boxNo}=defineProps(['boxIcon', 'boxName', 'boxNo']);
         width: 45%;
     }
 }
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 550px){
     .landing-page-overview-box{
-        width: 45%;
+        width: 90%;
     }
 }
 </style>
