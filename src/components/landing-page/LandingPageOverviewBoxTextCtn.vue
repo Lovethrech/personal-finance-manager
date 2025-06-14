@@ -30,11 +30,11 @@ const {boxName, boxNo}=defineProps(['boxName', 'boxNo']);
     margin: auto 0;
 }
 .landing-page-overview-box-text-ctn .number{
-    font-size: 20px;
+    font-size: 2vh;
     font-weight:300;
 }
 .landing-page-overview-box-text-ctn .name{
-    font-size:16px;
+    font-size:1.6vh;
     font-weight:500;
 }
 
