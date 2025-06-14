@@ -58,6 +58,8 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
 @media screen and (max-width:1120px){
     .landing-page-overview-box-mini-ctn{
         flex-wrap:wrap;
+        justify-content: center;
+        place-items: center;
     }
     .landing-page-over:nth-child(5){
         display:none;

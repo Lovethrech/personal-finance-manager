@@ -40,4 +40,7 @@ import LandingPageOverviewBoxMainCtn from './LandingPageOverviewBoxMainCtn.vue';
         margin-left:-20px;
     }
 }
+@media screen and (max-width:1120px) {
+    
+}
 </style>
