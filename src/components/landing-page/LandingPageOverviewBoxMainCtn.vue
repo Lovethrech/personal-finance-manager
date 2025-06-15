@@ -61,4 +61,9 @@ import LandingPageOverviewBox from './LandingPageOverviewBox.vue';
         display:none;
     }
 }
+@media screen and (max-width:1120px){
+    .landing-page-over:nth-child(2), .landing-page-over:nth-child(3), .landing-page-over:nth-child(4){
+        display:none;
+    }
+}
 </style>
