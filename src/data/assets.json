@@ -1503,22 +1503,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 95,
-    "asset_type": "Crypto",
-    "asset_name": "Shiba Inu",
-    "account_name": "Binance",
-    "amount": 1000000,
-    "currency": "USD",
-    "purchase_date": "2024-01-01",
-    "purchase_value": 10.00,
-    "current_value": 9.00,
-    "gain_loss": -1.00,
-    "percentage_gain_loss": -10.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 95,
+"asset_type": "Crypto",
+"asset_name": "Shiba Inu",
+"account_name": "Binance",
+"amount": 1000000,
+"currency": "USD",
+"purchase_date": "2024-01-01",
+"purchase_value": 10.00,
+"current_value": 9.00,
+"gain_loss": -1.00,
+"percentage_gain_loss": -10.0,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 96,
 "asset_type": "Stock",
