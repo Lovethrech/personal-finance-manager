@@ -1471,22 +1471,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 93,
-    "asset_type": "Stock",
-    "asset_name": "SAP SE",
-    "account_name": "Deutsche Bank",
-    "amount": 8,
-    "currency": "EUR",
-    "purchase_date": "2022-04-01",
-    "purchase_value": 1200.00,
-    "current_value": 1150.00,
-    "gain_loss": -50.00,
-    "percentage_gain_loss": -4.17,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 93,
+"asset_type": "Stock",
+"asset_name": "SAP SE",
+"account_name": "Deutsche Bank",
+"amount": 8,
+"currency": "EUR",
+"purchase_date": "2022-04-01",
+"purchase_value": 1200.00,
+"current_value": 1150.00,
+"gain_loss": -50.00,
+"percentage_gain_loss": -4.17,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 94,
 "asset_type": "Bond",
