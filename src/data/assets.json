@@ -1375,22 +1375,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 87,
-    "asset_type": "Crypto",
-    "asset_name": "Dogecoin",
-    "account_name": "Kraken",
-    "amount": 1000,
-    "currency": "USD",
-    "purchase_date": "2024-01-20",
-    "purchase_value": 80.00,
-    "current_value": 70.00,
-    "gain_loss": -10.00,
-    "percentage_gain_loss": -12.5,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 87,
+"asset_type": "Crypto",
+"asset_name": "Dogecoin",
+"account_name": "Kraken",
+"amount": 1000,
+"currency": "USD",
+"purchase_date": "2024-01-20",
+"purchase_value": 80.00,
+"current_value": 70.00,
+"gain_loss": -10.00,
+"percentage_gain_loss": -12.5,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 88,
 "asset_type": "Mutual Fund",
