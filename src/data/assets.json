@@ -1423,22 +1423,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 90,
-    "asset_type": "Bond",
-    "asset_name": "Inflation-Protected Security",
-    "account_name": "Vanguard",
-    "amount": 1500.00,
-    "currency": "USD",
-    "purchase_date": "2023-10-01",
-    "purchase_value": 1500.00,
-    "current_value": 1515.00,
-    "gain_loss": 15.00,
-    "percentage_gain_loss": 1.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 90,
+"asset_type": "Bond",
+"asset_name": "Inflation-Protected Security",
+"account_name": "Vanguard",
+"amount": 1500.00,
+"currency": "USD",
+"purchase_date": "2023-10-01",
+"purchase_value": 1500.00,
+"current_value": 1515.00,
+"gain_loss": 15.00,
+"percentage_gain_loss": 1.0,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 91,
 "asset_type": "Real Estate",
