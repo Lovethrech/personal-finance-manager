@@ -1359,22 +1359,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 86,
-    "asset_type": "Stock",
-    "asset_name": "PayPal Holdings",
-    "account_name": "E*TRADE",
-    "amount": 18,
-    "currency": "USD",
-    "purchase_date": "2022-12-01",
-    "purchase_value": 1800.00,
-    "current_value": 1750.00,
-    "gain_loss": -50.00,
-    "percentage_gain_loss": -2.78,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 86,
+"asset_type": "Stock",
+"asset_name": "PayPal Holdings",
+"account_name": "E*TRADE",
+"amount": 18,
+"currency": "USD",
+"purchase_date": "2022-12-01",
+"purchase_value": 1800.00,
+"current_value": 1750.00,
+"gain_loss": -50.00,
+"percentage_gain_loss": -2.78,
+"notes": "",
+"owner": "Alice",
+"last_updated": "2025-05-24"
+},
 {
 "id": 87,
 "asset_type": "Crypto",
