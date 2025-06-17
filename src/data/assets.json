@@ -1247,22 +1247,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 79,
-    "asset_type": "Stock",
-    "asset_name": "Adobe Inc.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 14,
-    "currency": "USD",
-    "purchase_date": "2022-04-01",
-    "purchase_value": 3500.00,
-    "current_value": 4000.00,
-    "gain_loss": 500.00,
-    "percentage_gain_loss": 14.29,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 79,
+"asset_type": "Stock",
+"asset_name": "Adobe Inc.",
+"account_name": "Fidelity Brokerage",
+"amount": 14,
+"currency": "USD",
+"purchase_date": "2022-04-01",
+"purchase_value": 3500.00,
+"current_value": 4000.00,
+"gain_loss": 500.00,
+"percentage_gain_loss": 14.29,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 80,
 "asset_type": "Crypto",
