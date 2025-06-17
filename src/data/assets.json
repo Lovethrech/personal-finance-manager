@@ -1183,22 +1183,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 75,
-    "asset_type": "Cash",
-    "asset_name": "Business Petty Cash",
-    "account_name": "",
-    "amount": 200.00,
-    "currency": "USD",
-    "purchase_date": "2025-05-23",
-    "purchase_value": 200.00,
-    "current_value": 200.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.0,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 75,
+"asset_type": "Cash",
+"asset_name": "Business Petty Cash",
+"account_name": "",
+"amount": 200.00,
+"currency": "USD",
+"purchase_date": "2025-05-23",
+"purchase_value": 200.00,
+"current_value": 200.00,
+"gain_loss": 0.00,
+"percentage_gain_loss": 0.0,
+"notes": "",
+"owner": "Alice",
+"last_updated": "2025-05-24"
+},
 {
 "id": 76,
 "asset_type": "Real Estate",
