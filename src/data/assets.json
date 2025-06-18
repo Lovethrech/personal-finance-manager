@@ -1087,22 +1087,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 69,
-    "asset_type": "Stock",
-    "asset_name": "Nestle SA",
-    "account_name": "Swissquote",
-    "amount": 10,
-    "currency": "CHF",
-    "purchase_date": "2021-10-01",
-    "purchase_value": 1200.00,
-    "current_value": 1400.00,
-    "gain_loss": 200.00,
-    "percentage_gain_loss": 16.67,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 69,
+"asset_type": "Stock",
+"asset_name": "Nestle SA",
+"account_name": "Swissquote",
+"amount": 10,
+"currency": "CHF",
+"purchase_date": "2021-10-01",
+"purchase_value": 1200.00,
+"current_value": 1400.00,
+"gain_loss": 200.00,
+"percentage_gain_loss": 16.67,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 70,
 "asset_type": "Real Estate",
