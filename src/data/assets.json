@@ -1167,7 +1167,7 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
+{
     "id": 74,
     "asset_type": "Stock",
     "asset_name": "Toyota Motor Corp.",
@@ -1182,7 +1182,7 @@
     "notes": "",
     "owner": "Bob",
     "last_updated": "2025-05-24"
-  },
+},
 {
 "id": 75,
 "asset_type": "Cash",
