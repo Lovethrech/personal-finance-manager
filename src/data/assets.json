@@ -1039,22 +1039,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 66,
-    "asset_type": "Cash",
-    "asset_name": "Euro Savings",
-    "account_name": "ING",
-    "amount": 2000.00,
-    "currency": "EUR",
-    "purchase_date": "2024-05-01",
-    "purchase_value": 2000.00,
-    "current_value": 2000.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.0,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 66,
+"asset_type": "Cash",
+"asset_name": "Euro Savings",
+"account_name": "ING",
+"amount": 2000.00,
+"currency": "EUR",
+"purchase_date": "2024-05-01",
+"purchase_value": 2000.00,
+"current_value": 2000.00,
+"gain_loss": 0.00,
+"percentage_gain_loss": 0.0,
+"notes": "",
+"owner": "Alice",
+"last_updated": "2025-05-24"
+},
 {
 "id": 67,
 "asset_type": "Crypto",
