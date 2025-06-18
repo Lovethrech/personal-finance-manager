@@ -1071,22 +1071,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 68,
-    "asset_type": "Bond",
-    "asset_name": "Euro Bond",
-    "account_name": "Deutsche Bank",
-    "amount": 2500.00,
-    "currency": "EUR",
-    "purchase_date": "2023-06-01",
-    "purchase_value": 2500.00,
-    "current_value": 2480.00,
-    "gain_loss": -20.00,
-    "percentage_gain_loss": -0.8,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 68,
+"asset_type": "Bond",
+"asset_name": "Euro Bond",
+"account_name": "Deutsche Bank",
+"amount": 2500.00,
+"currency": "EUR",
+"purchase_date": "2023-06-01",
+"purchase_value": 2500.00,
+"current_value": 2480.00,
+"gain_loss": -20.00,
+"percentage_gain_loss": -0.8,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 69,
 "asset_type": "Stock",
