@@ -1151,22 +1151,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 73,
-    "asset_type": "Crypto",
-    "asset_name": "Uniswap",
-    "account_name": "Binance",
-    "amount": 80,
-    "currency": "USD",
-    "purchase_date": "2022-04-01",
-    "purchase_value": 1000.00,
-    "current_value": 900.00,
-    "gain_loss": -100.00,
-    "percentage_gain_loss": -10.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 73,
+"asset_type": "Crypto",
+"asset_name": "Uniswap",
+"account_name": "Binance",
+"amount": 80,
+"currency": "USD",
+"purchase_date": "2022-04-01",
+"purchase_value": 1000.00,
+"current_value": 900.00,
+"gain_loss": -100.00,
+"percentage_gain_loss": -10.0,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
     "id": 74,
     "asset_type": "Stock",
