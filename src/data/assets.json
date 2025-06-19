@@ -927,22 +927,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 59,
-    "asset_type": "Mutual Fund",
-    "asset_name": "Dodge & Cox Income",
-    "account_name": "Dodge & Cox",
-    "amount": 18,
-    "currency": "USD",
-    "purchase_date": "2023-02-01",
-    "purchase_value": 1800.00,
-    "current_value": 1860.00,
-    "gain_loss": 60.00,
-    "percentage_gain_loss": 3.33,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 59,
+"asset_type": "Mutual Fund",
+"asset_name": "Dodge & Cox Income",
+"account_name": "Dodge & Cox",
+"amount": 18,
+"currency": "USD",
+"purchase_date": "2023-02-01",
+"purchase_value": 1800.00,
+"current_value": 1860.00,
+"gain_loss": 60.00,
+"percentage_gain_loss": 3.33,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 60,
 "asset_type": "Crypto",
