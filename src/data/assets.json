@@ -879,22 +879,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 56,
-    "asset_type": "Stock",
-    "asset_name": "Intel Corp.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 30,
-    "currency": "USD",
-    "purchase_date": "2023-08-01",
-    "purchase_value": 1000.00,
-    "current_value": 1200.00,
-    "gain_loss": 200.00,
-    "percentage_gain_loss": 20.0,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 56,
+"asset_type": "Stock",
+"asset_name": "Intel Corp.",
+"account_name": "Fidelity Brokerage",
+"amount": 30,
+"currency": "USD",
+"purchase_date": "2023-08-01",
+"purchase_value": 1000.00,
+"current_value": 1200.00,
+"gain_loss": 200.00,
+"percentage_gain_loss": 20.0,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 57,
 "asset_type": "Real Estate",
