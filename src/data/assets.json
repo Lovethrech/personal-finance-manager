@@ -863,22 +863,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 55,
-    "asset_type": "Bond",
-    "asset_name": "Callable Bond",
-    "account_name": "Charles Schwab",
-    "amount": 3500.00,
-    "currency": "USD",
-    "purchase_date": "2024-04-01",
-    "purchase_value": 3500.00,
-    "current_value": 3520.00,
-    "gain_loss": 20.00,
-    "percentage_gain_loss": 0.57,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 55,
+"asset_type": "Bond",
+"asset_name": "Callable Bond",
+"account_name": "Charles Schwab",
+"amount": 3500.00,
+"currency": "USD",
+"purchase_date": "2024-04-01",
+"purchase_value": 3500.00,
+"current_value": 3520.00,
+"gain_loss": 20.00,
+"percentage_gain_loss": 0.57,
+"notes": "",
+"owner": "Alice",
+"last_updated": "2025-05-24"
+},
 {
 "id": 56,
 "asset_type": "Stock",
