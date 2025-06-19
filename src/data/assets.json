@@ -943,22 +943,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 60,
-    "asset_type": "Crypto",
-    "asset_name": "Avalanche",
-    "account_name": "Binance",
-    "amount": 70,
-    "currency": "USD",
-    "purchase_date": "2023-10-01",
-    "purchase_value": 1050.00,
-    "current_value": 700.00,
-    "gain_loss": -350.00,
-    "percentage_gain_loss": -33.33,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 60,
+"asset_type": "Crypto",
+"asset_name": "Avalanche",
+"account_name": "Binance",
+"amount": 70,
+"currency": "USD",
+"purchase_date": "2023-10-01",
+"purchase_value": 1050.00,
+"current_value": 700.00,
+"gain_loss": -350.00,
+"percentage_gain_loss": -33.33,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 61,
 "asset_type": "Stock",
