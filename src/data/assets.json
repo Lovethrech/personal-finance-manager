@@ -751,22 +751,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 48,
-    "asset_type": "Stock",
-    "asset_name": "Visa Inc.",
-    "account_name": "Fidelity",
-    "amount": 10,
-    "currency": "USD",
-    "purchase_date": "2021-04-01",
-    "purchase_value": 1800.00,
-    "current_value": 2200.00,
-    "gain_loss": 400.00,
-    "percentage_gain_loss": 22.22,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 48,
+"asset_type": "Stock",
+"asset_name": "Visa Inc.",
+"account_name": "Fidelity",
+"amount": 10,
+"currency": "USD",
+"purchase_date": "2021-04-01",
+"purchase_value": 1800.00,
+"current_value": 2200.00,
+"gain_loss": 400.00,
+"percentage_gain_loss": 22.22,
+"notes": "",
+"owner": "Bob",
+"last_updated": "2025-05-24"
+},
 {
 "id": 49,
 "asset_type": "Real Estate",
