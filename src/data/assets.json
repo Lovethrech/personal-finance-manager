@@ -847,22 +847,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 54,
-    "asset_type": "Stock",
-    "asset_name": "Berkshire Hathaway",
-    "account_name": "E*TRADE",
-    "amount": 2,
-    "currency": "USD",
-    "purchase_date": "2022-03-01",
-    "purchase_value": 600.00,
-    "current_value": 720.00,
-    "gain_loss": 120.00,
-    "percentage_gain_loss": 20.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 54,
+"asset_type": "Stock",
+"asset_name": "Berkshire Hathaway",
+"account_name": "E*TRADE",
+"amount": 2,
+"currency": "USD",
+"purchase_date": "2022-03-01",
+"purchase_value": 600.00,
+"current_value": 720.00,
+"gain_loss": 120.00,
+"percentage_gain_loss": 20.0,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 55,
 "asset_type": "Bond",
