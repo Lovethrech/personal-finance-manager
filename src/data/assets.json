@@ -799,22 +799,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 51,
-    "asset_type": "Mutual Fund",
-    "asset_name": "BlackRock Global Allocation",
-    "account_name": "BlackRock",
-    "amount": 27,
-    "currency": "USD",
-    "purchase_date": "2021-06-01",
-    "purchase_value": 2700.00,
-    "current_value": 2950.00,
-    "gain_loss": 250.00,
-    "percentage_gain_loss": 9.26,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 51,
+"asset_type": "Mutual Fund",
+"asset_name": "BlackRock Global Allocation",
+"account_name": "BlackRock",
+"amount": 27,
+"currency": "USD",
+"purchase_date": "2021-06-01",
+"purchase_value": 2700.00,
+"current_value": 2950.00,
+"gain_loss": 250.00,
+"percentage_gain_loss": 9.26,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 52,
 "asset_type": "Bond",
