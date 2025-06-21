@@ -543,22 +543,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 35,
-    "asset_type": "Bond",
-    "asset_name": "International Bond",
-    "account_name": "Vanguard",
-    "amount": 2500.00,
-    "currency": "USD",
-    "purchase_date": "2022-09-01",
-    "purchase_value": 2500.00,
-    "current_value": 2480.00,
-    "gain_loss": -20.00,
-    "percentage_gain_loss": -0.8,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 35,
+        "asset_type": "Bond",
+        "asset_name": "International Bond",
+        "account_name": "Vanguard",
+        "amount": 2500.00,
+        "currency": "USD",
+        "purchase_date": "2022-09-01",
+        "purchase_value": 2500.00,
+        "current_value": 2480.00,
+        "gain_loss": -20.00,
+        "percentage_gain_loss": -0.8,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 36,
         "asset_type": "Stock",
