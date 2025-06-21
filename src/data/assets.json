@@ -591,22 +591,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 38,
-    "asset_type": "Cash",
-    "asset_name": "Household Account",
-    "account_name": "Chase Bank",
-    "amount": 2400.00,
-    "currency": "USD",
-    "purchase_date": "2024-07-01",
-    "purchase_value": 2400.00,
-    "current_value": 2400.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.0,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 38,
+        "asset_type": "Cash",
+        "asset_name": "Household Account",
+        "account_name": "Chase Bank",
+        "amount": 2400.00,
+        "currency": "USD",
+        "purchase_date": "2024-07-01",
+        "purchase_value": 2400.00,
+        "current_value": 2400.00,
+        "gain_loss": 0.00,
+        "percentage_gain_loss": 0.0,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
 {
 "id": 39,
 "asset_type": "Crypto",
