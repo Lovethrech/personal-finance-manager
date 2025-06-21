@@ -671,22 +671,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 43,
-    "asset_type": "Real Estate",
-    "asset_name": "Commercial Office",
-    "account_name": "",
-    "amount": 1,
-    "currency": "USD",
-    "purchase_date": "2015-08-01",
-    "purchase_value": 450000.00,
-    "current_value": 650000.00,
-    "gain_loss": 200000.00,
-    "percentage_gain_loss": 44.44,
-    "notes": "Office rental property",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 43,
+"asset_type": "Real Estate",
+"asset_name": "Commercial Office",
+"account_name": "",
+"amount": 1,
+"currency": "USD",
+"purchase_date": "2015-08-01",
+"purchase_value": 450000.00,
+"current_value": 650000.00,
+"gain_loss": 200000.00,
+"percentage_gain_loss": 44.44,
+"notes": "Office rental property",
+"owner": "Alice",
+"last_updated": "2025-05-24"
+},
 {
 "id": 44,
 "asset_type": "Cash",
