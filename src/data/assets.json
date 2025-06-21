@@ -687,22 +687,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 44,
-    "asset_type": "Cash",
-    "asset_name": "PayPal Account",
-    "account_name": "PayPal",
-    "amount": 800.00,
-    "currency": "USD",
-    "purchase_date": "2025-05-01",
-    "purchase_value": 800.00,
-    "current_value": 800.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+{
+"id": 44,
+"asset_type": "Cash",
+"asset_name": "PayPal Account",
+"account_name": "PayPal",
+"amount": 800.00,
+"currency": "USD",
+"purchase_date": "2025-05-01",
+"purchase_value": 800.00,
+"current_value": 800.00,
+"gain_loss": 0.00,
+"percentage_gain_loss": 0.0,
+"notes": "",
+"owner": "Charlie",
+"last_updated": "2025-05-24"
+},
 {
 "id": 45,
 "asset_type": "Mutual Fund",
