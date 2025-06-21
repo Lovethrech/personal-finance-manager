@@ -559,22 +559,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 36,
-    "asset_type": "Stock",
-    "asset_name": "Coca-Cola",
-    "account_name": "E*TRADE",
-    "amount": 30,
-    "currency": "USD",
-    "purchase_date": "2022-12-05",
-    "purchase_value": 1800.00,
-    "current_value": 2100.00,
-    "gain_loss": 300.00,
-    "percentage_gain_loss": 16.67,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 36,
+        "asset_type": "Stock",
+        "asset_name": "Coca-Cola",
+        "account_name": "E*TRADE",
+        "amount": 30,
+        "currency": "USD",
+        "purchase_date": "2022-12-05",
+        "purchase_value": 1800.00,
+        "current_value": 2100.00,
+        "gain_loss": 300.00,
+        "percentage_gain_loss": 16.67,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 37,
         "asset_type": "Real Estate",
