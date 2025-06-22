@@ -415,22 +415,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 27,
-    "asset_type": "Bond",
-    "asset_name": "Inflation-Protected Bond",
-    "account_name": "Vanguard",
-    "amount": 2500.00,
-    "currency": "USD",
-    "purchase_date": "2024-03-15",
-    "purchase_value": 2500.00,
-    "current_value": 2520.00,
-    "gain_loss": 20.00,
-    "percentage_gain_loss": 0.8,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 27,
+        "asset_type": "Bond",
+        "asset_name": "Inflation-Protected Bond",
+        "account_name": "Vanguard",
+        "amount": 2500.00,
+        "currency": "USD",
+        "purchase_date": "2024-03-15",
+        "purchase_value": 2500.00,
+        "current_value": 2520.00,
+        "gain_loss": 20.00,
+        "percentage_gain_loss": 0.8,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 28,
         "asset_type": "Real Estate",
