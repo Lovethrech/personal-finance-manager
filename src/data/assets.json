@@ -495,22 +495,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 32,
-    "asset_type": "Stock",
-    "asset_name": "Procter & Gamble",
-    "account_name": "Fidelity",
-    "amount": 18,
-    "currency": "USD",
-    "purchase_date": "2022-10-10",
-    "purchase_value": 2600.00,
-    "current_value": 2670.00,
-    "gain_loss": 70.00,
-    "percentage_gain_loss": 2.69,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 32,
+        "asset_type": "Stock",
+        "asset_name": "Procter & Gamble",
+        "account_name": "Fidelity",
+        "amount": 18,
+        "currency": "USD",
+        "purchase_date": "2022-10-10",
+        "purchase_value": 2600.00,
+        "current_value": 2670.00,
+        "gain_loss": 70.00,
+        "percentage_gain_loss": 2.69,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 33,
         "asset_type": "Mutual Fund",
