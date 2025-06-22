@@ -479,22 +479,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 31,
-    "asset_type": "Crypto",
-    "asset_name": "Solana",
-    "account_name": "Kraken",
-    "amount": 40,
-    "currency": "USD",
-    "purchase_date": "2023-01-10",
-    "purchase_value": 600.00,
-    "current_value": 1200.00,
-    "gain_loss": 600.00,
-    "percentage_gain_loss": 100.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 31,
+        "asset_type": "Crypto",
+        "asset_name": "Solana",
+        "account_name": "Kraken",
+        "amount": 40,
+        "currency": "USD",
+        "purchase_date": "2023-01-10",
+        "purchase_value": 600.00,
+        "current_value": 1200.00,
+        "gain_loss": 600.00,
+        "percentage_gain_loss": 100.0,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 32,
         "asset_type": "Stock",
