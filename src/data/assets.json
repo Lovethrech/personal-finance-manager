@@ -511,22 +511,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 33,
-    "asset_type": "Mutual Fund",
-    "asset_name": "Schwab Total Market Index",
-    "account_name": "Charles Schwab",
-    "amount": 30,
-    "currency": "USD",
-    "purchase_date": "2022-06-15",
-    "purchase_value": 1500.00,
-    "current_value": 1800.00,
-    "gain_loss": 300.00,
-    "percentage_gain_loss": 20.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 33,
+        "asset_type": "Mutual Fund",
+        "asset_name": "Schwab Total Market Index",
+        "account_name": "Charles Schwab",
+        "amount": 30,
+        "currency": "USD",
+        "purchase_date": "2022-06-15",
+        "purchase_value": 1500.00,
+        "current_value": 1800.00,
+        "gain_loss": 300.00,
+        "percentage_gain_loss": 20.0,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 34,
         "asset_type": "Cash",
