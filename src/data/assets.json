@@ -463,22 +463,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 30,
-    "asset_type": "Cash",
-    "asset_name": "Business Account",
-    "account_name": "Bank of America",
-    "amount": 50000.00,
-    "currency": "USD",
-    "purchase_date": "2023-12-31",
-    "purchase_value": 50000.00,
-    "current_value": 50000.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.0,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 30,
+        "asset_type": "Cash",
+        "asset_name": "Business Account",
+        "account_name": "Bank of America",
+        "amount": 50000.00,
+        "currency": "USD",
+        "purchase_date": "2023-12-31",
+        "purchase_value": 50000.00,
+        "current_value": 50000.00,
+        "gain_loss": 0.00,
+        "percentage_gain_loss": 0.0,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 31,
         "asset_type": "Crypto",
