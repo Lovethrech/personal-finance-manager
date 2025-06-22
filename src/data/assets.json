@@ -431,22 +431,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 28,
-    "asset_type": "Real Estate",
-    "asset_name": "Rental Condo",
-    "account_name": "",
-    "amount": 1,
-    "currency": "USD",
-    "purchase_date": "2018-05-02",
-    "purchase_value": 180000.00,
-    "current_value": 210000.00,
-    "gain_loss": 30000.00,
-    "percentage_gain_loss": 16.67,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 28,
+        "asset_type": "Real Estate",
+        "asset_name": "Rental Condo",
+        "account_name": "",
+        "amount": 1,
+        "currency": "USD",
+        "purchase_date": "2018-05-02",
+        "purchase_value": 180000.00,
+        "current_value": 210000.00,
+        "gain_loss": 30000.00,
+        "percentage_gain_loss": 16.67,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 29,
         "asset_type": "Stock",
