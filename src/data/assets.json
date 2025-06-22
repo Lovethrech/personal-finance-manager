@@ -399,22 +399,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 26,
-    "asset_type": "Stock",
-    "asset_name": "Meta Platforms",
-    "account_name": "Robinhood",
-    "amount": 7,
-    "currency": "USD",
-    "purchase_date": "2021-07-01",
-    "purchase_value": 2100.00,
-    "current_value": 1700.00,
-    "gain_loss": -400.00,
-    "percentage_gain_loss": -19.05,
-    "notes": "Meta/Facebook",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 26,
+        "asset_type": "Stock",
+        "asset_name": "Meta Platforms",
+        "account_name": "Robinhood",
+        "amount": 7,
+        "currency": "USD",
+        "purchase_date": "2021-07-01",
+        "purchase_value": 2100.00,
+        "current_value": 1700.00,
+        "gain_loss": -400.00,
+        "percentage_gain_loss": -19.05,
+        "notes": "Meta/Facebook",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 27,
         "asset_type": "Bond",
