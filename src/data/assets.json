@@ -383,22 +383,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 25,
-    "asset_type": "Crypto",
-    "asset_name": "Cardano",
-    "account_name": "Binance",
-    "amount": 1000,
-    "currency": "USD",
-    "purchase_date": "2022-11-22",
-    "purchase_value": 400.00,
-    "current_value": 700.00,
-    "gain_loss": 300.00,
-    "percentage_gain_loss": 75.0,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 25,
+        "asset_type": "Crypto",
+        "asset_name": "Cardano",
+        "account_name": "Binance",
+        "amount": 1000,
+        "currency": "USD",
+        "purchase_date": "2022-11-22",
+        "purchase_value": 400.00,
+        "current_value": 700.00,
+        "gain_loss": 300.00,
+        "percentage_gain_loss": 75.0,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 26,
         "asset_type": "Stock",
