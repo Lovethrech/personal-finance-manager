@@ -271,22 +271,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 18,
-    "asset_type": "Crypto",
-    "asset_name": "Litecoin",
-    "account_name": "Kraken",
-    "amount": 10,
-    "currency": "USD",
-    "purchase_date": "2023-05-10",
-    "purchase_value": 800.00,
-    "current_value": 950.00,
-    "gain_loss": 150.00,
-    "percentage_gain_loss": 18.75,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 18,
+        "asset_type": "Crypto",
+        "asset_name": "Litecoin",
+        "account_name": "Kraken",
+        "amount": 10,
+        "currency": "USD",
+        "purchase_date": "2023-05-10",
+        "purchase_value": 800.00,
+        "current_value": 950.00,
+        "gain_loss": 150.00,
+        "percentage_gain_loss": 18.75,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 19,
         "asset_type": "Stock",
