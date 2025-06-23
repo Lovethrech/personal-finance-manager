@@ -287,22 +287,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 19,
-    "asset_type": "Stock",
-    "asset_name": "NVIDIA Corp.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 10,
-    "currency": "USD",
-    "purchase_date": "2022-11-01",
-    "purchase_value": 1500.00,
-    "current_value": 2400.00,
-    "gain_loss": 900.00,
-    "percentage_gain_loss": 60.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 19,
+        "asset_type": "Stock",
+        "asset_name": "NVIDIA Corp.",
+        "account_name": "Fidelity Brokerage",
+        "amount": 10,
+        "currency": "USD",
+        "purchase_date": "2022-11-01",
+        "purchase_value": 1500.00,
+        "current_value": 2400.00,
+        "gain_loss": 900.00,
+        "percentage_gain_loss": 60.0,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 20,
         "asset_type": "Mutual Fund",
