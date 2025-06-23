@@ -335,22 +335,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 22,
-    "asset_type": "Stock",
-    "asset_name": "Alphabet Inc.",
-    "account_name": "Robinhood",
-    "amount": 5,
-    "currency": "USD",
-    "purchase_date": "2023-03-12",
-    "purchase_value": 1250.00,
-    "current_value": 1330.00,
-    "gain_loss": 80.00,
-    "percentage_gain_loss": 6.4,
-    "notes": "Google shares",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 22,
+        "asset_type": "Stock",
+        "asset_name": "Alphabet Inc.",
+        "account_name": "Robinhood",
+        "amount": 5,
+        "currency": "USD",
+        "purchase_date": "2023-03-12",
+        "purchase_value": 1250.00,
+        "current_value": 1330.00,
+        "gain_loss": 80.00,
+        "percentage_gain_loss": 6.4,
+        "notes": "Google shares",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 23,
         "asset_type": "Cash",
