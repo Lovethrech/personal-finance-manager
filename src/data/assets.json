@@ -223,22 +223,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 15,
-    "asset_type": "Bond",
-    "asset_name": "Corporate Bond",
-    "account_name": "Vanguard",
-    "amount": 3000.00,
-    "currency": "USD",
-    "purchase_date": "2023-10-01",
-    "purchase_value": 3000.00,
-    "current_value": 2980.00,
-    "gain_loss": -20.00,
-    "percentage_gain_loss": -0.67,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 15,
+        "asset_type": "Bond",
+        "asset_name": "Corporate Bond",
+        "account_name": "Vanguard",
+        "amount": 3000.00,
+        "currency": "USD",
+        "purchase_date": "2023-10-01",
+        "purchase_value": 3000.00,
+        "current_value": 2980.00,
+        "gain_loss": -20.00,
+        "percentage_gain_loss": -0.67,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 16,
         "asset_type": "Stock",
