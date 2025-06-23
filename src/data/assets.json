@@ -255,22 +255,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 17,
-    "asset_type": "Cash",
-    "asset_name": "Emergency Fund",
-    "account_name": "Ally Bank",
-    "amount": 4000.00,
-    "currency": "USD",
-    "purchase_date": "2024-03-01",
-    "purchase_value": 4000.00,
-    "current_value": 4000.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.00,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 17,
+        "asset_type": "Cash",
+        "asset_name": "Emergency Fund",
+        "account_name": "Ally Bank",
+        "amount": 4000.00,
+        "currency": "USD",
+        "purchase_date": "2024-03-01",
+        "purchase_value": 4000.00,
+        "current_value": 4000.00,
+        "gain_loss": 0.00,
+        "percentage_gain_loss": 0.00,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 18,
         "asset_type": "Crypto",
