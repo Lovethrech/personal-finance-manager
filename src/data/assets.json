@@ -367,22 +367,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 24,
-    "asset_type": "Mutual Fund",
-    "asset_name": "Fidelity Growth Fund",
-    "account_name": "Fidelity",
-    "amount": 40,
-    "currency": "USD",
-    "purchase_date": "2023-06-01",
-    "purchase_value": 2000.00,
-    "current_value": 2200.00,
-    "gain_loss": 200.00,
-    "percentage_gain_loss": 10.0,
-    "notes": "",
-    "owner": "Charlie",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 24,
+        "asset_type": "Mutual Fund",
+        "asset_name": "Fidelity Growth Fund",
+        "account_name": "Fidelity",
+        "amount": 40,
+        "currency": "USD",
+        "purchase_date": "2023-06-01",
+        "purchase_value": 2000.00,
+        "current_value": 2200.00,
+        "gain_loss": 200.00,
+        "percentage_gain_loss": 10.0,
+        "notes": "",
+        "owner": "Charlie",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 25,
         "asset_type": "Crypto",
