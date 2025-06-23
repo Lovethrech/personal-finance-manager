@@ -319,22 +319,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 21,
-    "asset_type": "Bond",
-    "asset_name": "Municipal Bond",
-    "account_name": "Charles Schwab",
-    "amount": 2000.00,
-    "currency": "USD",
-    "purchase_date": "2024-01-15",
-    "purchase_value": 2000.00,
-    "current_value": 2015.00,
-    "gain_loss": 15.00,
-    "percentage_gain_loss": 0.75,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 21,
+        "asset_type": "Bond",
+        "asset_name": "Municipal Bond",
+        "account_name": "Charles Schwab",
+        "amount": 2000.00,
+        "currency": "USD",
+        "purchase_date": "2024-01-15",
+        "purchase_value": 2000.00,
+        "current_value": 2015.00,
+        "gain_loss": 15.00,
+        "percentage_gain_loss": 0.75,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 22,
         "asset_type": "Stock",
