@@ -159,22 +159,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 11,
-    "asset_type": "Stock",
-    "asset_name": "Microsoft Corp.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 15,
-    "currency": "USD",
-    "purchase_date": "2022-09-01",
-    "purchase_value": 4000.00,
-    "current_value": 4700.00,
-    "gain_loss": 700.00,
-    "percentage_gain_loss": 17.5,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 11,
+        "asset_type": "Stock",
+        "asset_name": "Microsoft Corp.",
+        "account_name": "Fidelity Brokerage",
+        "amount": 15,
+        "currency": "USD",
+        "purchase_date": "2022-09-01",
+        "purchase_value": 4000.00,
+        "current_value": 4700.00,
+        "gain_loss": 700.00,
+        "percentage_gain_loss": 17.5,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 12,
         "asset_type": "Crypto",
