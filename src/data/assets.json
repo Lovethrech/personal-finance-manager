@@ -175,22 +175,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 12,
-    "asset_type": "Crypto",
-    "asset_name": "Dogecoin",
-    "account_name": "Binance",
-    "amount": 5000,
-    "currency": "USD",
-    "purchase_date": "2021-04-15",
-    "purchase_value": 1200.00,
-    "current_value": 1000.00,
-    "gain_loss": -200.00,
-    "percentage_gain_loss": -16.67,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 12,
+        "asset_type": "Crypto",
+        "asset_name": "Dogecoin",
+        "account_name": "Binance",
+        "amount": 5000,
+        "currency": "USD",
+        "purchase_date": "2021-04-15",
+        "purchase_value": 1200.00,
+        "current_value": 1000.00,
+        "gain_loss": -200.00,
+        "percentage_gain_loss": -16.67,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 13,
         "asset_type": "Mutual Fund",
