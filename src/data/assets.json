@@ -111,22 +111,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 8,
-    "asset_type": "Crypto",
-    "asset_name": "Ethereum",
-    "account_name": "Coinbase",
-    "amount": 1.5,
-    "currency": "USD",
-    "purchase_date": "2023-07-04",
-    "purchase_value": 2500.00,
-    "current_value": 5400.00,
-    "gain_loss": 2900.00,
-    "percentage_gain_loss": 116.00,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 8,
+        "asset_type": "Crypto",
+        "asset_name": "Ethereum",
+        "account_name": "Coinbase",
+        "amount": 1.5,
+        "currency": "USD",
+        "purchase_date": "2023-07-04",
+        "purchase_value": 2500.00,
+        "current_value": 5400.00,
+        "gain_loss": 2900.00,
+        "percentage_gain_loss": 116.00,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 9,
         "asset_type": "Stock",
