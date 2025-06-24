@@ -95,22 +95,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 7,
-    "asset_type": "Stock",
-    "asset_name": "Tesla Inc.",
-    "account_name": "Robinhood",
-    "amount": 12,
-    "currency": "USD",
-    "purchase_date": "2022-08-11",
-    "purchase_value": 900.00,
-    "current_value": 1200.00,
-    "gain_loss": 300.00,
-    "percentage_gain_loss": 33.33,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 7,
+        "asset_type": "Stock",
+        "asset_name": "Tesla Inc.",
+        "account_name": "Robinhood",
+        "amount": 12,
+        "currency": "USD",
+        "purchase_date": "2022-08-11",
+        "purchase_value": 900.00,
+        "current_value": 1200.00,
+        "gain_loss": 300.00,
+        "percentage_gain_loss": 33.33,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 8,
         "asset_type": "Crypto",
