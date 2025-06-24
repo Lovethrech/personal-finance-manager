@@ -127,22 +127,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 9,
-    "asset_type": "Stock",
-    "asset_name": "Amazon.com Inc.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 6,
-    "currency": "USD",
-    "purchase_date": "2021-11-11",
-    "purchase_value": 1800.00,
-    "current_value": 1920.00,
-    "gain_loss": 120.00,
-    "percentage_gain_loss": 6.67,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 9,
+        "asset_type": "Stock",
+        "asset_name": "Amazon.com Inc.",
+        "account_name": "Fidelity Brokerage",
+        "amount": 6,
+        "currency": "USD",
+        "purchase_date": "2021-11-11",
+        "purchase_value": 1800.00,
+        "current_value": 1920.00,
+        "gain_loss": 120.00,
+        "percentage_gain_loss": 6.67,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 10,
         "asset_type": "Cash",
