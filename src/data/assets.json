@@ -143,22 +143,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 10,
-    "asset_type": "Cash",
-    "asset_name": "Checking Account",
-    "account_name": "Wells Fargo",
-    "amount": 1750.00,
-    "currency": "USD",
-    "purchase_date": "2025-04-01",
-    "purchase_value": 1750.00,
-    "current_value": 1750.00,
-    "gain_loss": 0.00,
-    "percentage_gain_loss": 0.00,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 10,
+        "asset_type": "Cash",
+        "asset_name": "Checking Account",
+        "account_name": "Wells Fargo",
+        "amount": 1750.00,
+        "currency": "USD",
+        "purchase_date": "2025-04-01",
+        "purchase_value": 1750.00,
+        "current_value": 1750.00,
+        "gain_loss": 0.00,
+        "percentage_gain_loss": 0.00,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 11,
         "asset_type": "Stock",
