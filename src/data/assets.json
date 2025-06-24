@@ -79,22 +79,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 6,
-    "asset_type": "Real Estate",
-    "asset_name": "Primary Residence",
-    "account_name": "",
-    "amount": 1,
-    "currency": "USD",
-    "purchase_date": "2019-09-01",
-    "purchase_value": 240000.00,
-    "current_value": 320000.00,
-    "gain_loss": 80000.00,
-    "percentage_gain_loss": 33.33,
-    "notes": "Home in Dallas",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 6,
+        "asset_type": "Real Estate",
+        "asset_name": "Primary Residence",
+        "account_name": "",
+        "amount": 1,
+        "currency": "USD",
+        "purchase_date": "2019-09-01",
+        "purchase_value": 240000.00,
+        "current_value": 320000.00,
+        "gain_loss": 80000.00,
+        "percentage_gain_loss": 33.33,
+        "notes": "Home in Dallas",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 7,
         "asset_type": "Stock",
