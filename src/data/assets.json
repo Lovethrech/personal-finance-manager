@@ -63,22 +63,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 5,
-    "asset_type": "Mutual Fund",
-    "asset_name": "Vanguard 500 Index",
-    "account_name": "Vanguard",
-    "amount": 100,
-    "currency": "USD",
-    "purchase_date": "2023-03-10",
-    "purchase_value": 3000.00,
-    "current_value": 3650.00,
-    "gain_loss": 650.00,
-    "percentage_gain_loss": 21.67,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 5,
+        "asset_type": "Mutual Fund",
+        "asset_name": "Vanguard 500 Index",
+        "account_name": "Vanguard",
+        "amount": 100,
+        "currency": "USD",
+        "purchase_date": "2023-03-10",
+        "purchase_value": 3000.00,
+        "current_value": 3650.00,
+        "gain_loss": 650.00,
+        "percentage_gain_loss": 21.67,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 6,
         "asset_type": "Real Estate",
