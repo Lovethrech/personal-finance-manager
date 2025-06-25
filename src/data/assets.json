@@ -1,20 +1,20 @@
 [
-  {
-    "id": 1,
-    "asset_type": "Stock",
-    "asset_name": "Apple Inc.",
-    "account_name": "Fidelity Brokerage",
-    "amount": 25,
-    "currency": "USD",
-    "purchase_date": "2023-01-15",
-    "purchase_value": 3500.00,
-    "current_value": 4400.00,
-    "gain_loss": 900.00,
-    "percentage_gain_loss": 25.71,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 1,
+        "asset_type": "Stock",
+        "asset_name": "Apple Inc.",
+        "account_name": "Fidelity Brokerage",
+        "amount": 25,
+        "currency": "USD",
+        "purchase_date": "2023-01-15",
+        "purchase_value": 3500.00,
+        "current_value": 4400.00,
+        "gain_loss": 900.00,
+        "percentage_gain_loss": 25.71,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 2,
         "asset_type": "Crypto",
