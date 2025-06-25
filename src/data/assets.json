@@ -15,22 +15,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 2,
-    "asset_type": "Crypto",
-    "asset_name": "Bitcoin",
-    "account_name": "Coinbase",
-    "amount": 0.2,
-    "currency": "USD",
-    "purchase_date": "2022-12-20",
-    "purchase_value": 3200.00,
-    "current_value": 7600.00,
-    "gain_loss": 4400.00,
-    "percentage_gain_loss": 137.5,
-    "notes": "Long term hold",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 2,
+        "asset_type": "Crypto",
+        "asset_name": "Bitcoin",
+        "account_name": "Coinbase",
+        "amount": 0.2,
+        "currency": "USD",
+        "purchase_date": "2022-12-20",
+        "purchase_value": 3200.00,
+        "current_value": 7600.00,
+        "gain_loss": 4400.00,
+        "percentage_gain_loss": 137.5,
+        "notes": "Long term hold",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 3,
         "asset_type": "Cash",
