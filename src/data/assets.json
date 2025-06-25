@@ -655,22 +655,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 42,
-"asset_type": "Stock",
-"asset_name": "Pfizer Inc.",
-"account_name": "Robinhood",
-"amount": 22,
-"currency": "USD",
-"purchase_date": "2023-04-01",
-"purchase_value": 990.00,
-"current_value": 1056.00,
-"gain_loss": 66.00,
-"percentage_gain_loss": 6.67,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 42,
+    "asset_type": "Stock",
+    "asset_name": "Pfizer Inc.",
+    "account_name": "Robinhood",
+    "amount": 22,
+    "currency": "USD",
+    "purchase_date": "2023-04-01",
+    "purchase_value": 990.00,
+    "current_value": 1056.00,
+    "gain_loss": 66.00,
+    "percentage_gain_loss": 6.67,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 43,
 "asset_type": "Real Estate",
