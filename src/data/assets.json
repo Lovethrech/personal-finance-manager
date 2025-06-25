@@ -47,22 +47,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 4,
-    "asset_type": "Bond",
-    "asset_name": "US Treasury",
-    "account_name": "Vanguard",
-    "amount": 5000.00,
-    "currency": "USD",
-    "purchase_date": "2024-06-15",
-    "purchase_value": 5000.00,
-    "current_value": 5050.00,
-    "gain_loss": 50.00,
-    "percentage_gain_loss": 1.0,
-    "notes": "",
-    "owner": "Alice",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 4,
+        "asset_type": "Bond",
+        "asset_name": "US Treasury",
+        "account_name": "Vanguard",
+        "amount": 5000.00,
+        "currency": "USD",
+        "purchase_date": "2024-06-15",
+        "purchase_value": 5000.00,
+        "current_value": 5050.00,
+        "gain_loss": 50.00,
+        "percentage_gain_loss": 1.0,
+        "notes": "",
+        "owner": "Alice",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 5,
         "asset_type": "Mutual Fund",
