@@ -31,22 +31,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
   },
-  {
-    "id": 3,
-    "asset_type": "Cash",
-    "asset_name": "Savings Account",
-    "account_name": "Chase Bank",
-    "amount": 8300.00,
-    "currency": "USD",
-    "purchase_date": "2024-01-01",
-    "purchase_value": 8000.00,
-    "current_value": 8300.00,
-    "gain_loss": 300.00,
-    "percentage_gain_loss": 3.75,
-    "notes": "Emergency fund",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-  },
+    {
+        "id": 3,
+        "asset_type": "Cash",
+        "asset_name": "Savings Account",
+        "account_name": "Chase Bank",
+        "amount": 8300.00,
+        "currency": "USD",
+        "purchase_date": "2024-01-01",
+        "purchase_value": 8000.00,
+        "current_value": 8300.00,
+        "gain_loss": 300.00,
+        "percentage_gain_loss": 3.75,
+        "notes": "Emergency fund",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
     {
         "id": 4,
         "asset_type": "Bond",
