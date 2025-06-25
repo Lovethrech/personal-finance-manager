@@ -607,22 +607,22 @@
         "owner": "Bob",
         "last_updated": "2025-05-24"
     },
-{
-"id": 39,
-"asset_type": "Crypto",
-"asset_name": "Polkadot",
-"account_name": "Kraken",
-"amount": 60,
-"currency": "USD",
-"purchase_date": "2023-10-10",
-"purchase_value": 500.00,
-"current_value": 300.00,
-"gain_loss": -200.00,
-"percentage_gain_loss": -40.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 39,
+    "asset_type": "Crypto",
+    "asset_name": "Polkadot",
+    "account_name": "Kraken",
+    "amount": 60,
+    "currency": "USD",
+    "purchase_date": "2023-10-10",
+    "purchase_value": 500.00,
+    "current_value": 300.00,
+    "gain_loss": -200.00,
+    "percentage_gain_loss": -40.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 40,
 "asset_type": "Mutual Fund",
