@@ -815,22 +815,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 52,
-"asset_type": "Bond",
-"asset_name": "Floating Rate Note",
-"account_name": "Vanguard",
-"amount": 3000.00,
-"currency": "USD",
-"purchase_date": "2023-11-01",
-"purchase_value": 3000.00,
-"current_value": 2995.00,
-"gain_loss": -5.00,
-"percentage_gain_loss": -0.17,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 52,
+    "asset_type": "Bond",
+    "asset_name": "Floating Rate Note",
+    "account_name": "Vanguard",
+    "amount": 3000.00,
+    "currency": "USD",
+    "purchase_date": "2023-11-01",
+    "purchase_value": 3000.00,
+    "current_value": 2995.00,
+    "gain_loss": -5.00,
+    "percentage_gain_loss": -0.17,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 53,
 "asset_type": "Crypto",
