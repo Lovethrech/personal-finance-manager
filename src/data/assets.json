@@ -703,22 +703,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 45,
-"asset_type": "Mutual Fund",
-"asset_name": "TIAA Real Estate",
-"account_name": "TIAA",
-"amount": 20,
-"currency": "USD",
-"purchase_date": "2022-11-01",
-"purchase_value": 2000.00,
-"current_value": 2100.00,
-"gain_loss": 100.00,
-"percentage_gain_loss": 5.0,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 45,
+    "asset_type": "Mutual Fund",
+    "asset_name": "TIAA Real Estate",
+    "account_name": "TIAA",
+    "amount": 20,
+    "currency": "USD",
+    "purchase_date": "2022-11-01",
+    "purchase_value": 2000.00,
+    "current_value": 2100.00,
+    "gain_loss": 100.00,
+    "percentage_gain_loss": 5.0,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 46,
 "asset_type": "Bond",
