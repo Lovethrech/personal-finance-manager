@@ -735,22 +735,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 47,
-"asset_type": "Crypto",
-"asset_name": "Ripple",
-"account_name": "Kraken",
-"amount": 100,
-"currency": "USD",
-"purchase_date": "2023-07-01",
-"purchase_value": 400.00,
-"current_value": 300.00,
-"gain_loss": -100.00,
-"percentage_gain_loss": -25.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 47,
+    "asset_type": "Crypto",
+    "asset_name": "Ripple",
+    "account_name": "Kraken",
+    "amount": 100,
+    "currency": "USD",
+    "purchase_date": "2023-07-01",
+    "purchase_value": 400.00,
+    "current_value": 300.00,
+    "gain_loss": -100.00,
+    "percentage_gain_loss": -25.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 48,
 "asset_type": "Stock",
