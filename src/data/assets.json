@@ -719,22 +719,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 46,
-"asset_type": "Bond",
-"asset_name": "Convertible Bond",
-"account_name": "E*TRADE",
-"amount": 4000.00,
-"currency": "USD",
-"purchase_date": "2022-09-01",
-"purchase_value": 4000.00,
-"current_value": 4100.00,
-"gain_loss": 100.00,
-"percentage_gain_loss": 2.5,
-"notes": "",
-"owner": "Alice",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 46,
+    "asset_type": "Bond",
+    "asset_name": "Convertible Bond",
+    "account_name": "E*TRADE",
+    "amount": 4000.00,
+    "currency": "USD",
+    "purchase_date": "2022-09-01",
+    "purchase_value": 4000.00,
+    "current_value": 4100.00,
+    "gain_loss": 100.00,
+    "percentage_gain_loss": 2.5,
+    "notes": "",
+    "owner": "Alice",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 47,
 "asset_type": "Crypto",
