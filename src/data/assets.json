@@ -975,22 +975,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 62,
-"asset_type": "Bond",
-"asset_name": "Zero-Coupon Bond",
-"account_name": "Vanguard",
-"amount": 1000.00,
-"currency": "USD",
-"purchase_date": "2023-12-01",
-"purchase_value": 1000.00,
-"current_value": 1020.00,
-"gain_loss": 20.00,
-"percentage_gain_loss": 2.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 62,
+    "asset_type": "Bond",
+    "asset_name": "Zero-Coupon Bond",
+    "account_name": "Vanguard",
+    "amount": 1000.00,
+    "currency": "USD",
+    "purchase_date": "2023-12-01",
+    "purchase_value": 1000.00,
+    "current_value": 1020.00,
+    "gain_loss": 20.00,
+    "percentage_gain_loss": 2.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 63,
 "asset_type": "Real Estate",
