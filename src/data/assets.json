@@ -991,22 +991,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 63,
-"asset_type": "Real Estate",
-"asset_name": "Farm Land",
-"account_name": "",
-"amount": 1,
-"currency": "USD",
-"purchase_date": "2015-01-01",
-"purchase_value": 100000.00,
-"current_value": 140000.00,
-"gain_loss": 40000.00,
-"percentage_gain_loss": 40.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 63,
+    "asset_type": "Real Estate",
+    "asset_name": "Farm Land",
+    "account_name": "",
+    "amount": 1,
+    "currency": "USD",
+    "purchase_date": "2015-01-01",
+    "purchase_value": 100000.00,
+    "current_value": 140000.00,
+    "gain_loss": 40000.00,
+    "percentage_gain_loss": 40.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 64,
 "asset_type": "Stock",
