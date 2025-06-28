@@ -1103,22 +1103,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 70,
-"asset_type": "Real Estate",
-"asset_name": "Warehouse",
-"account_name": "",
-"amount": 1,
-"currency": "USD",
-"purchase_date": "2016-06-01",
-"purchase_value": 400000.00,
-"current_value": 480000.00,
-"gain_loss": 80000.00,
-"percentage_gain_loss": 20.0,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 70,
+    "asset_type": "Real Estate",
+    "asset_name": "Warehouse",
+    "account_name": "",
+    "amount": 1,
+    "currency": "USD",
+    "purchase_date": "2016-06-01",
+    "purchase_value": 400000.00,
+    "current_value": 480000.00,
+    "gain_loss": 80000.00,
+    "percentage_gain_loss": 20.0,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 71,
 "asset_type": "Mutual Fund",
