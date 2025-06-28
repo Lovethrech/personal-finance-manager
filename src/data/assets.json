@@ -1023,22 +1023,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 65,
-"asset_type": "Mutual Fund",
-"asset_name": "Fidelity Real Estate",
-"account_name": "Fidelity",
-"amount": 17,
-"currency": "USD",
-"purchase_date": "2022-02-01",
-"purchase_value": 1700.00,
-"current_value": 2000.00,
-"gain_loss": 300.00,
-"percentage_gain_loss": 17.65,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 65,
+    "asset_type": "Mutual Fund",
+    "asset_name": "Fidelity Real Estate",
+    "account_name": "Fidelity",
+    "amount": 17,
+    "currency": "USD",
+    "purchase_date": "2022-02-01",
+    "purchase_value": 1700.00,
+    "current_value": 2000.00,
+    "gain_loss": 300.00,
+    "percentage_gain_loss": 17.65,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 66,
 "asset_type": "Cash",
