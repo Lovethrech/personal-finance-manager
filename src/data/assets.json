@@ -1167,22 +1167,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-    "id": 74,
-    "asset_type": "Stock",
-    "asset_name": "Toyota Motor Corp.",
-    "account_name": "Nomura",
-    "amount": 12,
-    "currency": "JPY",
-    "purchase_date": "2023-01-01",
-    "purchase_value": 120000.00,
-    "current_value": 140000.00,
-    "gain_loss": 20000.00,
-    "percentage_gain_loss": 16.67,
-    "notes": "",
-    "owner": "Bob",
-    "last_updated": "2025-05-24"
-},
+    {
+        "id": 74,
+        "asset_type": "Stock",
+        "asset_name": "Toyota Motor Corp.",
+        "account_name": "Nomura",
+        "amount": 12,
+        "currency": "JPY",
+        "purchase_date": "2023-01-01",
+        "purchase_value": 120000.00,
+        "current_value": 140000.00,
+        "gain_loss": 20000.00,
+        "percentage_gain_loss": 16.67,
+        "notes": "",
+        "owner": "Bob",
+        "last_updated": "2025-05-24"
+    },
 {
 "id": 75,
 "asset_type": "Cash",
