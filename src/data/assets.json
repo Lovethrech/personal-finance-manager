@@ -1119,22 +1119,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 71,
-"asset_type": "Mutual Fund",
-"asset_name": "iShares MSCI EAFE",
-"account_name": "BlackRock",
-"amount": 23,
-"currency": "USD",
-"purchase_date": "2022-05-01",
-"purchase_value": 2300.00,
-"current_value": 2500.00,
-"gain_loss": 200.00,
-"percentage_gain_loss": 8.7,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 71,
+    "asset_type": "Mutual Fund",
+    "asset_name": "iShares MSCI EAFE",
+    "account_name": "BlackRock",
+    "amount": 23,
+    "currency": "USD",
+    "purchase_date": "2022-05-01",
+    "purchase_value": 2300.00,
+    "current_value": 2500.00,
+    "gain_loss": 200.00,
+    "percentage_gain_loss": 8.7,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 72,
 "asset_type": "Bond",
