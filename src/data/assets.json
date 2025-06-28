@@ -1055,22 +1055,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 67,
-"asset_type": "Crypto",
-"asset_name": "Stellar",
-"account_name": "Coinbase",
-"amount": 300,
-"currency": "USD",
-"purchase_date": "2022-11-10",
-"purchase_value": 600.00,
-"current_value": 300.00,
-"gain_loss": -300.00,
-"percentage_gain_loss": -50.0,
-"notes": "",
-"owner": "Alice",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 67,
+    "asset_type": "Crypto",
+    "asset_name": "Stellar",
+    "account_name": "Coinbase",
+    "amount": 300,
+    "currency": "USD",
+    "purchase_date": "2022-11-10",
+    "purchase_value": 600.00,
+    "current_value": 300.00,
+    "gain_loss": -300.00,
+    "percentage_gain_loss": -50.0,
+    "notes": "",
+    "owner": "Alice",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 68,
 "asset_type": "Bond",
