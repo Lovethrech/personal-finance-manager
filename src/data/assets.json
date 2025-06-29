@@ -1279,22 +1279,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 81,
-"asset_type": "Stock",
-"asset_name": "Salesforce Inc.",
-"account_name": "Robinhood",
-"amount": 12,
-"currency": "USD",
-"purchase_date": "2022-02-01",
-"purchase_value": 2400.00,
-"current_value": 2700.00,
-"gain_loss": 300.00,
-"percentage_gain_loss": 12.5,
-"notes": "",
-"owner": "Alice",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 81,
+    "asset_type": "Stock",
+    "asset_name": "Salesforce Inc.",
+    "account_name": "Robinhood",
+    "amount": 12,
+    "currency": "USD",
+    "purchase_date": "2022-02-01",
+    "purchase_value": 2400.00,
+    "current_value": 2700.00,
+    "gain_loss": 300.00,
+    "percentage_gain_loss": 12.5,
+    "notes": "",
+    "owner": "Alice",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 82,
 "asset_type": "Bond",
