@@ -1327,22 +1327,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 84,
-"asset_type": "Cash",
-"asset_name": "USD Wallet",
-"account_name": "Coinbase",
-"amount": 100.00,
-"currency": "USD",
-"purchase_date": "2025-05-23",
-"purchase_value": 100.00,
-"current_value": 100.00,
-"gain_loss": 0.00,
-"percentage_gain_loss": 0.0,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 84,
+    "asset_type": "Cash",
+    "asset_name": "USD Wallet",
+    "account_name": "Coinbase",
+    "amount": 100.00,
+    "currency": "USD",
+    "purchase_date": "2025-05-23",
+    "purchase_value": 100.00,
+    "current_value": 100.00,
+    "gain_loss": 0.00,
+    "percentage_gain_loss": 0.0,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 85,
 "asset_type": "Real Estate",
