@@ -1311,22 +1311,22 @@
     "owner": "Charlie",
     "last_updated": "2025-05-24"
     },
-{
-"id": 83,
-"asset_type": "Mutual Fund",
-"asset_name": "Schwab S&P 500 Index",
-"account_name": "Charles Schwab",
-"amount": 33,
-"currency": "USD",
-"purchase_date": "2022-01-01",
-"purchase_value": 3300.00,
-"current_value": 3660.00,
-"gain_loss": 360.00,
-"percentage_gain_loss": 10.91,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 83,
+    "asset_type": "Mutual Fund",
+    "asset_name": "Schwab S&P 500 Index",
+    "account_name": "Charles Schwab",
+    "amount": 33,
+    "currency": "USD",
+    "purchase_date": "2022-01-01",
+    "purchase_value": 3300.00,
+    "current_value": 3660.00,
+    "gain_loss": 360.00,
+    "percentage_gain_loss": 10.91,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 84,
 "asset_type": "Cash",
