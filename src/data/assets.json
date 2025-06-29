@@ -1231,22 +1231,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 78,
-"asset_type": "Bond",
-"asset_name": "Convertible Preferred",
-"account_name": "E*TRADE",
-"amount": 5000.00,
-"currency": "USD",
-"purchase_date": "2023-01-01",
-"purchase_value": 5000.00,
-"current_value": 4900.00,
-"gain_loss": -100.00,
-"percentage_gain_loss": -2.0,
-"notes": "",
-"owner": "Bob",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 78,
+    "asset_type": "Bond",
+    "asset_name": "Convertible Preferred",
+    "account_name": "E*TRADE",
+    "amount": 5000.00,
+    "currency": "USD",
+    "purchase_date": "2023-01-01",
+    "purchase_value": 5000.00,
+    "current_value": 4900.00,
+    "gain_loss": -100.00,
+    "percentage_gain_loss": -2.0,
+    "notes": "",
+    "owner": "Bob",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 79,
 "asset_type": "Stock",
