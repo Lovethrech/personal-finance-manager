@@ -1199,22 +1199,22 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 76,
-"asset_type": "Real Estate",
-"asset_name": "Retail Store",
-"account_name": "",
-"amount": 1,
-"currency": "USD",
-"purchase_date": "2017-05-01",
-"purchase_value": 500000.00,
-"current_value": 690000.00,
-"gain_loss": 190000.00,
-"percentage_gain_loss": 38.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 76,
+    "asset_type": "Real Estate",
+    "asset_name": "Retail Store",
+    "account_name": "",
+    "amount": 1,
+    "currency": "USD",
+    "purchase_date": "2017-05-01",
+    "purchase_value": 500000.00,
+    "current_value": 690000.00,
+    "gain_loss": 190000.00,
+    "percentage_gain_loss": 38.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 77,
 "asset_type": "Mutual Fund",
