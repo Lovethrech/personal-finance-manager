@@ -1391,22 +1391,22 @@
     "owner": "Bob",
     "last_updated": "2025-05-24"
     },
-{
-"id": 88,
-"asset_type": "Mutual Fund",
-"asset_name": "Vanguard Small Cap",
-"account_name": "Vanguard",
-"amount": 18,
-"currency": "USD",
-"purchase_date": "2022-09-01",
-"purchase_value": 1800.00,
-"current_value": 2100.00,
-"gain_loss": 300.00,
-"percentage_gain_loss": 16.67,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-},
+    {
+    "id": 88,
+    "asset_type": "Mutual Fund",
+    "asset_name": "Vanguard Small Cap",
+    "account_name": "Vanguard",
+    "amount": 18,
+    "currency": "USD",
+    "purchase_date": "2022-09-01",
+    "purchase_value": 1800.00,
+    "current_value": 2100.00,
+    "gain_loss": 300.00,
+    "percentage_gain_loss": 16.67,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    },
 {
 "id": 89,
 "asset_type": "Stock",
