@@ -1583,20 +1583,20 @@
     "owner": "Alice",
     "last_updated": "2025-05-24"
     },
-{
-"id": 100,
-"asset_type": "Bond",
-"asset_name": "Floating Rate Eurobond",
-"account_name": "HSBC",
-"amount": 1000.00,
-"currency": "EUR",
-"purchase_date": "2024-04-01",
-"purchase_value": 1000.00,
-"current_value": 990.00,
-"gain_loss": -10.00,
-"percentage_gain_loss": -1.0,
-"notes": "",
-"owner": "Charlie",
-"last_updated": "2025-05-24"
-}
+    {
+    "id": 100,
+    "asset_type": "Bond",
+    "asset_name": "Floating Rate Eurobond",
+    "account_name": "HSBC",
+    "amount": 1000.00,
+    "currency": "EUR",
+    "purchase_date": "2024-04-01",
+    "purchase_value": 1000.00,
+    "current_value": 990.00,
+    "gain_loss": -10.00,
+    "percentage_gain_loss": -1.0,
+    "notes": "",
+    "owner": "Charlie",
+    "last_updated": "2025-05-24"
+    }
 ]
